@@ -1,0 +1,6 @@
+[
+  {"acronym": "FRAGO", "meaning": "Fragmentary Order", "description": "An abbreviated form of an operation order (OPORD) issued as needed after an OPORD to change or modify that order."},
+  {"acronym": "OPORD", "meaning": "Operations Order", "description": "Directive issued by a commander to subordinate commanders for the purpose of effecting the coordinated execution of an operation."},
+  {"acronym": "WARNO", "meaning": "Warning Order", "description": "Preliminary notice of an order or action that is to follow."},
+  {"acronym": "COA", "meaning": "Course of Action", "description": "A potential way to accomplish a mission or task."}
+]
