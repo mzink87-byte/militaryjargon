@@ -5,30 +5,35 @@ fetch('acronyms.json')
   .then(res => res.json())
   .then(data => acronyms = data);
 
-// ✅ Run search logic
 function runSearch(query) {
   const q = query.toLowerCase().trim();
 
-  // If empty, clear results
   if (!q) {
     document.getElementById('results').innerHTML = '';
     return;
   }
 
-  // Search across acronym, meaning, and description
-  const results = acronyms.filter(a => 
-    a.acronym.toLowerCase().includes(q) ||
-    a.meaning.toLowerCase().includes(q) ||
-    a.description.toLowerCase().includes(q)
-  );
+  const advanced = document.getElementById('advancedSearch').checked;
 
-  // If no matches
+  let results;
+
+  if (advanced) {
+    // ✅ Advanced mode: search everything
+    results = acronyms.filter(a => 
+      a.acronym.toLowerCase().includes(q) ||
+      a.meaning.toLowerCase().includes(q) ||
+      a.description.toLowerCase().includes(q)
+    );
+  } else {
+    // ✅ Basic mode: search acronym only
+    results = acronyms.filter(a => a.acronym.toLowerCase().includes(q));
+  }
+
   if (results.length === 0) {
     document.getElementById('results').innerHTML = `<p>No results found for "${query}".</p>`;
     return;
   }
 
-  // Render only matches
   document.getElementById('results').innerHTML = results.map(r => `
     <div class="result">
       <div class="acronym">${r.acronym}</div>
