@@ -3,12 +3,14 @@ let acronyms = [];
 // ✅ Load your JSON file (make sure acronyms.json is in the root folder)
 fetch('acronyms.json')
   .then(res => res.json())
-  .then(data => acronyms = data);
+  .then(data => acronyms = data)
+  .catch(err => console.error("Error loading JSON:", err));
 
 function runSearch(query) {
   const q = query.toLowerCase().trim();
 
-  if (!q) {
+  // ✅ Require at least 2 characters before searching
+  if (q.length < 2) {
     document.getElementById('results').innerHTML = '';
     return;
   }
@@ -25,8 +27,8 @@ function runSearch(query) {
       a.description.toLowerCase().includes(q)
     );
   } else {
-    // ✅ Basic mode: search acronym only
-    results = acronyms.filter(a => a.acronym.toLowerCase().includes(q));
+    // ✅ Basic mode: search acronym only (starts with letters typed)
+    results = acronyms.filter(a => a.acronym.toLowerCase().startsWith(q));
   }
 
   if (results.length === 0) {
@@ -34,6 +36,7 @@ function runSearch(query) {
     return;
   }
 
+  // ✅ Render matches
   document.getElementById('results').innerHTML = results.map(r => `
     <div class="result">
       <div class="acronym">${r.acronym}</div>
@@ -43,14 +46,7 @@ function runSearch(query) {
   `).join('');
 }
 
-// ✅ Trigger on typing
-document.addEventListener('input', e => {
-  if (e.target.id === 'searchBox') {
-    runSearch(e.target.value);
-  }
-});
-
-// ✅ Trigger on Enter key
+// ✅ Only trigger on Enter
 document.addEventListener('keydown', e => {
   if (e.target.id === 'searchBox' && e.key === 'Enter') {
     runSearch(e.target.value);
