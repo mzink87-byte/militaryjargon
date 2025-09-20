@@ -47,7 +47,8 @@
   {"acronym": "DFAC", "meaning": "Dining Facility", "description": "Military cafeteria where meals are prepared and served."},
   {"acronym": "PX", "meaning": "Post Exchange", "description": "Retail store on a military installation."},
   {"acronym": "TDY", "meaning": "Temporary Duty", "description": "Short-term military assignment away from a Soldier’s permanent duty station."},
-  {"acronym": "PCS", "meaning": "Permanent Change of Station", "description": "Relocation of a Soldier to a new duty station."}  {"acronym": "MEDEVAC", "meaning": "Medical Evacuation", "description": "Transport of wounded personnel to a medical facility."},
+  {"acronym": "PCS", "meaning": "Permanent Change of Station", "description": "Relocation of a Soldier to a new duty station."} 
+  {"acronym": "MEDEVAC", "meaning": "Medical Evacuation", "description": "Transport of wounded personnel to a medical facility."},
   {"acronym": "CASEVAC", "meaning": "Casualty Evacuation", "description": "Unregulated movement of casualties without medical care en route."},
   {"acronym": "COCOM", "meaning": "Combatant Command", "description": "Unified command with broad missions under a single commander."},
   {"acronym": "USAREUR", "meaning": "United States Army Europe", "description": "Army Service Component Command for U.S. European Command."},
