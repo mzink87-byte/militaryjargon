@@ -6,6 +6,7 @@ fetch('acronyms.json')
   .then(data => acronyms = data)
   .catch(err => console.error("Error loading JSON:", err));
 
+// ✅ Run search logic
 function runSearch(query) {
   const q = query.toLowerCase().trim();
   const advanced = document.getElementById('advancedSearch').checked;
@@ -35,6 +36,7 @@ function runSearch(query) {
     return;
   }
 
+  // ✅ Render matches
   document.getElementById('results').innerHTML = results.map(r => `
     <div class="result">
       <div class="acronym">${r.acronym}</div>
