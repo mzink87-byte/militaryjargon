@@ -44,16 +44,6 @@ function runSearch(query) {
   `).join('');
 }
 
-  // ✅ Render matches
-  document.getElementById('results').innerHTML = results.map(r => `
-    <div class="result">
-      <div class="acronym">${r.acronym}</div>
-      <div>${r.meaning}</div>
-      <small>${r.description}</small>
-    </div>
-  `).join('');
-}
-
 // ✅ Only trigger on Enter
 document.addEventListener('keydown', e => {
   if (e.target.id === 'searchBox' && e.key === 'Enter') {
