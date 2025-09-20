@@ -94,5 +94,5 @@
   {"acronym": "POW", "meaning": "Prisoner of War", "description": "Enemy personnel captured and held during armed conflict."},
   {"acronym": "EPW", "meaning": "Enemy Prisoner of War", "description": "Enemy combatant captured by U.S. or allied forces."},
   {"acronym": "MIA", "meaning": "Missing in Action", "description": "Status for personnel whose whereabouts are unknown after combat action."},
-  {"acronym": "KIA", "meaning": "Killed in Action", "description": "Casualty classification for personnel killed by enemy action."}
+  {"acronym": "KIA", "meaning": "Killed in Action", "description": "Casualty classification for personnel killed by enemy action."},
 ]
