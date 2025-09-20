@@ -8,26 +8,25 @@ fetch('acronyms.json')
 
 function runSearch(query) {
   const q = query.toLowerCase().trim();
+  const advanced = document.getElementById('advancedSearch').checked;
 
-  // ✅ Require at least 2 characters before searching
-  if (q.length < 2) {
+  // ✅ In basic mode, require at least 2 characters
+  if (!advanced && q.length < 2) {
     document.getElementById('results').innerHTML = '';
     return;
   }
 
-  const advanced = document.getElementById('advancedSearch').checked;
-
   let results;
 
   if (advanced) {
-    // ✅ Advanced mode: search everything
+    // ✅ Advanced mode: contains search across all fields
     results = acronyms.filter(a => 
       a.acronym.toLowerCase().includes(q) ||
       a.meaning.toLowerCase().includes(q) ||
       a.description.toLowerCase().includes(q)
     );
   } else {
-    // ✅ Basic mode: search acronym only (starts with letters typed)
+    // ✅ Basic mode: startsWith on acronym only
     results = acronyms.filter(a => a.acronym.toLowerCase().startsWith(q));
   }
 
@@ -35,6 +34,15 @@ function runSearch(query) {
     document.getElementById('results').innerHTML = `<p>No results found for "${query}".</p>`;
     return;
   }
+
+  document.getElementById('results').innerHTML = results.map(r => `
+    <div class="result">
+      <div class="acronym">${r.acronym}</div>
+      <div>${r.meaning}</div>
+      <small>${r.description}</small>
+    </div>
+  `).join('');
+}
 
   // ✅ Render matches
   document.getElementById('results').innerHTML = results.map(r => `
