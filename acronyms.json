@@ -1,98 +1,653 @@
 [
-  {"acronym": "OIC", "meaning": "Officer in Charge", "description": "Commissioned officer designated to lead a task, mission, or operation."},
-  {"acronym": "NCOIC", "meaning": "Noncommissioned Officer in Charge", "description": "Senior NCO responsible for oversight and execution within a section or task."},
-  {"acronym": "XO", "meaning": "Executive Officer", "description": "Second-in-command; synchronizes staff and daily operations."},
-  {"acronym": "CO", "meaning": "Commanding Officer", "description": "Officer with command authority over a unit."},
-  {"acronym": "NCO", "meaning": "Noncommissioned Officer", "description": "Enlisted leader responsible for training, discipline, and welfare of Soldiers."},
-  {"acronym": "SME", "meaning": "Subject Matter Expert", "description": "Recognized technical or functional expert in a given area."},
-  {"acronym": "ROE", "meaning": "Rules of Engagement", "description": "Directives that define the circumstances and limits for the use of force."},
-  {"acronym": "AO", "meaning": "Area of Operations", "description": "Geographic area assigned to a commander for military operations."},
-  {"acronym": "TOC", "meaning": "Tactical Operations Center", "description": "Unit command post that controls current operations."},
-  {"acronym": "FOB", "meaning": "Forward Operating Base", "description": "Secured forward location supporting tactical operations."},
-  {"acronym": "ISR", "meaning": "Intelligence, Surveillance, and Reconnaissance", "description": "Integrated process of collecting and analyzing information to support decisions."},
-  {"acronym": "IPB", "meaning": "Intelligence Preparation of the Battlefield", "description": "Systematic process to analyze enemy, terrain, and weather."},
-  {"acronym": "FRAGO", "meaning": "Fragmentary Order", "description": "Abbreviated order that modifies a published OPORD."},
-  {"acronym": "OPORD", "meaning": "Operations Order", "description": "Directive issued by a commander for coordinated execution of an operation."},
-  {"acronym": "WARNO", "meaning": "Warning Order", "description": "Preliminary notice of an upcoming operation or order."},
-  {"acronym": "MOPP", "meaning": "Mission Oriented Protective Posture", "description": "Levels of protective gear against chemical, biological, radiological, and nuclear threats."},
-  {"acronym": "FO", "meaning": "Forward Observer", "description": "Observer responsible for calling for and adjusting indirect fire."},
-  {"acronym": "RFI", "meaning": "Request for Information", "description": "Formal request for specific information or intelligence."},
-  {"acronym": "ASAP", "meaning": "As Soon As Possible", "description": "Directive to complete a task without delay."},
-  {"acronym": "ASAP", "meaning": "Army Substance Abuse Program", "description": "Program designed to strengthen fitness and readiness through prevention, testing, and rehabilitation."},
-  {"acronym": "BN", "meaning": "Battalion", "description": "Military unit typically consisting of 300–1,000 Soldiers."},
-  {"acronym": "BDE", "meaning": "Brigade", "description": "Military unit typically consisting of several battalions, 3,000–5,000 Soldiers."},
-  {"acronym": "DIV", "meaning": "Division", "description": "Military unit typically consisting of 10,000–15,000 Soldiers."},
-  {"acronym": "COR", "meaning": "Corps", "description": "Military formation that consists of two or more divisions."},
-  {"acronym": "JRTC", "meaning": "Joint Readiness Training Center", "description": "U.S. Army training center at Fort Johnson (formerly Fort Polk)."},
-  {"acronym": "NTC", "meaning": "National Training Center", "description": "U.S. Army training center at Fort Irwin, California."},
-  {"acronym": "AAR", "meaning": "After Action Review", "description": "Structured review of performance conducted after a training event or operation."},
-  {"acronym": "SITREP", "meaning": "Situation Report", "description": "Report providing a summary of a unit’s current situation."},
-  {"acronym": "CCIR", "meaning": "Commander’s Critical Information Requirement", "description": "Information identified as being critical to facilitating timely decision making."},
-  {"acronym": "PIR", "meaning": "Priority Intelligence Requirement", "description": "Intelligence requirement identified by the commander as a priority for decision making."},
-  {"acronym": "COA", "meaning": "Course of Action", "description": "A potential plan or option for accomplishing a mission or task."},
-  {"acronym": "COP", "meaning": "Common Operating Picture", "description": "Shared display of relevant information across a command."},
-  {"acronym": "MDMP", "meaning": "Military Decision-Making Process", "description": "Deliberate planning process used by Army units to make decisions."},
-  {"acronym": "UCMJ", "meaning": "Uniform Code of Military Justice", "description": "Set of laws that govern all U.S. military personnel."},
-  {"acronym": "PT", "meaning": "Physical Training", "description": "Structured exercise program to maintain Soldier fitness."},
-  {"acronym": "MOS", "meaning": "Military Occupational Specialty", "description": "Specific job classification in the U.S. Army."},
-  {"acronym": "CONOP", "meaning": "Concept of Operations", "description": "Statement describing how a commander intends to accomplish a mission."},
-  {"acronym": "TPU", "meaning": "Troop Program Unit", "description": "Reserve unit to which a Soldier is assigned."},
-  {"acronym": "AGR", "meaning": "Active Guard Reserve", "description": "Soldiers serving full-time in support of the National Guard or Reserve."},
-  {"acronym": "IDP", "meaning": "Individual Development Plan", "description": "Plan created to guide a Soldier’s professional growth and career goals."},
-  {"acronym": " PME", "meaning": "Professional Military Education", "description": "Formal education programs designed to develop military leaders."},
-  {"acronym": "COCOM", "meaning": "Combatant Command", "description": "Unified command with broad continuing missions under a single commander."},
-  {"acronym": "SOP", "meaning": "Standard Operating Procedure", "description": "Established procedures for performing a task or mission."},
-  {"acronym": "LOA", "meaning": "Letter of Agreement", "description": "Formal document outlining agreed terms between organizations or parties."},
-  {"acronym": "MRE", "meaning": "Meal, Ready-to-Eat", "description": "Self-contained field ration for individual service members."},
-  {"acronym": "DFAC", "meaning": "Dining Facility", "description": "Military cafeteria where meals are prepared and served."},
-  {"acronym": "PX", "meaning": "Post Exchange", "description": "Retail store on a military installation."},
-  {"acronym": "TDY", "meaning": "Temporary Duty", "description": "Short-term military assignment away from a Soldier’s permanent duty station."},
-  {"acronym": "PCS", "meaning": "Permanent Change of Station", "description": "Relocation of a Soldier to a new duty station."} 
-  {"acronym": "MEDEVAC", "meaning": "Medical Evacuation", "description": "Transport of wounded personnel to a medical facility."},
-  {"acronym": "CASEVAC", "meaning": "Casualty Evacuation", "description": "Unregulated movement of casualties without medical care en route."},
-  {"acronym": "COCOM", "meaning": "Combatant Command", "description": "Unified command with broad missions under a single commander."},
-  {"acronym": "USAREUR", "meaning": "United States Army Europe", "description": "Army Service Component Command for U.S. European Command."},
-  {"acronym": "USARPAC", "meaning": "United States Army Pacific", "description": "Army Service Component Command for U.S. Indo-Pacific Command."},
-  {"acronym": "HQDA", "meaning": "Headquarters, Department of the Army", "description": "Administrative headquarters of the U.S. Army."},
-  {"acronym": "DA", "meaning": "Department of the Army", "description": "Headquarters element that oversees Army operations and administration."},
-  {"acronym": "USCENTCOM", "meaning": "United States Central Command", "description": "Unified combatant command responsible for the Middle East and Central Asia."},
-  {"acronym": "USAFRICOM", "meaning": "United States Africa Command", "description": "Unified combatant command responsible for Africa."},
-  {"acronym": "USEUCOM", "meaning": "United States European Command", "description": "Unified combatant command responsible for Europe and parts of the Middle East."},
-  {"acronym": "USINDOPACOM", "meaning": "United States Indo-Pacific Command", "description": "Unified combatant command responsible for the Indo-Pacific region."},
-  {"acronym": "USNORTHCOM", "meaning": "United States Northern Command", "description": "Unified combatant command responsible for North America."},
-  {"acronym": "USSOUTHCOM", "meaning": "United States Southern Command", "description": "Unified combatant command responsible for Central and South America."},
-  {"acronym": "JTF", "meaning": "Joint Task Force", "description": "Temporary joint force established to carry out a specific mission."},
-  {"acronym": "CJTF", "meaning": "Combined Joint Task Force", "description": "Joint task force with multinational partners."},
-  {"acronym": "COCOM", "meaning": "Combatant Command Authority", "description": "Nontransferable command authority over assigned forces."},
-  {"acronym": "CFLCC", "meaning": "Coalition Forces Land Component Command", "description": "Component command responsible for land operations in a coalition."},
-  {"acronym": "JFACC", "meaning": "Joint Force Air Component Commander", "description": "Commander responsible for air operations in a joint force."},
-  {"acronym": "JFMCC", "meaning": "Joint Force Maritime Component Commander", "description": "Commander responsible for maritime operations in a joint force."},
-  {"acronym": "JFSOCC", "meaning": "Joint Force Special Operations Component Commander", "description": "Commander responsible for SOF operations in a joint force."},
-  {"acronym": "SOF", "meaning": "Special Operations Forces", "description": "Forces with unique capabilities for specialized missions."},
-  {"acronym": "SF", "meaning": "Special Forces", "description": "U.S. Army Green Berets conducting unconventional warfare and foreign internal defense."},
-  {"acronym": "JSOC", "meaning": "Joint Special Operations Command", "description": "Component of USSOCOM overseeing special mission units."},
-  {"acronym": "SOCOM", "meaning": "Special Operations Command", "description": "Unified combatant command overseeing U.S. SOF."},
-  {"acronym": "USSOCOM", "meaning": "United States Special Operations Command", "description": "Unified combatant command for all U.S. SOF."},
-  {"acronym": "AOR", "meaning": "Area of Responsibility", "description": "Geographic area assigned to a combatant commander."},
-  {"acronym": "LZ", "meaning": "Landing Zone", "description": "Area designated for helicopter or aircraft landing."},
-  {"acronym": "DZ", "meaning": "Drop Zone", "description": "Area designated for airdrop of personnel or equipment."},
-  {"acronym": "HLZ", "meaning": "Helicopter Landing Zone", "description": "Landing area specifically prepared for rotary-wing aircraft."},
-  {"acronym": "ACP", "meaning": "Air Control Point", "description": "Point designated for aircraft control along a route."},
-  {"acronym": "IP", "meaning": "Initial Point", "description": "Point used by aircraft to begin an attack run."},
-  {"acronym": "FLOT", "meaning": "Forward Line of Own Troops", "description": "Line indicating the most forward positions of friendly forces."},
-  {"acronym": "FEBA", "meaning": "Forward Edge of the Battle Area", "description": "Line that indicates the forward-most limits of a battle area."},
-  {"acronym": "FSCL", "meaning": "Fire Support Coordination Line", "description": "Line beyond which all fires must be coordinated with higher headquarters."},
-  {"acronym": "ADRP", "meaning": "Army Doctrine Reference Publication", "description": "Publication that provides fundamental principles and guidance."},
-  {"acronym": "FM", "meaning": "Field Manual", "description": "Authoritative doctrinal publication for the U.S. Army."},
-  {"acronym": "AR", "meaning": "Army Regulation", "description": "Administrative publication that sets Army policy."},
-  {"acronym": "ATP", "meaning": "Army Techniques Publication", "description": "Publication that provides techniques for Army operations."},
-  {"acronym": "TC", "meaning": "Training Circular", "description": "Publication that provides training guidance and procedures."},
-  {"acronym": "DA PAM", "meaning": "Department of the Army Pamphlet", "description": "Publication that provides supplemental guidance or instructions."},
-  {"acronym": "LOO", "meaning": "Line of Operation", "description": "Line that defines the orientation of a force in time and space."},
-  {"acronym": "LOE", "meaning": "Line of Effort", "description": "Line linking multiple tasks and missions to a purpose."},
-  {"acronym": "CCP", "meaning": "Casualty Collection Point", "description": "Location where casualties are gathered for treatment and evacuation."},
-  {"acronym": "POW", "meaning": "Prisoner of War", "description": "Enemy personnel captured and held during armed conflict."},
-  {"acronym": "EPW", "meaning": "Enemy Prisoner of War", "description": "Enemy combatant captured by U.S. or allied forces."},
-  {"acronym": "MIA", "meaning": "Missing in Action", "description": "Status for personnel whose whereabouts are unknown after combat action."},
-  {"acronym": "KIA", "meaning": "Killed in Action", "description": "Casualty classification for personnel killed by enemy action."},
+  {
+    "acronym": "AAR",
+    "meaning": "After Action Review",
+    "description": "Structured review of performance conducted after a training event or operation.",
+    "reference": "FM 7-0",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "ACP",
+    "meaning": "Air Control Point",
+    "description": "Point designated for aircraft control along a route.",
+    "reference": "JP 3-09",
+    "category": ["uncommon", "aviation"]
+  },
+  {
+    "acronym": "AGR",
+    "meaning": "Active Guard Reserve",
+    "description": "Soldiers serving full-time in support of the National Guard or Reserve.",
+    "reference": "AR 135-18",
+    "category": ["uncommon", "admin"]
+  },
+  {
+    "acronym": "AO",
+    "meaning": "Area of Operations",
+    "description": "Geographic area assigned to a commander for military operations.",
+    "reference": "FM 3-0",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "AOR",
+    "meaning": "Area of Responsibility",
+    "description": "Geographic area assigned to a combatant commander.",
+    "reference": "JP 1",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "AR",
+    "meaning": "Army Regulation",
+    "description": "Administrative publication that sets Army policy.",
+    "reference": "AR 25-30",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "ASAP",
+    "meaning": "As Soon As Possible",
+    "description": "Directive to complete a task without delay.",
+    "reference": "General usage",
+    "category": ["must-know"]
+  },
+  {
+    "acronym": "ASAP",
+    "meaning": "Army Substance Abuse Program",
+    "description": "Program designed to strengthen fitness and readiness through prevention, testing, and rehabilitation.",
+    "reference": "AR 600-85",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "ATP",
+    "meaning": "Army Techniques Publication",
+    "description": "Publication that provides techniques for Army operations.",
+    "reference": "AR 25-30",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "BN",
+    "meaning": "Battalion",
+    "description": "Military unit typically consisting of 300–1,000 Soldiers.",
+    "reference": "FM 3-96",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "BDE",
+    "meaning": "Brigade",
+    "description": "Military unit typically consisting of several battalions, 3,000–5,000 Soldiers.",
+    "reference": "FM 3-96",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "CASEVAC",
+    "meaning": "Casualty Evacuation",
+    "description": "Unregulated movement of casualties without medical care en route.",
+    "reference": "FM 4-02",
+    "category": ["uncommon", "medical"]
+  },
+  {
+    "acronym": "CCIR",
+    "meaning": "Commander’s Critical Information Requirement",
+    "description": "Information identified as being critical to facilitating timely decision making.",
+    "reference": "FM 6-0",
+    "category": ["common", "intel"]
+  },
+  {
+    "acronym": "CCP",
+    "meaning": "Casualty Collection Point",
+    "description": "Location where casualties are gathered for treatment and evacuation.",
+    "reference": "FM 4-02",
+    "category": ["common", "medical"]
+  },
+  {
+    "acronym": "CJTF",
+    "meaning": "Combined Joint Task Force",
+    "description": "Joint task force with multinational partners.",
+    "reference": "JP 3-33",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "CO",
+    "meaning": "Commanding Officer",
+    "description": "Officer with command authority over a unit.",
+    "reference": "AR 600-20",
+    "category": ["must-know"]
+  },
+  {
+    "acronym": "COA",
+    "meaning": "Course of Action",
+    "description": "A potential plan or option for accomplishing a mission or task.",
+    "reference": "FM 6-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "COCOM",
+    "meaning": "Combatant Command",
+    "description": "Unified command with broad continuing missions under a single commander.",
+    "reference": "JP 1",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "CONOP",
+    "meaning": "Concept of Operations",
+    "description": "Statement describing how a commander intends to accomplish a mission.",
+    "reference": "FM 6-0",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "COP",
+    "meaning": "Common Operating Picture",
+    "description": "Shared display of relevant information across a command.",
+    "reference": "FM 6-0",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "COR",
+    "meaning": "Corps",
+    "description": "Military formation that consists of two or more divisions.",
+    "reference": "FM 3-96",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "DA",
+    "meaning": "Department of the Army",
+    "description": "Headquarters element that oversees Army operations and administration.",
+    "reference": "AR 10-87",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "DA PAM",
+    "meaning": "Department of the Army Pamphlet",
+    "description": "Publication that provides supplemental guidance or instructions.",
+    "reference": "AR 25-30",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "DFAC",
+    "meaning": "Dining Facility",
+    "description": "Military cafeteria where meals are prepared and served.",
+    "reference": "AR 30-22",
+    "category": ["common", "logistics"]
+  },
+  {
+    "acronym": "DIV",
+    "meaning": "Division",
+    "description": "Military unit typically consisting of 10,000–15,000 Soldiers.",
+    "reference": "FM 3-96",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "DZ",
+    "meaning": "Drop Zone",
+    "description": "Area designated for airdrop of personnel or equipment.",
+    "reference": "FM 3-21.220",
+    "category": ["uncommon", "aviation"]
+  },
+  {
+    "acronym": "EPW",
+    "meaning": "Enemy Prisoner of War",
+    "description": "Enemy combatant captured by U.S. or allied forces.",
+    "reference": "FM 3-63",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "FEBA",
+    "meaning": "Forward Edge of the Battle Area",
+    "description": "Line that indicates the forward-most limits of a battle area.",
+    "reference": "FM 3-90-1",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "FLOT",
+    "meaning": "Forward Line of Own Troops",
+    "description": "Line indicating the most forward positions of friendly forces.",
+    "reference": "FM 3-90-1",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "FM",
+    "meaning": "Field Manual",
+    "description": "Authoritative doctrinal publication for the U.S. Army.",
+    "reference": "AR 25-30",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "FO",
+    "meaning": "Forward Observer",
+    "description": "Observer responsible for calling for and adjusting indirect fire.",
+    "reference": "ATP 3-09.30",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "FOB",
+    "meaning": "Forward Operating Base",
+    "description": "Secured forward location supporting tactical operations.",
+    "reference": "FM 3-0",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "FRAGO",
+    "meaning": "Fragmentary Order",
+    "description": "Abbreviated order that modifies a published OPORD.",
+    "reference": "FM 6-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "FSCL",
+    "meaning": "Fire Support Coordination Line",
+    "description": "Line beyond which all fires must be coordinated with higher headquarters.",
+    "reference": "FM 3-09",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "HQDA",
+    "meaning": "Headquarters, Department of the Army",
+    "description": "Administrative headquarters of the U.S. Army.",
+    "reference": "AR 10-87",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "HLZ",
+    "meaning": "Helicopter Landing Zone",
+    "description": "Landing area specifically prepared for rotary-wing aircraft.",
+    "reference": "FM 3-04",
+    "category": ["uncommon", "aviation"]
+  },
+  {
+    "acronym": "IDP",
+    "meaning": "Individual Development Plan",
+    "description": "Plan created to guide a Soldier’s professional growth and career goals.",
+    "reference": "AR 350-1",
+    "category": ["uncommon", "training"]
+  },
+  {
+    "acronym": "IP",
+    "meaning": "Initial Point",
+    "description": "Point used by aircraft to begin an attack run.",
+    "reference": "JP 3-09",
+    "category": ["uncommon", "aviation"]
+  },
+  {
+    "acronym": "IPB",
+    "meaning": "Intelligence Preparation of the Battlefield",
+    "description": "Systematic process to analyze enemy, terrain, and weather.",
+    "reference": "ATP 2-01.3",
+    "category": ["uncommon", "intel"]
+  },
+  {
+    "acronym": "ISR",
+    "meaning": "Intelligence, Surveillance, and Reconnaissance",
+    "description": "Integrated process of collecting and analyzing information to support decisions.",
+    "reference": "JP 2-0",
+    "category": ["uncommon", "intel"]
+  },
+  {
+    "acronym": "JFMCC",
+    "meaning": "Joint Force Maritime Component Commander",
+    "description": "Commander responsible for maritime operations in a joint force.",
+    "reference": "JP 3-32",
+    "category": ["rare", "joint"]
+  },
+  {
+    "acronym": "JFACC",
+    "meaning": "Joint Force Air Component Commander",
+    "description": "Commander responsible for air operations in a joint force.",
+    "reference": "JP 3-30",
+    "category": ["rare", "joint"]
+  },
+  {
+    "acronym": "JFSOCC",
+    "meaning": "Joint Force Special Operations Component Commander",
+    "description": "Commander responsible for SOF operations in a joint force.",
+    "reference": "JP 3-05",
+    "category": ["rare", "joint"]
+  },
+  {
+    "acronym": "JRTC",
+    "meaning": "Joint Readiness Training Center",
+    "description": "U.S. Army training center at Fort Johnson (formerly Fort Polk).",
+    "reference": "AR 350-50",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "JSOC",
+    "meaning": "Joint Special Operations Command",
+    "description": "Component of USSOCOM overseeing special mission units.",
+    "reference": "JP 3-05",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "JTF",
+    "meaning": "Joint Task Force",
+    "description": "Temporary joint force established to carry out a specific mission.",
+    "reference": "JP 3-33",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "KIA",
+    "meaning": "Killed in Action",
+    "description": "Casualty classification for personnel killed by enemy action.",
+    "reference": "FM 4-02",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "LOA",
+    "meaning": "Letter of Agreement",
+    "description": "Formal document outlining agreed terms between organizations or parties.",
+    "reference": "AR 25-50",
+    "category": ["uncommon", "admin"]
+  },
+  {
+    "acronym": "LOE",
+    "meaning": "Line of Effort",
+    "description": "Line linking multiple tasks and missions to a purpose.",
+    "reference": "FM 3-0",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "LOO",
+    "meaning": "Line of Operation",
+    "description": "Line that defines the orientation of a force in time and space.",
+    "reference": "FM 3-0",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "LZ",
+    "meaning": "Landing Zone",
+    "description": "Area designated for helicopter or aircraft landing.",
+    "reference": "FM 3-21.220",
+    "category": ["uncommon", "aviation"]
+  },
+  {
+    "acronym": "MDMP",
+    "meaning": "Military Decision-Making Process",
+    "description": "Deliberate planning process used by Army units to make decisions.",
+    "reference": "FM 6-0",
+    "category": ["uncommon", "ops"]
+  },
+  {
+    "acronym": "MEDEVAC",
+    "meaning": "Medical Evacuation",
+    "description": "Transport of wounded personnel to a medical facility.",
+    "reference": "FM 4-02",
+    "category": ["common", "medical"]
+  },
+  {
+    "acronym": "MIA",
+    "meaning": "Missing in Action",
+    "description": "Status for personnel whose whereabouts are unknown after combat action.",
+    "reference": "FM 4-02",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "MOS",
+    "meaning": "Military Occupational Specialty",
+    "description": "Specific job classification in the U.S. Army.",
+    "reference": "DA PAM 611-21",
+    "category": ["must-know", "admin"]
+  },
+  {
+    "acronym": "MOPP",
+    "meaning": "Mission Oriented Protective Posture",
+    "description": "Levels of protective gear against chemical, biological, radiological, and nuclear threats.",
+    "reference": "FM 3-11.4",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "MRE",
+    "meaning": "Meal, Ready-to-Eat",
+    "description": "Self-contained field ration for individual service members.",
+    "reference": "AR 30-22",
+    "category": ["common", "logistics"]
+  },
+  {
+    "acronym": "NCO",
+    "meaning": "Noncommissioned Officer",
+    "description": "Enlisted leader responsible for training, discipline, and welfare of Soldiers.",
+    "reference": "FM 7-22.7",
+    "category": ["must-know", "training"]
+  },
+  {
+    "acronym": "NCOIC",
+    "meaning": "Noncommissioned Officer in Charge",
+    "description": "Senior NCO responsible for oversight and execution within a section or task.",
+    "reference": "FM 7-22.7",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "NTC",
+    "meaning": "National Training Center",
+    "description": "U.S. Army training center at Fort Irwin, California.",
+    "reference": "AR 350-50",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "OIC",
+    "meaning": "Officer in Charge",
+    "description": "Commissioned officer designated to lead a task, mission, or operation.",
+    "reference": "AR 600-20",
+    "category": ["must-know"]
+  },
+  {
+    "acronym": "OPORD",
+    "meaning": "Operations Order",
+    "description": "Directive issued by a commander for coordinated execution of an operation.",
+    "reference": "FM 6-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "PCS",
+    "meaning": "Permanent Change of Station",
+    "description": "Relocation of a Soldier to a new duty station.",
+    "reference": "JTR",
+    "category": ["common", "logistics"]
+  },
+  {
+    "acronym": "PIR",
+    "meaning": "Priority Intelligence Requirement",
+    "description": "Intelligence requirement identified by the commander as a priority for decision making.",
+    "reference": "FM 6-0",
+    "category": ["common", "intel"]
+  },
+  {
+    "acronym": "PME",
+    "meaning": "Professional Military Education",
+    "description": "Formal education programs designed to develop military leaders.",
+    "reference": "AR 350-1",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "POW",
+    "meaning": "Prisoner of War",
+    "description": "Enemy personnel captured and held during armed conflict.",
+    "reference": "FM 3-63",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "PX",
+    "meaning": "Post Exchange",
+    "description": "Retail store on a military installation.",
+    "reference": "AR 215-8",
+    "category": ["common", "logistics"]
+  },
+  {
+    "acronym": "PT",
+    "meaning": "Physical Training",
+    "description": "Structured exercise program to maintain Soldier fitness.",
+    "reference": "FM 7-22",
+    "category": ["must-know", "training"]
+  },
+  {
+    "acronym": "RFI",
+    "meaning": "Request for Information",
+    "description": "Formal request for specific information or intelligence.",
+    "reference": "JP 2-0",
+    "category": ["common", "intel"]
+  },
+  {
+    "acronym": "ROE",
+    "meaning": "Rules of Engagement",
+    "description": "Directives that define the circumstances and limits for the use of force.",
+    "reference": "JP 1-04",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "SF",
+    "meaning": "Special Forces",
+    "description": "U.S. Army Green Berets conducting unconventional warfare and foreign internal defense.",
+    "reference": "FM 3-18",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "SIGINT",
+    "meaning": "Signals Intelligence",
+    "description": "Intelligence derived from intercepting communications and electronic signals.",
+    "reference": "JP 2-0",
+    "category": ["uncommon", "intel"]
+  },
+  {
+    "acronym": "SITREP",
+    "meaning": "Situation Report",
+    "description": "Report providing a summary of a unit’s current situation.",
+    "reference": "FM 6-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "SME",
+    "meaning": "Subject Matter Expert",
+    "description": "Recognized technical or functional expert in a given area.",
+    "reference": "AR 600-20",
+    "category": ["common", "admin"]
+  },
+  {
+    "acronym": "SOCOM",
+    "meaning": "Special Operations Command",
+    "description": "Unified combatant command overseeing U.S. SOF.",
+    "reference": "JP 3-05",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "SOP",
+    "meaning": "Standard Operating Procedure",
+    "description": "Established procedures for performing a task or mission.",
+    "reference": "FM 7-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "SOF",
+    "meaning": "Special Operations Forces",
+    "description": "Forces with unique capabilities for specialized missions.",
+    "reference": "JP 3-05",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "TDY",
+    "meaning": "Temporary Duty",
+    "description": "Short-term military assignment away from a Soldier’s permanent duty station.",
+    "reference": "JTR",
+    "category": ["common", "logistics"]
+  },
+  {
+    "acronym": "TC",
+    "meaning": "Training Circular",
+    "description": "Publication that provides training guidance and procedures.",
+    "reference": "AR 25-30",
+    "category": ["common", "training"]
+  },
+  {
+    "acronym": "TOC",
+    "meaning": "Tactical Operations Center",
+    "description": "Unit command post that controls current operations.",
+    "reference": "FM 3-0",
+    "category": ["common", "ops"]
+  },
+  {
+    "acronym": "TPU",
+    "meaning": "Troop Program Unit",
+    "description": "Reserve unit to which a Soldier is assigned.",
+    "reference": "AR 140-1",
+    "category": ["uncommon", "admin"]
+  },
+  {
+    "acronym": "UCMJ",
+    "meaning": "Uniform Code of Military Justice",
+    "description": "Set of laws that govern all U.S. military personnel.",
+    "reference": "Title 10 USC, MCM",
+    "category": ["must-know", "admin"]
+  },
+  {
+    "acronym": "USAFRICOM",
+    "meaning": "United States Africa Command",
+    "description": "Unified combatant command responsible for Africa.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USAREUR",
+    "meaning": "United States Army Europe",
+    "description": "Army Service Component Command for U.S. European Command.",
+    "reference": "AR 10-87",
+    "category": ["uncommon", "admin"]
+  },
+  {
+    "acronym": "USARPAC",
+    "meaning": "United States Army Pacific",
+    "description": "Army Service Component Command for U.S. Indo-Pacific Command.",
+    "reference": "AR 10-87",
+    "category": ["uncommon", "admin"]
+  },
+  {
+    "acronym": "USCENTCOM",
+    "meaning": "United States Central Command",
+    "description": "Unified combatant command responsible for the Middle East and Central Asia.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USEUCOM",
+    "meaning": "United States European Command",
+    "description": "Unified combatant command responsible for Europe and parts of the Middle East.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USINDOPACOM",
+    "meaning": "United States Indo-Pacific Command",
+    "description": "Unified combatant command responsible for the Indo-Pacific region.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USNORTHCOM",
+    "meaning": "United States Northern Command",
+    "description": "Unified combatant command responsible for North America.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USSOCOM",
+    "meaning": "United States Special Operations Command",
+    "description": "Unified combatant command for all U.S. SOF.",
+    "reference": "JP 3-05",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "USSOUTHCOM",
+    "meaning": "United States Southern Command",
+    "description": "Unified combatant command responsible for Central and South America.",
+    "reference": "JP 3-0",
+    "category": ["uncommon", "joint"]
+  },
+  {
+    "acronym": "WARNO",
+    "meaning": "Warning Order",
+    "description": "Preliminary notice of an upcoming operation or order.",
+    "reference": "FM 6-0",
+    "category": ["must-know", "ops"]
+  },
+  {
+    "acronym": "XO",
+    "meaning": "Executive Officer",
+    "description": "Second-in-command; synchronizes staff and daily operations.",
+    "reference": "FM 6-0",
+    "category": ["must-know"]
+  }
 ]
