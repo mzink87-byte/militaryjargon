@@ -22,13 +22,17 @@ a:hover {
    Header
 ============================ */
 header {
-  background: #1E3A8A; /* deep navy */
+  background: #1E3A8A; /* navy base */
   color: white;
   padding: 1.5rem 0;
   text-align: center;
   position: sticky;
   top: 0;
   z-index: 10;
+
+  /* star pattern */
+  background-image: radial-gradient(white 1.2px, transparent 1.2px);
+  background-size: 30px 30px; /* adjust spacing */
 }
 
 header h1 {
