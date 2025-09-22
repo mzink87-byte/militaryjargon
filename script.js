@@ -36,14 +36,31 @@ function runSearch(query) {
     return;
   }
 
-  // ✅ Render matches
-  document.getElementById('results').innerHTML = results.map(r => `
-    <div class="result">
-      <div class="acronym">${r.acronym}</div>
-      <div>${r.meaning}</div>
-      <small>${r.description}</small>
-    </div>
-  `).join('');
+  // ✅ Render matches (with reference support)
+  document.getElementById('results').innerHTML = results.map(r => {
+    // Handle reference smartly
+    let ref = "";
+    if (r.reference) {
+      if (typeof r.reference === "object" && r.reference !== null) {
+        if (r.reference.url) {
+          ref = `<a href="${r.reference.url}" target="_blank">${r.reference.name}</a>`;
+        } else {
+          ref = r.reference.name || "";
+        }
+      } else {
+        ref = r.reference; // plain string
+      }
+    }
+
+    return `
+      <div class="result">
+        <div class="acronym">${r.acronym}</div>
+        <div>${r.meaning}</div>
+        <small>${r.description}</small><br>
+        <small><em>Ref:</em> ${ref}</small>
+      </div>
+    `;
+  }).join('');
 }
 
 // ✅ Only trigger on Enter
