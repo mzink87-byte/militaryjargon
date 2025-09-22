@@ -18,33 +18,38 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ============================
-   Header
-============================ */
 header {
   background: #1E3A8A; /* navy base */
   color: white;
-  padding: 1.5rem 0;
+  padding: 2rem 0 2.5rem;
   text-align: center;
-  position: sticky;
+  position: relative;
+  overflow: hidden;
+}
+
+/* scattered stars overlay */
+header::before {
+  content: "";
+  position: absolute;
   top: 0;
-  z-index: 10;
-
-  /* star pattern */
-  background-image: radial-gradient(white 1.2px, transparent 1.2px);
-  background-size: 30px 30px; /* adjust spacing */
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-header p {
-  margin: 0.3rem 0 0;
-  font-size: 1rem;
-  color: #dce0f5;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' width='400' height='120'>\
+    <circle cx='40' cy='30' r='2.5' fill='white'/>\
+    <circle cx='120' cy='50' r='3.5' fill='white'/>\
+    <circle cx='200' cy='25' r='2' fill='white'/>\
+    <circle cx='280' cy='60' r='4' fill='white'/>\
+    <circle cx='340' cy='40' r='3' fill='white'/>\
+    <circle cx='80' cy='90' r='2.5' fill='white'/>\
+    <circle cx='220' cy='95' r='3.5' fill='white'/>\
+    <circle cx='360' cy='85' r='2' fill='white'/>\
+  </svg>");
+  background-repeat: repeat-x; /* repeats horizontally */
+  background-position: top;
+  opacity: 0.85;
+  pointer-events: none;
 }
 
 /* ============================
