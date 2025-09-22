@@ -1,71 +1,103 @@
 let acronyms = [];
 
-// ✅ Load your JSON file (make sure acronyms.json is in the root folder)
-fetch('acronyms.json')
+// ✅ Load acronyms.json
+fetch("acronyms.json")
   .then(res => res.json())
-  .then(data => acronyms = data)
+  .then(data => (acronyms = data))
   .catch(err => console.error("Error loading JSON:", err));
 
 // ✅ Run search logic
 function runSearch(query) {
   const q = query.toLowerCase().trim();
-  const advanced = document.getElementById('advancedSearch').checked;
+  const searchInMeanings = document.getElementById("searchInMeanings").checked;
 
-  // ✅ In basic mode, require at least 2 characters
-  if (!advanced && q.length < 2) {
-    document.getElementById('results').innerHTML = '';
-    return;
-  }
+  const resultsContainer = document.getElementById("results");
+  resultsContainer.innerHTML = "";
 
-  let results;
+  if (!q) return;
 
-  if (advanced) {
-    // ✅ Advanced mode: contains search across all fields
-    results = acronyms.filter(a => 
-      a.acronym.toLowerCase().includes(q) ||
-      a.meaning.toLowerCase().includes(q) ||
-      a.description.toLowerCase().includes(q)
-    );
-  } else {
-    // ✅ Basic mode: startsWith on acronym only
-    results = acronyms.filter(a => a.acronym.toLowerCase().startsWith(q));
-  }
+  // Search logic
+  const results = acronyms.filter(a => {
+    const inAcronym = a.acronym?.toLowerCase().includes(q);
+    const inMeaning = a.meaning?.toLowerCase().includes(q);
+    const inDesc = a.description?.toLowerCase().includes(q);
+    return inAcronym || (searchInMeanings && (inMeaning || inDesc));
+  });
 
+  // Render
   if (results.length === 0) {
-    document.getElementById('results').innerHTML = `<p>No results found for "${query}".</p>`;
+    resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
     return;
   }
 
-  // ✅ Render matches (with reference support)
-  document.getElementById('results').innerHTML = results.map(r => {
-    // Handle reference smartly
-    let ref = "";
-    if (r.reference) {
-      if (typeof r.reference === "object" && r.reference !== null) {
-        if (r.reference.url) {
-          ref = `<a href="${r.reference.url}" target="_blank">${r.reference.name}</a>`;
-        } else {
-          ref = r.reference.name || "";
-        }
-      } else {
-        ref = r.reference; // plain string
-      }
-    }
-
-    return `
-      <div class="result">
-        <div class="acronym">${r.acronym}</div>
-        <div>${r.meaning}</div>
-        <small>${r.description}</small><br>
-        <small><em>Ref:</em> ${ref}</small>
-      </div>
-    `;
-  }).join('');
+  results.forEach(r => resultsContainer.appendChild(createCard(r)));
 }
 
-// ✅ Only trigger on Enter
-document.addEventListener('keydown', e => {
-  if (e.target.id === 'searchBox' && e.key === 'Enter') {
-    runSearch(e.target.value);
+// ✅ Render each card
+function createCard(item) {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  // Acronym
+  const title = document.createElement("h2");
+  title.textContent = item.acronym;
+  card.appendChild(title);
+
+  // Meaning
+  const meaning = document.createElement("div");
+  meaning.className = "meaning";
+  meaning.textContent = item.meaning;
+  card.appendChild(meaning);
+
+  // Description
+  const desc = document.createElement("div");
+  desc.className = "description";
+  desc.textContent = item.description;
+  card.appendChild(desc);
+
+  // References (handle nulls, strings, objects, arrays)
+  if (item.reference) {
+    const refWrap = document.createElement("div");
+    refWrap.className = "reference";
+
+    const refs = Array.isArray(item.reference) ? item.reference : [item.reference];
+    refs.forEach((ref, i) => {
+      if (typeof ref === "string") {
+        refWrap.append(`Reference: ${ref}`);
+      } else if (ref && ref.url) {
+        const a = document.createElement("a");
+        a.href = ref.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = i === 0 ? `Reference: ${ref.name}` : ref.name;
+        refWrap.appendChild(a);
+      } else if (ref && ref.name) {
+        refWrap.append(i === 0 ? `Reference: ${ref.name}` : ref.name);
+      }
+      if (i < refs.length - 1) refWrap.append(" · ");
+    });
+
+    card.appendChild(refWrap);
   }
+
+  return card;
+}
+
+// ✅ Trigger search as you type
+document.getElementById("searchInput").addEventListener("input", e => {
+  runSearch(e.target.value);
 });
+
+// ⭐ Generate header stars
+const starContainer = document.getElementById("stars");
+if (starContainer) {
+  for (let i = 0; i < 12; i++) {
+    const s = document.createElement("div");
+    s.className = "star";
+    s.textContent = "★";
+    s.style.left = Math.random() * 100 + "%";
+    s.style.top = Math.random() * 100 + "%";
+    s.style.fontSize = 6 + Math.random() * 8 + "px";
+    starContainer.appendChild(s);
+  }
+}
