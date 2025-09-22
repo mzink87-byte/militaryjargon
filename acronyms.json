@@ -22770,5 +22770,738 @@
     "category": [
       "NCO"
     ]
+  },
+  [
+  {
+    "acronym": "G1",
+    "meaning": "Assistant Chief of Staff, Personnel",
+    "description": "Principal staff officer responsible for personnel management at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Personnel"
+    ]
+  },
+  {
+    "acronym": "S1",
+    "meaning": "Personnel Staff Officer",
+    "description": "Principal staff officer responsible for personnel management at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Personnel"
+    ]
+  },
+  {
+    "acronym": "G3",
+    "meaning": "Assistant Chief of Staff, Operations",
+    "description": "Principal staff officer responsible for operations, plans, and training at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Operations"
+    ]
+  },
+  {
+    "acronym": "S3",
+    "meaning": "Operations Staff Officer",
+    "description": "Principal staff officer responsible for operations, plans, and training at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Operations"
+    ]
+  },
+  {
+    "acronym": "G4",
+    "meaning": "Assistant Chief of Staff, Logistics",
+    "description": "Principal staff officer responsible for logistics at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Logistics"
+    ]
+  },
+  {
+    "acronym": "S4",
+    "meaning": "Logistics Staff Officer",
+    "description": "Principal staff officer responsible for logistics at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Logistics"
+    ]
+  },
+  {
+    "acronym": "G5",
+    "meaning": "Assistant Chief of Staff, Plans",
+    "description": "Principal staff officer responsible for plans and strategy at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Plans"
+    ]
+  },
+  {
+    "acronym": "S5",
+    "meaning": "Plans Staff Officer",
+    "description": "Principal staff officer responsible for plans at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Plans"
+    ]
+  },
+  {
+    "acronym": "G6",
+    "meaning": "Assistant Chief of Staff, Signal",
+    "description": "Principal staff officer responsible for communications and information systems at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Signal"
+    ]
+  },
+  {
+    "acronym": "S6",
+    "meaning": "Signal Staff Officer",
+    "description": "Principal staff officer responsible for communications and information systems at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Signal"
+    ]
+  },
+  {
+    "acronym": "G8",
+    "meaning": "Assistant Chief of Staff, Financial Management",
+    "description": "Principal staff officer responsible for financial management and resource planning.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Finance"
+    ]
+  },
+  {
+    "acronym": "S8",
+    "meaning": "Financial Management Staff Officer",
+    "description": "Staff officer responsible for financial management at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Finance"
+    ]
+  },
+  {
+    "acronym": "G9",
+    "meaning": "Assistant Chief of Staff, Civil Affairs Operations",
+    "description": "Principal staff officer responsible for civil affairs operations at division level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Civil Affairs"
+    ]
+  },
+  {
+    "acronym": "S9",
+    "meaning": "Civil Affairs Operations Staff Officer",
+    "description": "Staff officer responsible for civil affairs coordination at battalion and brigade level.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Civil Affairs"
+    ]
+  },
+  {
+    "acronym": "MDMP",
+    "meaning": "Military Decision Making Process",
+    "description": "Seven-step analytical planning process used by Army leaders to plan operations.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Planning"
+    ]
+  },
+  {
+    "acronym": "COA",
+    "meaning": "Course of Action",
+    "description": "Broad concept of a possible plan to accomplish the mission.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Planning"
+    ]
+  },
+  {
+    "acronym": "WARNORD",
+    "meaning": "Warning Order",
+    "description": "Preliminary notice of an order or action which is to follow.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Orders"
+    ]
+  },
+  {
+    "acronym": "WARNO",
+    "meaning": "Warning Order",
+    "description": "Abbreviated form of warning order, preliminary notice of planned operation.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Orders"
+    ]
+  },
+  {
+    "acronym": "OPLAN",
+    "meaning": "Operations Plan",
+    "description": "Plan for a single or series of connected operations to be carried out simultaneously or in succession.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Planning"
+    ]
+  },
+  {
+    "acronym": "CONPLAN",
+    "meaning": "Concept Plan",
+    "description": "Operation plan in concept form, often lacking the detail for execution.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Planning"
+    ]
+  },
+  {
+    "acronym": "EXECORD",
+    "meaning": "Execute Order",
+    "description": "Order directing the implementation of a plan or operation.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Orders"
+    ]
+  },
+  {
+    "acronym": "DST",
+    "meaning": "Decision Support Template",
+    "description": "Staff product that depicts decision points and associated criteria for friendly forces.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Planning"
+    ]
+  },
+  {
+    "acronym": "MCOO",
+    "meaning": "Modified Combined Obstacle Overlay",
+    "description": "Graphic that portrays the effects of terrain and weather on military operations.",
+    "reference": {
+      "name": "FM 2-01.3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Intelligence"
+    ]
+  },
+  {
+    "acronym": "BUB",
+    "meaning": "Battle Update Brief",
+    "description": "Periodic briefing that updates the commander on the current tactical situation.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Briefings"
+    ]
+  },
+  {
+    "acronym": "CUB",
+    "meaning": "Commander's Update Brief",
+    "description": "Periodic briefing providing the commander with critical information updates.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Briefings"
+    ]
+  },
+  {
+    "acronym": "PERSTAT",
+    "meaning": "Personnel Status Report",
+    "description": "Report providing current personnel strength and availability status.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Reports"
+    ]
+  },
+  {
+    "acronym": "STAFFEX",
+    "meaning": "Staff Exercise",
+    "description": "Training exercise conducted to develop and maintain staff proficiency.",
+    "reference": {
+      "name": "FM 7-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Training"
+    ]
+  },
+  {
+    "acronym": "CPX",
+    "meaning": "Command Post Exercise",
+    "description": "Exercise designed to train commanders and staffs in command post operations.",
+    "reference": {
+      "name": "FM 7-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Training"
+    ]
+  },
+  {
+    "acronym": "CSM",
+    "meaning": "Command Sergeant Major",
+    "description": "Senior enlisted advisor to the commander at battalion level and above.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Staff",
+      "Leadership"
+    ]
+  },
+  {
+    "acronym": "15B",
+    "meaning": "Aircraft Powerplant Repairer",
+    "description": "Aviation MOS responsible for maintaining and repairing aircraft engines.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "15T",
+    "meaning": "UH-60 Helicopter Repairer",
+    "description": "Aviation MOS specializing in Black Hawk helicopter maintenance.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "15U",
+    "meaning": "CH-47 Helicopter Repairer",
+    "description": "Aviation MOS specializing in Chinook helicopter maintenance.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "15R",
+    "meaning": "AH-64 Attack Helicopter Repairer",
+    "description": "Aviation MOS specializing in Apache helicopter maintenance.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "CAB",
+    "meaning": "Combat Aviation Brigade",
+    "description": "Aviation brigade providing rotary-wing and fixed-wing support to ground forces.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Unit",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "LZ",
+    "meaning": "Landing Zone",
+    "description": "Designated area where aircraft can land to embark or disembark troops and cargo.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Aviation",
+      "Operations"
+    ]
+  },
+  {
+    "acronym": "PZ",
+    "meaning": "Pickup Zone",
+    "description": "Designated area where aircraft pick up troops, equipment, or supplies.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Aviation",
+      "Operations"
+    ]
+  },
+  {
+    "acronym": "FARP",
+    "meaning": "Forward Arming and Refueling Point",
+    "description": "Temporary facility to rearm and refuel aircraft away from main airfields.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Aviation",
+      "Support"
+    ]
+  },
+  {
+    "acronym": "DUSTOFF",
+    "meaning": "Medical Evacuation by Helicopter",
+    "description": "Call sign and mission designation for helicopter medical evacuation.",
+    "reference": {
+      "name": "FM 4-02",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Aviation",
+      "Medical"
+    ]
+  },
+  {
+    "acronym": "35F",
+    "meaning": "Intelligence Analyst",
+    "description": "Military intelligence MOS responsible for analyzing and producing intelligence products.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "35S",
+    "meaning": "Signals Collector/Analyst",
+    "description": "Military intelligence MOS specializing in signals intelligence collection and analysis.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "35N",
+    "meaning": "Signals Intelligence Analyst",
+    "description": "Military intelligence MOS focused on signals intelligence analysis.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "35T",
+    "meaning": "Military Intelligence Systems Maintainer",
+    "description": "Military intelligence MOS responsible for maintaining intelligence systems and equipment.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "HUMINT",
+    "meaning": "Human Intelligence",
+    "description": "Intelligence derived from human sources through interpersonal contact.",
+    "reference": {
+      "name": "FM 2-22.3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Intelligence Discipline",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "CI",
+    "meaning": "Counterintelligence",
+    "description": "Activities designed to protect against espionage and other intelligence activities.",
+    "reference": {
+      "name": "FM 2-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Intelligence Discipline",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "DCGS-A",
+    "meaning": "Distributed Common Ground System-Army",
+    "description": "Army's distributed intelligence processing system supporting tactical through strategic levels.",
+    "reference": {
+      "name": "FM 2-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Systems",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "INSCOM",
+    "meaning": "U.S. Army Intelligence and Security Command",
+    "description": "Army major command responsible for intelligence and security operations worldwide.",
+    "reference": "INSCOM",
+    "category": [
+      "Unit",
+      "Military Intelligence"
+    ]
+  },
+  {
+    "acronym": "SF",
+    "meaning": "Special Forces",
+    "description": "Elite Army units trained in unconventional warfare, foreign internal defense, and special reconnaissance.",
+    "reference": {
+      "name": "FM 3-05",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Unit",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "ODA",
+    "meaning": "Operational Detachment Alpha",
+    "description": "12-man Special Forces team, the basic operational unit of Special Forces.",
+    "reference": {
+      "name": "FM 3-05",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": [
+      "Unit",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "18A",
+    "meaning": "Special Forces Officer",
+    "description": "Officer MOS for Special Forces team leaders and detachment commanders.",
+    "reference": {
+      "name": "DA PAM 600-3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "18B",
+    "meaning": "Special Forces Weapons Sergeant",
+    "description": "Special Forces MOS responsible for weapons and tactics expertise.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "18C",
+    "meaning": "Special Forces Engineer Sergeant",
+    "description": "Special Forces MOS specializing in demolitions and engineering tasks.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "18D",
+    "meaning": "Special Forces Medical Sergeant",
+    "description": "Special Forces MOS providing advanced medical care in austere environments.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "18E",
+    "meaning": "Special Forces Communications Sergeant",
+    "description": "Special Forces MOS responsible for communications and signal operations.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "JSOC",
+    "meaning": "Joint Special Operations Command",
+    "description": "Joint command overseeing special mission units and counterterrorism operations.",
+    "reference": "JSOC",
+    "category": [
+      "Unit",
+      "Special Operations"
+    ]
+  },
+  {
+    "acronym": "17C",
+    "meaning": "Cyber Operations Specialist",
+    "description": "Enlisted MOS conducting defensive and offensive cyberspace operations.",
+    "reference": {
+      "name": "DA PAM 611-21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": [
+      "MOS",
+      "Cyber"
+    ]
+  },
+  {
+    "acronym": "JTAC",
+    "meaning": "Joint Terminal Attack Controller",
+    "description": "Qualified service member directing close air support and terminal attack guidance.",
+    "reference": {
+      "name": "JP 3-09.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": [
+      "Operations",
+      "Aviation"
+    ]
+  },
+  {
+    "acronym": "MEU",
+    "meaning": "Marine Expeditionary Unit",
+    "description": "Marine Corps air-ground task force often integrated with Army operations.",
+    "reference": "USMC Doctrine",
+    "category": [
+      "Unit",
+      "Joint Operations"
+    ]
   }
-]
+  ]
