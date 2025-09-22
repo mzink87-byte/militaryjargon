@@ -1,31 +1,167 @@
+/* ============================
+   Base Styles
+============================ */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f4f4f4;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
 }
+
+a {
+  color: #1E3A8A; /* navy blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   Header
+============================ */
 header {
-  background: #2e3b4e;
-  color: #fff;
-  padding: 1rem;
+  background: #1E3A8A; /* navy */
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* optional stars pattern in header */
+header.starry {
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-color: #1E3A8A;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* ============================
+   Search Bar
+============================ */
+.search-container {
+  margin: 1.5rem auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.search-container input:focus {
+  border-color: #1E3A8A;
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.2);
+}
+
+/* ============================
+   Filters
+============================ */
+.filters {
+  margin: 1rem auto;
   text-align: center;
 }
-main {
+
+.filters button {
+  margin: 0.25rem;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.filters button:hover {
+  background: #f0f0f0;
+}
+
+.filters button.active {
+  background: #1E3A8A;
+  color: white;
+  border-color: #1E3A8A;
+}
+
+/* ============================
+   Glossary Cards
+============================ */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
   padding: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
-#searchBox {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-#acronym {
-  font-weight: bold;
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
-.result {
-  background: #fff;
+
+.card h2 {
+  margin-top: 0;
   margin-bottom: 0.5rem;
-  padding: 0.75rem;
-  border-radius: 5px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  font-size: 1.3rem;
+  color: #1E3A8A; /* navy */
+}
+
+.card .meaning {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card .description {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Example tag styles */
+.card .tags {
+  margin-top: 0.5rem;
+}
+
+.card .tag {
+  display: inline-block;
+  background: #e0e0e0;
+  color: #333;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+/* ============================
+   Footer
+============================ */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #777;
+  font-size: 0.85rem;
+  margin-top: 2rem;
 }
