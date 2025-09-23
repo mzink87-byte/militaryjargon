@@ -23502,5 +23502,1568 @@
       "Unit",
       "Joint Operations"
     ]
+  },[
+  {
+    "acronym": "MEU",
+    "meaning": "Marine Expeditionary Unit",
+    "description": "Marine Corps air-ground task force often integrated with Army operations.",
+    "reference": "USMC Doctrine",
+    "category": [
+      "Unit",
+      "Joint Operations"
+    ]
+  },
+  {
+    "acronym": "ACE",
+    "meaning": "Ammo, Casualties, Equipment",
+    "description": "Report format used by small units to communicate combat status after contact.",
+    "reference": {
+      "name": "FM 6-99",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Reports"]
+  },
+  {
+    "acronym": "LACE",
+    "meaning": "Liquids, Ammo, Casualties, Equipment",
+    "description": "Expanded status check report used in the field to track Soldier readiness.",
+    "reference": {
+      "name": "Training SOP"
+    },
+    "category": ["Reports"]
+  },
+  {
+    "acronym": "SALUTE",
+    "meaning": "Size, Activity, Location, Unit, Time, Equipment",
+    "description": "Report format for describing enemy activity.",
+    "reference": {
+      "name": "FM 6-99",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Reports"]
+  },
+  {
+    "acronym": "SITREP",
+    "meaning": "Situation Report",
+    "description": "Report format used to provide updates on operational or tactical situations.",
+    "reference": {
+      "name": "FM 6-99"
+    },
+    "category": ["Reports"]
+  },
+  {
+    "acronym": "SPOTREP",
+    "meaning": "Spot Report",
+    "description": "Brief report providing immediate battlefield information.",
+    "reference": {
+      "name": "FM 6-99"
+    },
+    "category": ["Reports"]
+  },
+  {
+    "acronym": "9-Line",
+    "meaning": "MEDEVAC Request",
+    "description": "Nine-line format for requesting medical evacuation of wounded Soldiers.",
+    "reference": {
+      "name": "ATP 4-02.2"
+    },
+    "category": ["Reports", "Medical"]
+  },
+  {
+    "acronym": "MIST",
+    "meaning": "Mechanism, Injuries, Signs/Symptoms, Treatments",
+    "description": "Format used for trauma handoff with MEDEVAC requests.",
+    "reference": {
+      "name": "TCCC Guidelines",
+      "url": "https://deployedmedicine.com"
+    },
+    "category": ["Reports", "Medical"]
+  },
+  {
+    "acronym": "UXO 9-Line",
+    "meaning": "Unexploded Ordnance Report",
+    "description": "Report used to notify higher headquarters of UXO hazards.",
+    "reference": {
+      "name": "EOD Procedures"
+    },
+    "category": ["Reports", "Safety"]
+  },
+  {
+    "acronym": "CCIR",
+    "meaning": "Commander's Critical Information Requirements",
+    "description": "Information identified by the commander as critical to decision-making.",
+    "reference": {
+      "name": "FM 6-0"
+    },
+    "category": ["Reports", "Command"]
+  },
+  {
+    "acronym": "PIR",
+    "meaning": "Priority Intelligence Requirement",
+    "description": "Key intelligence questions that drive collection and analysis.",
+    "reference": {
+      "name": "FM 2-0"
+    },
+    "category": ["Reports", "Intel"]
+  },
+  {
+    "acronym": "RFI",
+    "meaning": "Request for Information",
+    "description": "Formal request for required information or clarification.",
+    "reference": {
+      "name": "Staff Processes"
+    },
+    "category": ["Reports", "Staff"]
+  },
+  {
+    "acronym": "AAR",
+    "meaning": "After Action Review",
+    "description": "Structured review process for analyzing training or operational performance.",
+    "reference": {
+      "name": "FM 7-0"
+    },
+    "category": ["Reports", "Training"]
+  },
+  {
+    "acronym": "Grunt",
+    "meaning": "Infantryman",
+    "description": "Nickname for MOS 11B Infantry Soldiers; frontline ground combat troops.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Infantry", "MOS", "Slang"]
+  },
+  {
+    "acronym": "Doc",
+    "meaning": "Combat Medic",
+    "description": "Nickname for MOS 68W Health Care Specialists; the Soldier providing frontline medical care.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Medical", "MOS", "Slang"]
+  },
+  {
+    "acronym": "MP",
+    "meaning": "Military Police",
+    "description": "Shorthand for MOS 31B Soldiers conducting law enforcement and security operations.",
+    "reference": {
+      "name": "FM 3-39"
+    },
+    "category": ["Military Police", "MOS"]
+  },
+  {
+    "acronym": "Rigger",
+    "meaning": "Parachute Rigger",
+    "description": "Nickname for MOS 92R Soldiers who pack and maintain parachutes.",
+    "reference": {
+      "name": "DA PAM 611-21"
+    },
+    "category": ["Quartermaster", "MOS", "Slang"]
+  },
+  {
+    "acronym": "Cav Scout",
+    "meaning": "Cavalry Scout",
+    "description": "Nickname for MOS 19D Soldiers who conduct reconnaissance and security missions.",
+    "reference": {
+      "name": "DA PAM 611-21"
+    },
+    "category": ["Cavalry", "MOS", "Slang"]
+  },
+  {
+    "acronym": "Truck Driver",
+    "meaning": "Motor Transport Operator",
+    "description": "Nickname for MOS 88M Soldiers responsible for transport vehicles.",
+    "reference": {
+      "name": "DA PAM 611-21"
+    },
+    "category": ["Transportation", "MOS", "Slang"]
+  },
+  {
+    "acronym": "Gun Bunny",
+    "meaning": "Artillery Crewman",
+    "description": "Slang for field artillery Soldiers who operate howitzers.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Artillery", "Slang", "MOS"]
+  },
+  {
+    "acronym": "Commo",
+    "meaning": "Signal Soldier",
+    "description": "Nickname for Soldiers in 25-series MOS who handle communications equipment.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Signal", "MOS", "Slang"]
+  },
+  {
+    "acronym": "Private",
+    "meaning": "E-1 to E-3",
+    "description": "Lowest enlisted ranks (PVT, PV2, PFC).",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SPC",
+    "meaning": "Specialist",
+    "description": "Enlisted rank above PFC, equivalent to Corporal but without NCO authority.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "CPL",
+    "meaning": "Corporal",
+    "description": "Junior NCO rank; equivalent grade to Specialist but with NCO authority.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SGT",
+    "meaning": "Sergeant",
+    "description": "First line NCO; leads small teams and squads.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SSG",
+    "meaning": "Staff Sergeant",
+    "description": "NCO rank above Sergeant, responsible for squad-level leadership.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SFC",
+    "meaning": "Sergeant First Class",
+    "description": "Senior NCO rank, often platoon sergeant or staff NCO.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "MSG",
+    "meaning": "Master Sergeant",
+    "description": "Senior NCO rank, typically serves in staff roles.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "1SG",
+    "meaning": "First Sergeant",
+    "description": "Senior enlisted leader at the company level, nicknamed 'Top'.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SGM",
+    "meaning": "Sergeant Major",
+    "description": "Senior enlisted rank at battalion level and higher.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "CSM",
+    "meaning": "Command Sergeant Major",
+    "description": "Senior enlisted advisor to the commander at battalion and higher levels.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "SMA",
+    "meaning": "Sergeant Major of the Army",
+    "description": "Highest enlisted rank in the Army, advisor to the Chief of Staff.",
+    "reference": {
+      "name": "DA PAM 600-25"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "2LT",
+    "meaning": "Second Lieutenant",
+    "description": "Entry-level officer rank, nicknamed 'Butter Bar'.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank", "Slang"]
+  },
+  {
+    "acronym": "1LT",
+    "meaning": "First Lieutenant",
+    "description": "Officer rank above Second Lieutenant, often called 'LT'.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank", "Slang"]
+  },
+  {
+    "acronym": "CPT",
+    "meaning": "Captain",
+    "description": "Officer rank in command of a company or serving on battalion staff.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "MAJ",
+    "meaning": "Major",
+    "description": "Field grade officer rank, typically serving as a battalion XO or staff officer.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "LTC",
+    "meaning": "Lieutenant Colonel",
+    "description": "Officer rank typically commanding a battalion.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "COL",
+    "meaning": "Colonel",
+    "description": "Officer rank typically commanding a brigade or serving on division staff.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "BG",
+    "meaning": "Brigadier General",
+    "description": "General officer rank, typically serving as deputy commanding general.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "MG",
+    "meaning": "Major General",
+    "description": "Two-star general officer rank, typically division commander.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "LTG",
+    "meaning": "Lieutenant General",
+    "description": "Three-star general officer rank, typically corps commander.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "GEN",
+    "meaning": "General",
+    "description": "Four-star general officer rank, highest peacetime rank.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "WO1",
+    "meaning": "Warrant Officer 1",
+    "description": "Entry-level warrant officer rank.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "CW5",
+    "meaning": "Chief Warrant Officer 5",
+    "description": "Senior-most warrant officer rank.",
+    "reference": {
+      "name": "DA PAM 600-3"
+    },
+    "category": ["Rank"]
+  },
+  {
+    "acronym": "Brass",
+    "meaning": "Officers",
+    "description": "Slang for commissioned officers, usually higher-ranking leadership.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Rank", "Slang", "Culture"]
+  },
+  {
+    "acronym": "Blue Falcon",
+    "meaning": "Buddy Betrayer",
+    "description": "Slang for a Soldier who betrays a comrade; often abbreviated BF.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "BF",
+    "meaning": "Blue Falcon",
+    "description": "Abbreviation for Blue Falcon; slang for a Soldier who betrays a buddy.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Hooah",
+    "meaning": "Motivational Expression",
+    "description": "Generic affirmation, used to show agreement or motivation in Army culture.",
+    "reference": {
+      "name": "Army Culture"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Joe",
+    "meaning": "Soldier",
+    "description": "Generic slang for any Soldier, often used humorously or informally.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Jody",
+    "meaning": "Soldier's Rival",
+    "description": "Slang from cadence songs, the man back home supposedly stealing Soldiers' partners.",
+    "reference": {
+      "name": "Cadence Tradition"
+    },
+    "category": ["Slang", "Culture", "Family"]
+  },
+  {
+    "acronym": "Battle Buddy",
+    "meaning": "Assigned Partner",
+    "description": "A Soldier paired with another for accountability, safety, and mutual support.",
+    "reference": {
+      "name": "Leadership Doctrine"
+    },
+    "category": ["Culture", "Training"]
+  },
+  {
+    "acronym": "Cherry",
+    "meaning": "New Soldier",
+    "description": "Slang for a newly arrived or inexperienced Soldier, especially in combat units.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Short",
+    "meaning": "Close to ETS",
+    "description": "Slang for a Soldier near the end of their service contract.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Admin"]
+  },
+  {
+    "acronym": "Boot",
+    "meaning": "New Soldier",
+    "description": "Slang for a Soldier fresh out of training; used to highlight inexperience.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Shake & Bake",
+    "meaning": "Fast-Track NCO",
+    "description": "Slang for an NCO promoted quickly through accelerated training rather than experience.",
+    "reference": {
+      "name": "Vietnam-Era Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Slick Sleeve",
+    "meaning": "No Combat Patch",
+    "description": "Slang for a Soldier without a combat patch, indicating no deployment experience.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Gear Dope",
+    "meaning": "Equipment Knowledge",
+    "description": "Slang for knowing the ins and outs of gear setup and usage.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Equipment"]
+  },
+  {
+    "acronym": "Smoke",
+    "meaning": "Artillery Senior NCO",
+    "description": "Nickname for a First Sergeant or Platoon Sergeant in artillery units.",
+    "reference": {
+      "name": "Artillery Culture"
+    },
+    "category": ["Slang", "Artillery", "Culture"]
+  },
+  {
+    "acronym": "Barracks Lawyer",
+    "meaning": "Know-It-All Soldier",
+    "description": "Slang for a Soldier who pretends to know regulations and gives bad legal advice.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Barracks Life"]
+  },
+  {
+    "acronym": "Dependa",
+    "meaning": "Entitled Military Spouse",
+    "description": "Slang for a military spouse perceived as lazy or overly reliant on benefits.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Family"]
+  },
+  {
+    "acronym": "Dependapotamus",
+    "meaning": "Negative Spouse Stereotype",
+    "description": "Derogatory slang for a military spouse seen as matching negative stereotypes.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Family"]
+  },
+  {
+    "acronym": "WestPac Widow",
+    "meaning": "Spouse Acting Single",
+    "description": "Slang for a spouse who behaves as if single while their partner is deployed.",
+    "reference": {
+      "name": "Deployment Slang"
+    },
+    "category": ["Slang", "Culture", "Family"]
+  },
+  {
+    "acronym": "Barracks Rat",
+    "meaning": "Civilian Around Barracks",
+    "description": "Slang for a civilian who hangs around barracks looking for relationships with Soldiers.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Barracks Life"]
+  },
+  {
+    "acronym": "Chapter Queen",
+    "meaning": "Separation-Seeking Soldier",
+    "description": "Slang for a Soldier attempting to leave the Army through administrative separation.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture", "Admin"]
+  },
+  {
+    "acronym": "Pogey Bait",
+    "meaning": "Candy or Snacks",
+    "description": "Slang for candy or snacks carried by Soldiers for morale or trade.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Food", "Culture"]
+  },
+  {
+    "acronym": "Lickies and Chewies",
+    "meaning": "Field Snacks",
+    "description": "Slang for candy, gum, or small snack items often packed in rucks or traded downrange.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Food", "Culture"]
+  },
+  {
+    "acronym": "PT",
+    "meaning": "Physical Training",
+    "description": "Daily unit exercise sessions to maintain Soldier fitness and readiness.",
+    "reference": {
+      "name": "FM 7-22"
+    },
+    "category": ["Fitness", "Training"]
+  },
+  {
+    "acronym": "APFT",
+    "meaning": "Army Physical Fitness Test",
+    "description": "Legacy fitness test with push-ups, sit-ups, and a two-mile run.",
+    "reference": {
+      "name": "FM 7-22 (Legacy)"
+    },
+    "category": ["Fitness", "Testing"]
+  },
+  {
+    "acronym": "ACFT",
+    "meaning": "Army Combat Fitness Test",
+    "description": "Six-event test including deadlift, power throw, push-ups, sprint-drag-carry, leg tuck/plank, and run.",
+    "reference": {
+      "name": "FM 7-22"
+    },
+    "category": ["Fitness", "Testing"]
+  },
+  {
+    "acronym": "AFT",
+    "meaning": "Army Fitness Test",
+    "description": "New physical fitness test being piloted to replace the ACFT.",
+    "reference": {
+      "name": "Army Public Affairs"
+    },
+    "category": ["Fitness", "Testing"]
+  },
+  {
+    "acronym": "SRP",
+    "meaning": "Soldier Readiness Processing",
+    "description": "Process ensuring Soldiers are administratively and medically ready for deployment.",
+    "reference": {
+      "name": "AR 600-8-101"
+    },
+    "category": ["Training", "Admin"]
+  },
+  {
+    "acronym": "ACH",
+    "meaning": "Advanced Combat Helmet",
+    "description": "Standard-issue ballistic helmet for U.S. Soldiers.",
+    "reference": {
+      "name": "PM Soldier Protection"
+    },
+    "category": ["Equipment", "Protective Gear"]
+  },
+  {
+    "acronym": "Kevlar",
+    "meaning": "PASGT Helmet",
+    "description": "Older Kevlar helmet widely used before the ACH.",
+    "reference": {
+      "name": "Army Protective Equipment"
+    },
+    "category": ["Equipment", "Protective Gear", "Slang"]
+  },
+  {
+    "acronym": "Ruck",
+    "meaning": "Rucksack",
+    "description": "Backpack used by Soldiers to carry equipment and supplies in the field.",
+    "reference": {
+      "name": "FM 21-18"
+    },
+    "category": ["Equipment", "Load Carrying"]
+  },
+  {
+    "acronym": "HMMWV",
+    "meaning": "High Mobility Multipurpose Wheeled Vehicle",
+    "description": "Light tactical truck commonly called a Humvee.",
+    "reference": {
+      "name": "TM 9-2320-280"
+    },
+    "category": ["Equipment", "Vehicles"]
+  },
+  {
+    "acronym": "APC",
+    "meaning": "Armored Personnel Carrier",
+    "description": "Armored vehicle for transporting infantry, like the M113; replaced by Stryker and Bradley.",
+    "reference": {
+      "name": "FM 3-90"
+    },
+    "category": ["Equipment", "Vehicles"]
+  },
+  {
+    "acronym": "MRE",
+    "meaning": "Meal, Ready-to-Eat",
+    "description": "Self-contained individual ration issued to Soldiers.",
+    "reference": {
+      "name": "DLA Troop Support"
+    },
+    "category": ["Logistics", "Food"]
+  },
+  {
+    "acronym": "MOPP",
+    "meaning": "Mission Oriented Protective Posture",
+    "description": "Protective gear system with escalating levels for CBRN environments.",
+    "reference": {
+      "name": "FM 3-11"
+    },
+    "category": ["Equipment", "CBRN Protection"]
+  },
+  {
+    "acronym": "Donkey Dick",
+    "meaning": "Fuel Can Nozzle",
+    "description": "Slang for the long rubber nozzle used on military fuel cans.",
+    "reference": {
+      "name": "Motor Pool Slang"
+    },
+    "category": ["Slang", "Equipment", "Motor Pool"]
+  },
+  {
+    "acronym": "Slave Cables",
+    "meaning": "Military Jumper Cables",
+    "description": "Heavy-duty cables used to connect vehicles and start engines.",
+    "reference": {
+      "name": "Motor Transport Equipment"
+    },
+    "category": ["Equipment", "Motor Pool", "Logistics"]
+  },
+  {
+    "acronym": "FUBAR",
+    "meaning": "F***ed Up Beyond All Recognition",
+    "description": "Military slang indicating something is completely broken or ruined.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Chief",
+    "meaning": "Warrant Officer",
+    "description": "Nickname for Warrant Officers, especially CW2 and above; used respectfully or informally by enlisted Soldiers.",
+    "reference": {
+      "name": "Warrant Officer Culture"
+    },
+    "category": ["Rank", "Slang", "Culture"]
+  },
+  {
+    "acronym": "ABN",
+    "meaning": "Airborne",
+    "description": "Shorthand for Airborne-qualified Soldiers, units, or operations.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Culture"]
+  },
+  {
+    "acronym": "Master Blaster",
+    "meaning": "Senior Jumpmaster",
+    "description": "Nickname for an experienced Jumpmaster, often instructors in Airborne units.",
+    "reference": {
+      "name": "Airborne Culture"
+    },
+    "category": ["Airborne", "Slang", "Culture"]
+  },
+  {
+    "acronym": "Blood Wings",
+    "meaning": "Airborne Wing Pinning",
+    "description": "Slang for pinning Airborne wings directly into the chest as an initiation.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Tradition"]
+  },
+  {
+    "acronym": "Mustard Stain",
+    "meaning": "Combat Jump Star",
+    "description": "Slang for the gold star added to Airborne wings signifying a combat jump.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Badge"]
+  },
+  {
+    "acronym": "AA",
+    "meaning": "Air Assault",
+    "description": "Refers to Soldiers who completed Air Assault School and earned the badge.",
+    "reference": {
+      "name": "Air Assault School"
+    },
+    "category": ["Air Assault", "Training", "Culture"]
+  },
+  {
+    "acronym": "Airborne Shuffle",
+    "meaning": "Jogging Pace",
+    "description": "Slang for the slow, shuffling jog used in Airborne unit runs.",
+    "reference": {
+      "name": "Airborne Culture"
+    },
+    "category": ["Airborne", "Slang", "Tradition"]
+  },
+  {
+    "acronym": "Stand In The Door",
+    "meaning": "Jump Command",
+    "description": "Command given to paratroopers before exiting the aircraft.",
+    "reference": {
+      "name": "Airborne Operations"
+    },
+    "category": ["Airborne", "Commands", "Tradition"]
+  },
+  {
+    "acronym": "All American",
+    "meaning": "82nd Airborne Division",
+    "description": "Nickname for the 82nd Airborne Division, symbolizing Soldiers from all states when formed.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Airborne", "Culture"]
+  },
+  {
+    "acronym": "Screaming Eagles",
+    "meaning": "101st Airborne Division",
+    "description": "Nickname for the 101st Airborne Division, referencing its eagle patch.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Airborne", "Culture"]
+  },
+  {
+    "acronym": "Big Red One",
+    "meaning": "1st Infantry Division",
+    "description": "Nickname for the 1st Infantry Division, derived from its red numeral patch.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Culture"]
+  },
+  {
+    "acronym": "Hell on Wheels",
+    "meaning": "2nd Armored Division",
+    "description": "Historic nickname for the 2nd Armored Division, made famous in WWII.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Culture", "Historic"]
+  },
+  {
+    "acronym": "Ranger Tab",
+    "meaning": "Ranger Qualification Badge",
+    "description": "Awarded to Soldiers who complete Ranger School; signifies elite small-unit leadership skills.",
+    "reference": {
+      "name": "Ranger School"
+    },
+    "category": ["Training", "Badges", "Culture"]
+  },
+  {
+    "acronym": "SF Tab",
+    "meaning": "Special Forces Tab",
+    "description": "Awarded to Soldiers who graduate the SF Qualification Course; signifies Green Beret status.",
+    "reference": {
+      "name": "USASFC"
+    },
+    "category": ["Special Forces", "Badges", "Culture"]
+  },
+  {
+    "acronym": "Sapper Tab",
+    "meaning": "Sapper Leader Course Tab",
+    "description": "Awarded to Soldiers who complete the Sapper Leader Course; represents combat engineer excellence.",
+    "reference": {
+      "name": "Sapper School"
+    },
+    "category": ["Engineer", "Badges", "Culture"]
+  },
+  {
+    "acronym": "Leg",
+    "meaning": "Non-Airborne Soldier",
+    "description": "Airborne slang for a Soldier without jump qualification.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Culture"]
+  },
+  {
+    "acronym": "Cherry Jump",
+    "meaning": "First Parachute Jump",
+    "description": "Slang for a Soldier's first parachute jump in Airborne units.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Tradition"]
+  },
+  {
+    "acronym": "Static Line",
+    "meaning": "Static-Line Jump",
+    "description": "Parachute jump where the chute is automatically deployed by a line attached to the aircraft.",
+    "reference": {
+      "name": "Airborne Operations"
+    },
+    "category": ["Airborne", "Operations"]
+  },
+  {
+    "acronym": "Hollywood Jump",
+    "meaning": "Jump Without Equipment",
+    "description": "Slang for a parachute jump performed without ruck or combat gear.",
+    "reference": {
+      "name": "Airborne Slang"
+    },
+    "category": ["Airborne", "Slang", "Tradition"]
+  },
+  {
+    "acronym": "Combat Jump",
+    "meaning": "Parachute Assault",
+    "description": "An airborne operation where Soldiers parachute into a combat zone; marked with a mustard stain.",
+    "reference": {
+      "name": "Airborne Operations"
+    },
+    "category": ["Airborne", "Operations", "Culture"]
+  },
+  {
+    "acronym": "MOS",
+    "meaning": "Military Occupational Specialty",
+    "description": "The specific job or specialty a Soldier is trained and assigned in.",
+    "reference": {
+      "name": "DA PAM 611-21"
+    },
+    "category": ["Admin", "Career"]
+  },
+  {
+    "acronym": "PCS",
+    "meaning": "Permanent Change of Station",
+    "description": "Movement of a Soldier and family to a new duty station.",
+    "reference": {
+      "name": "JTR"
+    },
+    "category": ["Admin", "Movement"]
+  },
+  {
+    "acronym": "TDY",
+    "meaning": "Temporary Duty",
+    "description": "Short-term assignment away from permanent duty station.",
+    "reference": {
+      "name": "JTR"
+    },
+    "category": ["Admin", "Movement"]
+  },
+  {
+    "acronym": "ETS",
+    "meaning": "Expiration Term of Service",
+    "description": "The official end date of a Soldier's service contract.",
+    "reference": {
+      "name": "AR 635-200"
+    },
+    "category": ["Admin", "Career"]
+  },
+  {
+    "acronym": "LES",
+    "meaning": "Leave and Earnings Statement",
+    "description": "Monthly pay stub for Soldiers showing pay, allowances, and deductions.",
+    "reference": {
+      "name": "DFAS"
+    },
+    "category": ["Admin", "Finance"]
+  },
+  {
+    "acronym": "BAH",
+    "meaning": "Basic Allowance for Housing",
+    "description": "Monthly allowance for housing when government quarters are not provided.",
+    "reference": {
+      "name": "DFAS"
+    },
+    "category": ["Admin", "Finance"]
+  },
+  {
+    "acronym": "BAS",
+    "meaning": "Basic Allowance for Subsistence",
+    "description": "Monthly allowance to offset the cost of a Soldier's meals.",
+    "reference": {
+      "name": "DFAS"
+    },
+    "category": ["Admin", "Finance"]
+  },
+  {
+    "acronym": "COB",
+    "meaning": "Close of Business",
+    "description": "Term used to indicate the end of the duty day.",
+    "reference": {
+      "name": "Military Slang / Admin Usage"
+    },
+    "category": ["Admin", "Slang"]
+  },
+  {
+    "acronym": "SGLI",
+    "meaning": "Servicemembers' Group Life Insurance",
+    "description": "Low-cost group life insurance for Soldiers, administered by the VA.",
+    "reference": {
+      "name": "VA SGLI",
+      "url": "https://www.va.gov/life-insurance/options-eligibility/sgli/"
+    },
+    "category": ["Admin", "Finance", "Benefits"]
+  },
+  {
+    "acronym": "RFMSS",
+    "meaning": "Range Facility Management Support System",
+    "description": "System used to schedule and manage training ranges and facilities.",
+    "reference": {
+      "name": "Army Training Support Center"
+    },
+    "category": ["Training", "Admin", "Systems"]
+  },
+  {
+    "acronym": "ATRRS",
+    "meaning": "Army Training Requirements and Resources System",
+    "description": "Online system for managing Army training seats and schools.",
+    "reference": {
+      "name": "Army Training Support Center"
+    },
+    "category": ["Training", "Systems"]
+  },
+  {
+    "acronym": "DTMS",
+    "meaning": "Digital Training Management System",
+    "description": "System used by units to track training, readiness, and qualifications.",
+    "reference": {
+      "name": "Army Training Support Center"
+    },
+    "category": ["Training", "Systems"]
+  },
+  {
+    "acronym": "DTS",
+    "meaning": "Defense Travel System",
+    "description": "System used for arranging and reimbursing official travel.",
+    "reference": {
+      "name": "DoD Travel Management"
+    },
+    "category": ["Admin", "Finance", "Systems"]
+  },
+  {
+    "acronym": "GCSS-Army",
+    "meaning": "Global Combat Support System - Army",
+    "description": "Logistics and supply chain management system for the Army.",
+    "reference": {
+      "name": "Army Logistics"
+    },
+    "category": ["Logistics", "Systems"]
+  },
+  {
+    "acronym": "IPPS-A",
+    "meaning": "Integrated Personnel and Pay System - Army",
+    "description": "System for managing personnel and pay functions.",
+    "reference": {
+      "name": "Army HR Systems"
+    },
+    "category": ["Admin", "Finance", "Systems"]
+  },
+  {
+    "acronym": "Green Zone",
+    "meaning": "Secure Area",
+    "description": "Term for an area with relative security and restricted access inside a combat or forward operating environment.",
+    "reference": {
+      "name": "Operational Usage / Common Practice",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Deployment", "Operations", "Terminology"]
+  },
+  {
+    "acronym": "Red Zone",
+    "meaning": "High-Risk Area",
+    "description": "Term for an area with elevated threat levels where force protection measures are required.",
+    "reference": {
+      "name": "Operational Usage / Common Practice",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Deployment", "Operations", "Terminology"]
+  },
+  {
+    "acronym": "TIC",
+    "meaning": "Troops in Contact",
+    "description": "Report term used when friendly forces are engaged with hostile forces and require immediate support.",
+    "reference": {
+      "name": "Tactics and Reporting Formats",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Reports", "Operations"]
+  },
+  {
+    "acronym": "DD214",
+    "meaning": "Certificate of Release or Discharge from Active Duty",
+    "description": "Official form documenting a service member's service history and separation status.",
+    "reference": {
+      "name": "VA / National Archives",
+      "url": "https://www.va.gov/records/get-military-service-records/"
+    },
+    "category": ["Admin", "Records", "Benefits"]
+  },
+  {
+    "acronym": "AR 670-1",
+    "meaning": "Wear and Appearance of Army Uniforms and Insignia",
+    "description": "Army regulation that prescribes the uniform standards and grooming rules for Soldiers.",
+    "reference": {
+      "name": "Army Regulations",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Regulation", "Admin", "Uniforms"]
+  },
+  {
+    "acronym": "Bird",
+    "meaning": "Helicopter",
+    "description": "Slang for rotary-wing aircraft commonly used for transport, medevac, or close air support.",
+    "reference": {
+      "name": "Aviation Slang / Common Usage",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Aviation", "Slang", "Vehicles"]
+  },
+  {
+    "acronym": "Soup Sandwich",
+    "meaning": "Total Mess",
+    "description": "Slang meaning a situation or plan that is completely disorganized or has failed badly.",
+    "reference": {
+      "name": "Military Slang",
+      "url": "https://en.wikipedia.org/wiki/Military_slang"
+    },
+    "category": ["Slang", "Culture"]
+  },
+  {
+    "acronym": "Shammer",
+    "meaning": "Work Avoider",
+    "description": "Slang for a Soldier who avoids work or feigns injury/illness to dodge duties.",
+    "reference": {
+      "name": "Barracks Slang / Common Usage"
+    },
+    "category": ["Slang", "Barracks Life"]
+  },
+  {
+    "acronym": "IED",
+    "meaning": "Improvised Explosive Device",
+    "description": "A homemade bomb or explosive used by irregular forces against personnel or vehicles.",
+    "reference": {
+      "name": "DoD / Counter-IED Doctrine",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Threats", "Ordnance", "Safety"]
+  },
+  {
+    "acronym": "VBIED",
+    "meaning": "Vehicle-Borne IED",
+    "description": "An IED placed or concealed within a vehicle and used as a weapon against personnel or infrastructure.",
+    "reference": {
+      "name": "DoD / Counter-IED Doctrine",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Threats", "Ordnance", "Safety"]
+  },
+  {
+    "acronym": "Fobbit",
+    "meaning": "FOB-Dependent Soldier",
+    "description": "Derogatory slang for a Soldier who rarely leaves the Forward Operating Base (FOB) and avoids outside missions.",
+    "reference": {
+      "name": "Deployment Slang / Common Usage"
+    },
+    "category": ["Slang", "Deployment", "Culture"]
+  },
+  {
+    "acronym": "Detail",
+    "meaning": "Assigned Duty",
+    "description": "A temporary task or duty assignment (example: police call, fireguard, chow detail) usually assigned to small groups.",
+    "reference": {
+      "name": "Unit SOP / Common Usage"
+    },
+    "category": ["Daily Life", "Admin", "Duty"]
+  },
+  {
+    "acronym": "Police Call",
+    "meaning": "Cleaning Detail",
+    "description": "Unit-wide time set aside for cleaning areas, picking up trash, and general maintenance; often performed on weekends or before inspections.",
+    "reference": {
+      "name": "Unit SOP / Common Usage"
+    },
+    "category": ["Daily Life", "Barracks Life"]
+  },
+  {
+    "acronym": "DA",
+    "meaning": "Department of the Army",
+    "description": "Abbreviation for the Department of the Army; used as a prefix in regulations, forms, and official references (DA).",
+    "reference": {
+      "name": "Department of the Army",
+      "url": "https://www.army.mil"
+    },
+    "category": ["Admin", "Organization"]
+  },
+  {
+    "acronym": "DA Form",
+    "meaning": "Department of the Army Form",
+    "description": "Standardized Army forms (DA Form) used for personnel, administrative, and training actions (examples: DA Form 31, DA Form 4856).",
+    "reference": {
+      "name": "DA Forms",
+      "url": "https://armypubs.army.mil"
+    },
+    "category": ["Admin", "Paperwork", "Forms"]
+  },
+  {
+    "acronym": "Gut Truck",
+    "meaning": "Mobile Chow Vendor",
+    "description": "Informal term for a commercial or unit field food vendor that pulls up to the base or range to sell meals and snacks.",
+    "reference": {
+      "name": "Field Slang / Common Usage"
+    },
+    "category": ["Slang", "Food", "Deployment"]
+  },
+  {
+    "acronym": "Ranger Candy",
+    "meaning": "Pain Reliever",
+    "description": "Slang for over-the-counter pain relievers (commonly Motrin/ibuprofen) carried by Soldiers to treat aches and minor injuries.",
+    "reference": {
+      "name": "Field Slang / Common Usage"
+    },
+    "category": ["Slang", "Medical", "Field"]
+  },
+  {
+    "acronym": "Rack",
+    "meaning": "Bunk/Bed",
+    "description": "Slang for a Soldier's bed or sleeping area in the barracks or field environment.",
+    "reference": {
+      "name": "Barracks Slang / Common Usage"
+    },
+    "category": ["Slang", "Barracks Life"]
+  },
+  {
+    "acronym": "Hooch",
+    "meaning": "Living Quarters",
+    "description": "Field slang for a shelter, tent, or small living space used by Soldiers while deployed or in training.",
+    "reference": {
+      "name": "Field Slang / Common Usage"
+    },
+    "category": ["Slang", "Deployment", "Barracks Life"]
+  },
+  {
+    "acronym": "Chest Candy",
+    "meaning": "Awards and Ribbons",
+    "description": "Slang for the collection of ribbons, badges, and medals worn on the uniform chest; often used to describe a Soldier with many awards.",
+    "reference": {
+      "name": "Uniform Customs / Common Usage"
+    },
+    "category": ["Slang", "Uniforms", "Culture"]
+  },
+  {
+    "acronym": "Green Weenie",
+    "meaning": "Unfair Treatment",
+    "description": "Slang for being subjected to arbitrary or petty punishment, policy, or bad luck imposed by the organization or leadership.",
+    "reference": {
+      "name": "Barracks Slang / Common Usage"
+    },
+    "category": ["Slang", "Culture", "Barracks Life"]
+  },
+  {
+    "acronym": "Ground Guide",
+    "meaning": "Vehicle Guidance",
+    "description": "Soldier who directs vehicle movement (especially during loading/unloading or reversing) to prevent accidents and guide drivers safely.",
+    "reference": {
+      "name": "Motor Transport Procedures / Common Usage"
+    },
+    "category": ["Operations", "Motor Pool", "Safety"]
+  },
+  {
+    "acronym": "ASI",
+    "meaning": "Additional Skill Identifier",
+    "description": "A code that identifies specialized training, skills, or qualifications held by a soldier in addition to their MOS.",
+    "reference": {
+      "name": "DA PAM 611-21"
+    },
+    "category": ["Admin", "Career"]
+  },
+  {
+    "acronym": "RA-1 Parachute",
+    "meaning": "Military Free-Fall Parachute",
+    "description": "Military free-fall parachute system designed for special operations, providing greater maneuverability and load capacity.",
+    "reference": {
+      "name": "Special Operations Equipment"
+    },
+    "category": ["Equipment", "Airborne", "Special Operations"]
+  },
+  {
+    "acronym": "T-11 Parachute",
+    "meaning": "Standard Static-Line Parachute",
+    "description": "The standard non-maneuverable static-line parachute used by U.S. Army airborne forces, designed to replace the T-10.",
+    "reference": {
+      "name": "Airborne Equipment"
+    },
+    "category": ["Equipment", "Airborne"]
+  },
+  {
+    "acronym": "JPME",
+    "meaning": "Joint Professional Military Education",
+    "description": "Formal military schooling required for officers to serve in joint duty assignments.",
+    "reference": {
+      "name": "Joint Education Policy"
+    },
+    "category": ["Training", "Education", "Joint Operations"]
+  },
+  {
+    "acronym": "JPMI",
+    "meaning": "Joint Pre-Jump Instruction",
+    "description": "Mandatory briefing conducted before airborne operations covering parachute procedures, malfunctions, and safety protocols.",
+    "reference": {
+      "name": "Airborne SOP"
+    },
+    "category": ["Training", "Airborne", "Safety"]
+  },
+  {
+    "acronym": "Vampire",
+    "meaning": "Blood Drawing Medical Personnel",
+    "description": "Slang for a medical professional, usually at sick call or MEPS, who draws blood for testing.",
+    "reference": {
+      "name": "Military Slang"
+    },
+    "category": ["Slang", "Medical"]
+  },
+  {
+    "acronym": "T10",
+    "meaning": "Title 10, U.S. Code",
+    "description": "Federal status. DoD authority under federal control for active duty missions.",
+    "reference": {
+      "name": "Title 10 U.S.C."
+    },
+    "category": ["Authorities", "Law"]
+  },
+  {
+    "acronym": "T32",
+    "meaning": "Title 32, U.S. Code",
+    "description": "National Guard under state control with federal pay for training or ops.",
+    "reference": {
+      "name": "Title 32 U.S.C."
+    },
+    "category": ["Authorities", "National Guard"]
+  },
+  {
+    "acronym": "SAD",
+    "meaning": "State Active Duty",
+    "description": "Governor-ordered duty under state law. State funded.",
+    "reference": {
+      "name": "State statutes"
+    },
+    "category": ["Authorities", "National Guard"]
+  },
+  {
+    "acronym": "CUI",
+    "meaning": "Controlled Unclassified Information",
+    "description": "Sensitive but unclassified information requiring safeguarding.",
+    "reference": {
+      "name": "32 CFR Part 2002"
+    },
+    "category": ["Security", "Information Protection"]
+  },
+  {
+    "acronym": "J1",
+    "meaning": "Manpower and Personnel",
+    "description": "Personnel, admin, and manpower policy.",
+    "reference": {
+      "name": "JP 3-33"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "J2",
+    "meaning": "Intelligence",
+    "description": "All-source intelligence support to the commander.",
+    "reference": {
+      "name": "JP 2-0"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "J3",
+    "meaning": "Operations",
+    "description": "Current operations, execution, and battle rhythm.",
+    "reference": {
+      "name": "JP 3-0"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "J4",
+    "meaning": "Logistics",
+    "description": "Sustainment, distribution, maintenance, and health services.",
+    "reference": {
+      "name": "JP 4-0"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "J5",
+    "meaning": "Plans",
+    "description": "Operational plans and strategy development.",
+    "reference": {
+      "name": "JP 5-0"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "J6",
+    "meaning": "C4/Cyber",
+    "description": "Communications, networks, and cyber integration.",
+    "reference": {
+      "name": "JP 6-0"
+    },
+    "category": ["Joint Staff"]
+  },
+  {
+    "acronym": "NDAA",
+    "meaning": "National Defense Authorization Act",
+    "description": "Annual law authorizing DoD programs and policies.",
+    "reference": {
+      "name": "Public Law; NDAA"
+    },
+    "category": ["Law", "Policy"]
+  },
+  {
+    "acronym": "LOE",
+    "meaning": "Line of Effort",
+    "description": "Logical line linking tasks to an objective.",
+    "reference": {
+      "name": "JP 5-0"
+    },
+    "category": ["Planning", "Doctrine"]
+  },
+  {
+    "acronym": "UH-72",
+    "meaning": "Lakota helicopter",
+    "description": "Light utility helicopter used for support and training.",
+    "reference": {
+      "name": "PM Utility Helicopters"
+    },
+    "category": ["Aviation", "Equipment"]
+  },
+  {
+    "acronym": "IVO",
+    "meaning": "In Vicinity Of",
+    "description": "Location description indicating nearby proximity.",
+    "reference": {
+      "name": "Operational usage"
+    },
+    "category": ["Operations"]
+  },
+  {
+    "acronym": "IOT",
+    "meaning": "In Order To",
+    "description": "Purpose statement linking tasks to effects.",
+    "reference": {
+      "name": "OPORD format"
+    },
+    "category": ["Planning"]
+  },
+  {
+    "acronym": "EUCOM",
+    "meaning": "U.S. European Command",
+    "description": "Combatant command for Europe and parts of Eurasia.",
+    "reference": {
+      "name": "DoD Unified Command Plan"
+    },
+    "category": ["CCMD"]
+  },
+  {
+    "acronym": "AFRICOM",
+    "meaning": "U.S. Africa Command",
+    "description": "Combatant command for Africa (except Egypt).",
+    "reference": {
+      "name": "DoD Unified Command Plan"
+    },
+    "category": ["CCMD"]
+  },
+  {
+    "acronym": "NORTHCOM",
+    "meaning": "U.S. Northern Command",
+    "description": "Combatant command for homeland defense and support.",
+    "reference": {
+      "name": "DoD Unified Command Plan"
+    },
+    "category": ["CCMD"]
+  },
+  {
+    "acronym": "SOUTHCOM",
+    "meaning": "U.S. Southern Command",
+    "description": "Combatant command for Latin America and the Caribbean.",
+    "reference": {
+      "name": "DoD Unified Command Plan"
+    },
+    "category": ["CCMD"]
+  },
+  {
+    "acronym": "POC",
+    "meaning": "Point of Contact",
+    "description": "Designated person for coordination or information.",
+    "reference": {
+      "name": "Operational usage"
+    },
+    "category": ["Administration"]
+  },
+  {
+    "acronym": "HQ",
+    "meaning": "Headquarters",
+    "description": "Command element of a unit or organization.",
+    "reference": {
+      "name": "Operational usage"
+    },
+    "category": ["Command"]
+  },
+  {
+    "acronym": "LPOP",
+    "meaning": "Listening Post/Observation Post",
+    "description": "Small concealed site for listening and observing.",
+    "reference": {
+      "name": "FM 3-21.8"
+    },
+    "category": ["Infantry", "Tactics"]
+  },
+  {
+    "acronym": "SOP",
+    "meaning": "Standard Operating Procedure",
+    "description": "Published unit procedure for routine tasks.",
+    "reference": {
+      "name": "Unit policy"
+    },
+    "category": ["Administration", "Doctrine"]
+  },
+  {
+    "acronym": "OPTEMPO",
+    "meaning": "Operational Tempo",
+    "description": "Rate of operations or activities over time.",
+    "reference": {
+      "name": "Operational usage"
+    },
+    "category": ["Operations"]
+  },
+  {
+    "acronym": "Leave",
+    "meaning": "Authorized Absence",
+    "description": "Chargeable time off from duty.",
+    "reference": {
+      "name": "AR 600-8-10"
+    },
+    "category": ["Personnel"]
+  },
+  {
+    "acronym": "Old Ironsides",
+    "meaning": "1st Armored Division",
+    "description": "Nickname for the 1st Armored Division, honoring the Navy's USS Constitution.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Culture"]
+  },
+  {
+    "acronym": "Ivy Division",
+    "meaning": "4th Infantry Division",
+    "description": "Nickname for the 4th Infantry Division, from the Roman numeral IV and its ivy patch.",
+    "reference": {
+      "name": "Unit History"
+    },
+    "category": ["Unit Nickname", "Culture"]
+  },
+  {
+    "acronym": "Tropic Lightning",
+    "meaning": "25th Infantry Division",
+    "description": "Nickname for the 25th Infantry Division, referencing its Pacific service.",
+    "reference": {
+      "name": "Unit History"}
   }
-  ]
+]
+  
