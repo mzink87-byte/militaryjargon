@@ -16,13 +16,54 @@ function runSearch(query) {
 
   if (!q) return;
 
-  const results = acronyms.filter(item => {
-    const inAcronym = item.acronym.toLowerCase().includes(q);
-    const inMeaning = item.meaning.toLowerCase().includes(q);
-    const inDesc = item.description.toLowerCase().includes(q);
-    return inAcronym || (searchInMeanings && (inMeaning || inDesc));
-  });
+  const results = acronyms.map(item => {
+    let score = 0;
+    let badges = [];
 
+    const acronym = item.acronym.toLowerCase();
+    const meaning = item.meaning.toLowerCase();
+    const desc = item.description.toLowerCase();
+
+    // Exact acronym match
+    if (acronym === q) {
+      score += 100;
+      badges.push("⭐ Exact Match");
+    }
+
+    // Exact word match in meaning/description
+    if (searchInMeanings) {
+      if (meaning.split(/\W+/).includes(q)) {
+        score += 80;
+        badges.push("🟢 Word Match (Meaning)");
+      }
+      if (desc.split(/\W+/).includes(q)) {
+        score += 80;
+        badges.push("🟢 Word Match (Description)");
+      }
+    }
+
+    // Substring match
+    if (acronym.includes(q) && acronym !== q) {
+      score += 40;
+      badges.push("🔍 Partial Match (Acronym)");
+    }
+    if (searchInMeanings) {
+      if (meaning.includes(q) && !meaning.split(/\W+/).includes(q)) {
+        score += 40;
+        badges.push("🔍 Partial Match (Meaning)");
+      }
+      if (desc.includes(q) && !desc.split(/\W+/).includes(q)) {
+        score += 40;
+        badges.push("🔍 Partial Match (Description)");
+      }
+    }
+
+    return { ...item, score, badges };
+  })
+  .filter(r => r.score > 0) // remove non-matches
+  .sort((a, b) => b.score - a.score); // highest score first
+
+  // ✅ Display results
   if (results.length === 0) {
     resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
     return;
@@ -78,6 +119,14 @@ function createCard(item) {
     }
 
     card.appendChild(refDiv);
+  }
+
+  // ✅ Match strength badges
+  if (item.badges && item.badges.length > 0) {
+    const badgeDiv = document.createElement("div");
+    badgeDiv.className = "badges";
+    badgeDiv.textContent = "Matches: " + item.badges.join(" · ");
+    card.appendChild(badgeDiv);
   }
 
   return card;
