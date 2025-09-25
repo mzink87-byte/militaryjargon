@@ -1,3 +1,7 @@
+// Debug log to confirm script is loading
+console.log("🚀 script.js loaded");
+
+// ✅ Global storage for acronyms
 let acronyms = [];
 
 // ✅ Load JSON file
@@ -287,5 +291,3 @@ document.addEventListener('DOMContentLoaded', function() {
   createComingSoonBanner(); // Now called AFTER submit form
   createKofiButton();
 });
-
-createStars();
