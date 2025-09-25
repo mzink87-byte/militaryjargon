@@ -116,7 +116,7 @@ function createKofiButton() {
   document.body.appendChild(kofiSection);
 }
 
-// ✅ Run search logic (unchanged)
+// ✅ Run search logic
 function runSearch(query) {
   const q = query.toLowerCase().trim();
   const searchInMeanings = document.getElementById('searchInMeanings') ? 
@@ -188,7 +188,7 @@ function runSearch(query) {
   results.forEach(item => resultsContainer.appendChild(createCard(item)));
 }
 
-// ✅ Build card (unchanged)
+// ✅ Build card
 function createCard(item) {
   const card = document.createElement("div");
   card.className = "card";
@@ -247,7 +247,7 @@ function createCard(item) {
   return card;
 }
 
-// ✅ Input listener (unchanged)
+// ✅ Input listener
 const searchInput = document.getElementById("searchInput");
 if (searchInput) {
   searchInput.addEventListener("input", e => {
@@ -257,7 +257,7 @@ if (searchInput) {
   console.error('Search input not found - make sure you have <input id="searchInput"> in your HTML');
 }
 
-// ✅ Generate random stars in header (unchanged)
+// ✅ Generate random stars in header
 function createStars() {
   const starsContainer = document.getElementById("stars");
   if (!starsContainer) {
