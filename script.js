@@ -1,7 +1,6 @@
-// Debug log to confirm script is loading
 console.log("🚀 script.js loaded");
 
-// ✅ Global storage for acronyms
+// ✅ Global acronyms
 let acronyms = [];
 
 // ✅ Load JSON file
@@ -20,11 +19,13 @@ function createComingSoonBanner() {
       <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
     </div>
   `;
-  
-  // Insert after submit section
-  const submitSection = document.querySelector('.submit-section');
-  if (submitSection) {
-    submitSection.parentNode.insertBefore(banner, submitSection.nextSibling);
+
+  // Insert after header but before search bar
+  const header = document.querySelector('header');
+  const searchContainer = document.querySelector('.search-container');
+  if (header && searchContainer) {
+    header.parentNode.insertBefore(banner, searchContainer);
+    console.log("⏳ Coming Soon banner added");
   }
 }
 
@@ -57,12 +58,12 @@ function createSubmitForm() {
       </div>
     </div>
   `;
-  
-  // Insert after search container but before results section
-  const searchContainer = document.querySelector('.search-container');
+
+  // Insert before results section
   const resultsSection = document.getElementById('results');
-  if (searchContainer && resultsSection) {
-    searchContainer.parentNode.insertBefore(submitSection, resultsSection);
+  if (resultsSection) {
+    resultsSection.parentNode.insertBefore(submitSection, resultsSection);
+    console.log("📝 Submit form added");
   }
 }
 
@@ -72,13 +73,12 @@ function submitAcronym() {
   const meaning = document.getElementById('submitMeaning').value.trim();
   const description = document.getElementById('submitDescription').value.trim();
   const service = document.getElementById('submitService').value;
-  
+
   if (!acronym || !meaning || !description || !service) {
     alert('Please fill in all fields');
     return;
   }
-  
-  // Create mailto link with submission data
+
   const subject = encodeURIComponent(`New Acronym Submission: ${acronym}`);
   const body = encodeURIComponent(`
 New Acronym Submission:
@@ -91,11 +91,10 @@ Submitted from: ${window.location.href}
 
 Please verify this information before adding to the database.
   `);
-  
-  // 🔧 CHANGE THIS EMAIL TO YOUR ACTUAL EMAIL ADDRESS
-  const mailtoLink = `mailto:your-email@yourdomain.com?subject=${subject}&body=${body}`;
+
+  const mailtoLink = `mailto:your-email@domain.com?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
-  
+
   // Clear form
   document.getElementById('submitAcronym').value = '';
   document.getElementById('submitMeaning').value = '';
@@ -115,25 +114,18 @@ function createKofiButton() {
       </a>
     </div>
   `;
-  
-  // Add to footer area or after results
+
   document.body.appendChild(kofiSection);
+  console.log("☕ Ko-fi section added");
 }
 
-// ✅ Run search logic
+// ✅ Run search logic (unchanged)
 function runSearch(query) {
   const q = query.toLowerCase().trim();
-  const searchInMeanings = document.getElementById('searchInMeanings') ? 
-    document.getElementById('searchInMeanings').checked : false;
-
+  const searchInMeanings = document.getElementById('searchInMeanings').checked;
   const resultsContainer = document.getElementById('results');
-  if (!resultsContainer) {
-    console.error('Results container not found - make sure you have <div id="results"></div> in your HTML');
-    return;
-  }
-  
-  resultsContainer.innerHTML = '';
 
+  resultsContainer.innerHTML = '';
   if (!q) return;
 
   const results = acronyms.map(item => {
@@ -144,13 +136,10 @@ function runSearch(query) {
     const meaning = item.meaning.toLowerCase();
     const desc = item.description.toLowerCase();
 
-    // Exact acronym match
     if (acronym === q) {
       score += 100;
       badges.push("⭐ Exact Match");
     }
-
-    // Exact word match in meaning/description
     if (searchInMeanings) {
       if (meaning.split(/\W+/).includes(q)) {
         score += 80;
@@ -161,8 +150,6 @@ function runSearch(query) {
         badges.push("🟢 Word Match (Description)");
       }
     }
-
-    // Substring match
     if (acronym.includes(q) && acronym !== q) {
       score += 40;
       badges.push("🔍 Partial Match (Acronym)");
@@ -183,7 +170,6 @@ function runSearch(query) {
   .filter(r => r.score > 0)
   .sort((a, b) => b.score - a.score);
 
-  // ✅ Display results
   if (results.length === 0) {
     resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
     return;
@@ -197,24 +183,20 @@ function createCard(item) {
   const card = document.createElement("div");
   card.className = "card";
 
-  // Acronym
   const title = document.createElement("h2");
   title.textContent = item.acronym;
   card.appendChild(title);
 
-  // Meaning
   const meaning = document.createElement("div");
   meaning.className = "meaning";
   meaning.textContent = item.meaning;
   card.appendChild(meaning);
 
-  // Description
   const desc = document.createElement("div");
   desc.className = "description";
   desc.textContent = item.description;
   card.appendChild(desc);
 
-  // Reference
   if (item.reference) {
     const refDiv = document.createElement("div");
     refDiv.className = "example";
@@ -231,8 +213,6 @@ function createCard(item) {
       }).join(" · ");
     } else if (typeof item.reference === "object" && item.reference.url) {
       refDiv.innerHTML = `Reference: <a href="${item.reference.url}" target="_blank">${item.reference.name}</a>`;
-    } else if (typeof item.reference === "object" && item.reference.name) {
-      refDiv.textContent = `Reference: ${item.reference.name}`;
     } else {
       refDiv.textContent = `Reference: ${item.reference}`;
     }
@@ -240,7 +220,6 @@ function createCard(item) {
     card.appendChild(refDiv);
   }
 
-  // ✅ Match strength badges
   if (item.badges && item.badges.length > 0) {
     const badgeDiv = document.createElement("div");
     badgeDiv.className = "badges";
@@ -252,42 +231,29 @@ function createCard(item) {
 }
 
 // ✅ Input listener
-const searchInput = document.getElementById("searchInput");
-if (searchInput) {
-  searchInput.addEventListener("input", e => {
-    runSearch(e.target.value);
-  });
-} else {
-  console.error('Search input not found - make sure you have <input id="searchInput"> in your HTML');
-}
+document.getElementById("searchInput").addEventListener("input", e => {
+  runSearch(e.target.value);
+});
 
-// ✅ Generate random stars in header
+// ✅ Stars
 function createStars() {
   const starsContainer = document.getElementById("stars");
-  if (!starsContainer) {
-    console.error('Stars container not found - make sure you have <div id="stars"></div> in your header');
-    return;
-  }
-  
   const numStars = 40;
-
   for (let i = 0; i < numStars; i++) {
     const star = document.createElement("div");
     star.className = "star";
     star.textContent = "★";
-
     star.style.top = Math.random() * 100 + "%";
     star.style.left = Math.random() * 100 + "%";
     star.style.animationDuration = (1.5 + Math.random() * 2) + "s";
-
     starsContainer.appendChild(star);
   }
 }
 
-// ✅ Initialize everything when page loads
+// ✅ Init
 document.addEventListener('DOMContentLoaded', function() {
   createStars();
+  createComingSoonBanner();
   createSubmitForm();
-  createComingSoonBanner(); // Now called AFTER submit form
   createKofiButton();
 });
