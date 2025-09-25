@@ -17,10 +17,11 @@ function createComingSoonBanner() {
     </div>
   `;
   
-  // Insert after header but before search container
-  const header = document.querySelector('header');
-  const searchContainer = document.querySelector('.search-container');
-  header.parentNode.insertBefore(banner, searchContainer);
+  // Insert after submit section
+  const submitSection = document.querySelector('.submit-section');
+  if (submitSection) {
+    submitSection.parentNode.insertBefore(banner, submitSection.nextSibling);
+  }
 }
 
 // ✅ Create submit acronym section
@@ -53,9 +54,12 @@ function createSubmitForm() {
     </div>
   `;
   
-  // Insert before results section
+  // Insert after search container but before results section
+  const searchContainer = document.querySelector('.search-container');
   const resultsSection = document.getElementById('results');
-  resultsSection.parentNode.insertBefore(submitSection, resultsSection);
+  if (searchContainer && resultsSection) {
+    searchContainer.parentNode.insertBefore(submitSection, resultsSection);
+  }
 }
 
 // ✅ Handle acronym submission
@@ -84,7 +88,8 @@ Submitted from: ${window.location.href}
 Please verify this information before adding to the database.
   `);
   
-  const mailtoLink = `mailto:your-email@domain.com?subject=${subject}&body=${body}`;
+  // 🔧 CHANGE THIS EMAIL TO YOUR ACTUAL EMAIL ADDRESS
+  const mailtoLink = `mailto:your-email@yourdomain.com?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
   
   // Clear form
@@ -114,9 +119,15 @@ function createKofiButton() {
 // ✅ Run search logic (unchanged)
 function runSearch(query) {
   const q = query.toLowerCase().trim();
-  const searchInMeanings = document.getElementById('searchInMeanings').checked;
+  const searchInMeanings = document.getElementById('searchInMeanings') ? 
+    document.getElementById('searchInMeanings').checked : false;
 
   const resultsContainer = document.getElementById('results');
+  if (!resultsContainer) {
+    console.error('Results container not found - make sure you have <div id="results"></div> in your HTML');
+    return;
+  }
+  
   resultsContainer.innerHTML = '';
 
   if (!q) return;
@@ -237,13 +248,23 @@ function createCard(item) {
 }
 
 // ✅ Input listener (unchanged)
-document.getElementById("searchInput").addEventListener("input", e => {
-  runSearch(e.target.value);
-});
+const searchInput = document.getElementById("searchInput");
+if (searchInput) {
+  searchInput.addEventListener("input", e => {
+    runSearch(e.target.value);
+  });
+} else {
+  console.error('Search input not found - make sure you have <input id="searchInput"> in your HTML');
+}
 
 // ✅ Generate random stars in header (unchanged)
 function createStars() {
   const starsContainer = document.getElementById("stars");
+  if (!starsContainer) {
+    console.error('Stars container not found - make sure you have <div id="stars"></div> in your header');
+    return;
+  }
+  
   const numStars = 40;
 
   for (let i = 0; i < numStars; i++) {
@@ -262,8 +283,8 @@ function createStars() {
 // ✅ Initialize everything when page loads
 document.addEventListener('DOMContentLoaded', function() {
   createStars();
-  createComingSoonBanner();
   createSubmitForm();
+  createComingSoonBanner(); // Now called AFTER submit form
   createKofiButton();
 });
 
