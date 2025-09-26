@@ -15,10 +15,13 @@ if (document.getElementById("results")) {
     });
 }
 
-// ✅ Support section (Ko-fi + Standby)
+// ✅ Support section (Ko-fi only, mid-page)
 function createSupportSection() {
   const support = document.getElementById("support-area");
-  if (!support) return;
+  if (!support) {
+    console.error("❌ No #support-area found in DOM");
+    return;
+  }
 
   support.innerHTML = `
     <div class="kofi-container">
@@ -27,14 +30,29 @@ function createSupportSection() {
         Buy me a coffee
       </a>
     </div>
-    <div class="coming-soon-banner">
-      <div class="banner-content">
-        <span class="standby-text">⏳ Standby to Standby - More Military Branches Coming Soon</span>
-        <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
-      </div>
+  `;
+  console.log("☕ Ko-fi added");
+}
+
+// ✅ Standby banner at bottom/footer
+function createStandbyBanner() {
+  const footer = document.querySelector("footer");
+  if (!footer) {
+    console.error("❌ No <footer> found in DOM");
+    return;
+  }
+
+  const banner = document.createElement("div");
+  banner.className = "coming-soon-banner";
+  banner.innerHTML = `
+    <div class="banner-content">
+      ⏳ Standby to Standby - More Military Branches Coming Soon
+      <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
     </div>
   `;
-  console.log("☕ Ko-fi + ⏳ banner added");
+
+  footer.appendChild(banner);
+  console.log("⏳ Standby banner added at footer");
 }
 
 // ✅ Handle acronym submission (on submit.html)
@@ -206,6 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.getElementById("results")) {
     createStars();
     createSupportSection();
+    createStandbyBanner(); // now appended at footer
 
     const input = document.getElementById("searchInput");
     if (input) {
