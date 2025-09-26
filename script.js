@@ -3,71 +3,41 @@ console.log("🚀 script.js loaded");
 // ✅ Global acronyms
 let acronyms = [];
 
-// ✅ Load JSON file
-fetch('acronyms.json')
-  .then(res => res.json())
-  .then(data => acronyms = data)
-  .catch(err => console.error("Error loading JSON:", err));
-
-// ✅ Create banner for coming soon content
-function createComingSoonBanner() {
-  const banner = document.createElement("div");
-  banner.className = "coming-soon-banner";
-  banner.innerHTML = `
-    <div class="banner-content">
-      <span class="standby-text">⏳ Standby to Standby - More Military Branches Coming Soon</span>
-      <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
-    </div>
-  `;
-
-  // Insert after header but before search bar
-  const header = document.querySelector('header');
-  const searchContainer = document.querySelector('.search-container');
-  if (header && searchContainer) {
-    header.parentNode.insertBefore(banner, searchContainer);
-    console.log("⏳ Coming Soon banner added");
-  }
+// ✅ Load JSON file (only if results div exists)
+if (document.getElementById("results")) {
+  fetch("acronyms.json")
+    .then(res => res.json())
+    .then(data => acronyms = data)
+    .catch(err => {
+      console.error("Error loading JSON:", err);
+      document.getElementById("results").innerHTML =
+        `<p style="color:red;">⚠️ Failed to load acronyms database.</p>`;
+    });
 }
 
-// ✅ Create submit acronym section
-function createSubmitForm() {
-  const submitSection = document.createElement("div");
-  submitSection.className = "submit-section";
-  submitSection.innerHTML = `
-    <div class="submit-container">
-      <h3>📝 Submit an Acronym</h3>
-      <p>Know a military acronym we're missing? Help us build the database!</p>
-      <div class="submit-form">
-        <input type="text" id="submitAcronym" placeholder="Acronym (e.g., FUBAR)" maxlength="20">
-        <input type="text" id="submitMeaning" placeholder="Meaning" maxlength="100">
-        <textarea id="submitDescription" placeholder="Description/Context" maxlength="300"></textarea>
-        <select id="submitService">
-          <option value="">Select Service Branch</option>
-          <option value="Army">Army</option>
-          <option value="Navy">Navy</option>
-          <option value="Air Force">Air Force</option>
-          <option value="Marines">Marines</option>
-          <option value="Coast Guard">Coast Guard</option>
-          <option value="Space Force">Space Force</option>
-          <option value="Joint">Joint/All Services</option>
-        </select>
-        <div class="opsec-warning">
-          ⚠️ <strong>OPSEC Reminder:</strong> Do not submit classified, sensitive, or operational security information
-        </div>
-        <button type="button" onclick="submitAcronym()">Submit Acronym</button>
+// ✅ Support section (Ko-fi + Standby)
+function createSupportSection() {
+  const support = document.getElementById("support-area");
+  if (!support) return;
+
+  support.innerHTML = `
+    <div class="kofi-container">
+      <p>☕ This database helps military folks translate the alphabet soup of acronyms</p>
+      <a href="https://ko-fi.com/YOURUSERNAME" target="_blank" class="kofi-button">
+        Buy me a coffee
+      </a>
+    </div>
+    <div class="coming-soon-banner">
+      <div class="banner-content">
+        <span class="standby-text">⏳ Standby to Standby - More Military Branches Coming Soon</span>
+        <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
       </div>
     </div>
   `;
-
-  // Insert before results section
-  const resultsSection = document.getElementById('results');
-  if (resultsSection) {
-    resultsSection.parentNode.insertBefore(submitSection, resultsSection);
-    console.log("📝 Submit form added");
-  }
+  console.log("☕ Ko-fi + ⏳ banner added");
 }
 
-// ✅ Handle acronym submission
+// ✅ Handle acronym submission (on submit.html)
 function submitAcronym() {
   const acronym = document.getElementById('submitAcronym').value.trim();
   const meaning = document.getElementById('submitMeaning').value.trim();
@@ -92,7 +62,7 @@ Submitted from: ${window.location.href}
 Please verify this information before adding to the database.
   `);
 
-  const mailtoLink = `mailto:your-email@domain.com?subject=${subject}&body=${body}`;
+  const mailtoLink = `mailto:jargonhubs@gmail.com?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
 
   // Clear form
@@ -102,24 +72,7 @@ Please verify this information before adding to the database.
   document.getElementById('submitService').value = '';
 }
 
-// ✅ Create Ko-fi button
-function createKofiButton() {
-  const kofiSection = document.createElement("div");
-  kofiSection.className = "support-section";
-  kofiSection.innerHTML = `
-    <div class="kofi-container">
-      <p>☕ This database helps military folks translate the alphabet soup of acronyms</p>
-      <a href="https://ko-fi.com/yourusername" target="_blank" class="kofi-button">
-        Buy me a coffee
-      </a>
-    </div>
-  `;
-
-  document.body.appendChild(kofiSection);
-  console.log("☕ Ko-fi section added");
-}
-
-// ✅ Run search logic (unchanged)
+// ✅ Run search logic (on index.html)
 function runSearch(query) {
   const q = query.toLowerCase().trim();
   const searchInMeanings = document.getElementById('searchInMeanings').checked;
@@ -230,14 +183,11 @@ function createCard(item) {
   return card;
 }
 
-// ✅ Input listener
-document.getElementById("searchInput").addEventListener("input", e => {
-  runSearch(e.target.value);
-});
-
-// ✅ Stars
+// ✅ Stars (background effect)
 function createStars() {
   const starsContainer = document.getElementById("stars");
+  if (!starsContainer) return;
+
   const numStars = 40;
   for (let i = 0; i < numStars; i++) {
     const star = document.createElement("div");
@@ -251,9 +201,20 @@ function createStars() {
 }
 
 // ✅ Init
-document.addEventListener('DOMContentLoaded', function() {
-  createStars();
-  createComingSoonBanner();
-  createSubmitForm();
-  createKofiButton();
+document.addEventListener("DOMContentLoaded", function () {
+  // If we're on the search page
+  if (document.getElementById("results")) {
+    createStars();
+    createSupportSection();
+
+    const input = document.getElementById("searchInput");
+    if (input) {
+      input.addEventListener("input", e => runSearch(e.target.value));
+    }
+  }
+
+  // If we're on the submit page
+  if (document.querySelector(".submit-form")) {
+    console.log("📝 Submit form active");
+  }
 });
