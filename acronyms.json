@@ -26423,21 +26423,6 @@
     "aliases": ["UAS Operator", "Drone Pilot", "UAV Operator"],
     "searchPriority": "high"
   },
-  {
-    "acronym": "15Y",
-    "meaning": "AH-64D Armament/Electrical/Avionics Systems Repairer",
-    "description": "Army MOS responsible for maintaining and repairing weapons systems, electrical systems, and avionics on AH-64D Apache helicopters. Troubleshoots and repairs fire control systems, missile systems, gun systems, and advanced electronics. Highly technical specialty maintaining Apache's combat systems.",
-    "reference": {"name": "DA PAM 611-21", "url": "https://armypubs.army.mil"},
-    "category": ["MOS", "Aviation", "15-Series", "Maintenance", "Apache", "Avionics"],
-    "branches": ["army"],
-    militarybenefits.info/military-pay/"},
-    "category": ["Rank", "Personnel"],
-    "branches": ["army", "marines", "navy", "air-force", "coast-guard"],
-    "commonality": "universal",
-    "relatedTerms": ["E-2", "Private", "Enlisted"],
-    "aliases": ["PV1", "Pvt", "AB", "SR"],
-    "searchPriority": "high"
-  }
 ]
 
 
