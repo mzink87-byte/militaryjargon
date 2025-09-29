@@ -26858,6 +26858,315 @@
     "relatedTerms": ["SCI", "TSSCI"],
     "aliases": ["Special Access"],
     "searchPriority": "high"
+  },
+  {
+    "acronym": "RC",
+    "meaning": "Reserve Component",
+    "description": "The Reserve elements of the U.S. Armed Forces, including Army, Navy, Air Force, Marine Corps, and Coast Guard Reserves, and the National Guard.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "coast-guard", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ARNG", "ANG", "USAR", "USNR"],
+    "aliases": ["Reserves"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NG",
+    "meaning": "National Guard",
+    "description": "Reserve military force that serves both state and federal governments, consisting of the Army National Guard and Air National Guard.",
+    "reference": {
+      "name": "Title 32, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army", "air-force"],
+    "commonality": "universal",
+    "relatedTerms": ["ARNG", "ANG", "T10", "T32"],
+    "aliases": ["Guard"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ARNG",
+    "meaning": "Army National Guard",
+    "description": "Reserve land component of the U.S. Army, organized and controlled primarily by states but subject to federal mobilization.",
+    "reference": {
+      "name": "Title 32, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["NG", "T10", "T32"],
+    "aliases": ["Army Guard"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ANG",
+    "meaning": "Air National Guard",
+    "description": "Reserve air component of the U.S. Air Force, organized and controlled primarily by states but subject to federal mobilization.",
+    "reference": {
+      "name": "Title 32, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["air-force"],
+    "commonality": "service-specific",
+    "relatedTerms": ["NG", "T10", "T32"],
+    "aliases": ["Air Guard"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USAR",
+    "meaning": "U.S. Army Reserve",
+    "description": "Federal reserve component of the U.S. Army, supporting active duty forces with trained units and individuals.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TPU", "IRR"],
+    "aliases": ["Army Reserve"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USNR",
+    "meaning": "U.S. Navy Reserve",
+    "description": "Federal reserve component of the U.S. Navy, supporting naval operations with trained units and individuals.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["RC"],
+    "aliases": ["Navy Reserve"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "USMCR",
+    "meaning": "U.S. Marine Corps Reserve",
+    "description": "Federal reserve component of the U.S. Marine Corps, providing trained individuals and units to support active forces.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["marines"],
+    "commonality": "service-specific",
+    "relatedTerms": ["RC"],
+    "aliases": ["Marine Reserve"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "USAFR",
+    "meaning": "U.S. Air Force Reserve",
+    "description": "Federal reserve component of the U.S. Air Force, supporting active duty operations with trained personnel and units.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["air-force"],
+    "commonality": "service-specific",
+    "relatedTerms": ["ANG"],
+    "aliases": ["Air Force Reserve"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "USCGR",
+    "meaning": "U.S. Coast Guard Reserve",
+    "description": "Reserve component of the U.S. Coast Guard, providing operational and mission support for maritime safety and security.",
+    "reference": {
+      "name": "Title 14, U.S. Code"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["coast-guard"],
+    "commonality": "service-specific",
+    "relatedTerms": ["RC"],
+    "aliases": ["Coast Guard Reserve"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "AGR",
+    "meaning": "Active Guard/Reserve",
+    "description": "Full-time support for Reserve Component members on extended active duty to organize, administer, recruit, instruct, or train.",
+    "reference": {
+      "name": "DoDI 1205.18"
+    },
+    "category": ["Personnel", "Orders"],
+    "branches": ["army", "air-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ADOS", "FTNGD"],
+    "aliases": ["AGR Tour"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ADOS",
+    "meaning": "Active Duty Operational Support",
+    "description": "Temporary active duty performed by Reserve Component members in support of active duty missions, often under Title 10 or Title 32 orders.",
+    "reference": {
+      "name": "DoDI 1235.12"
+    },
+    "category": ["Personnel", "Orders"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CAD", "AGR", "Mobilization", "Title 10", "Title 32"],
+    "aliases": ["Active Duty for Operational Support"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "FTNGD",
+    "meaning": "Full-Time National Guard Duty",
+    "description": "National Guard duty performed on a full-time basis under Title 32 or Title 10 orders.",
+    "reference": {
+      "name": "Title 32, U.S. Code"
+    },
+    "category": ["Personnel", "Orders"],
+    "branches": ["army", "air-force"],
+    "commonality": "service-specific",
+    "relatedTerms": ["AGR", "ADOS"],
+    "aliases": ["Full-Time Guard Duty"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "IDT",
+    "meaning": "Inactive Duty Training",
+    "description": "Training performed by Reserve Component members on a part-time basis, usually during drill weekends.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Training", "Reserve"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["UTA", "MUTA", "AT"],
+    "aliases": ["Drill"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AT",
+    "meaning": "Annual Training",
+    "description": "Training conducted annually by Reserve Component members, typically lasting two weeks, to maintain readiness.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Training", "Reserve"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IDT", "UTA", "MUTA"],
+    "aliases": ["Annual Drill"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UTA",
+    "meaning": "Unit Training Assembly",
+    "description": "A single training period (typically 4 hours) performed by Reserve Component members.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Training", "Reserve"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IDT", "MUTA"],
+    "aliases": ["Drill Period"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "MUTA",
+    "meaning": "Multiple Unit Training Assembly",
+    "description": "A block of multiple Unit Training Assemblies, e.g. MUTA-4 = 4 drill periods in a weekend.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Training", "Reserve"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["UTA", "IDT"],
+    "aliases": ["Multiple Drill Periods"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "RMP",
+    "meaning": "Readiness Management Period",
+    "description": "A paid duty status for Reserve members to complete administrative, training, or readiness-related tasks.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Training", "Reserve"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IDT", "UTA", "MUTA"],
+    "aliases": ["Readiness Period"],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "MOB",
+    "meaning": "Mobilization",
+    "description": "The act of calling Reserve Component units or personnel to active duty in support of operational requirements.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Orders", "Personnel"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["DEMOB", "ADOS", "AGR"],
+    "aliases": ["Mobilized"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "DEMOB",
+    "meaning": "Demobilization",
+    "description": "The process of releasing Reserve Component units or personnel from active duty back to reserve status.",
+    "reference": {
+      "name": "Title 10, U.S. Code"
+    },
+    "category": ["Orders", "Personnel"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["MOB"],
+    "aliases": ["Demobilized"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "IRR",
+    "meaning": "Individual Ready Reserve",
+    "description": "Reserve Component members not assigned to a drilling unit but subject to recall to active duty.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TPU", "IMA"],
+    "aliases": ["Ready Reserve"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IMA",
+    "meaning": "Individual Mobilization Augmentee",
+    "description": "Reserve personnel assigned to augment active duty organizations in wartime or contingency operations.",
+    "reference": {
+      "name": "DoDI 1235.11"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army", "air-force", "marines", "navy", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IRR", "TPU"],
+    "aliases": ["IMA Reservist"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TPU",
+    "meaning": "Troop Program Unit",
+    "description": "Army Reserve units where Soldiers train regularly and are assigned to specific units.",
+    "reference": {
+      "name": "Army Reserve Command Regulations"
+    },
+    "category": ["Personnel", "Reserve"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["USAR", "IRR"],
+    "aliases": ["Drilling Unit"],
+    "searchPriority": "medium"
   }
 ]
+
 
