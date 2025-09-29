@@ -26422,8 +26422,442 @@
     "relatedTerms": ["15E", "UAS", "Drone", "UAV", "Shadow", "Gray Eagle"],
     "aliases": ["UAS Operator", "Drone Pilot", "UAV Operator"],
     "searchPriority": "high"
+  },
+  {
+  "acronym": "GWS",
+  "meaning": "Ground Warfare System",
+  "description": "An Army Military Intelligence system used within the DCGS-A architecture to process and disseminate intelligence data.",
+  "reference": {"name": "FM 2-0", "url": "https://armypubs.army.mil"},
+  "category": ["Intelligence", "Systems"],
+  "branches": ["army"],
+  "commonality": "niche",
+  "relatedTerms": ["DCGS-A", "TGS"],
+  "aliases": [],
+  "searchPriority": "medium"
+},
+{
+  "acronym": "JECOP",
+  "meaning": "Joint Exercise Control Operations",
+  "description": "A control structure for managing joint training and exercise activities.",
+  "reference": {"name": "JP 3-35", "url": "https://jcs.mil"},
+  "category": ["Training", "Joint"],
+  "branches": ["joint"],
+  "commonality": "rare",
+  "relatedTerms": ["CPX", "FTX"],
+  "aliases": [],
+  "searchPriority": "low"
+},
+{
+  "acronym": "O/O",
+  "meaning": "On Order",
+  "description": "A task or mission to be executed only when a specified order is received.",
+  "reference": {"name": "FM 6-0", "url": "https://armypubs.army.mil"},
+  "category": ["Operations", "Orders"],
+  "branches": ["army", "joint"],
+  "commonality": "common",
+  "relatedTerms": ["OPORD", "FRAGO"],
+  "aliases": [],
+  "searchPriority": "medium"
+},
+{
+  "acronym": "COC",
+  "meaning": "Chain of Command",
+  "description": "The succession of commanders through which authority and direction are exercised.",
+  "reference": {"name": "FM 6-0", "url": "https://armypubs.army.mil"},
+  "category": ["Leadership", "Command"],
+  "branches": ["joint"],
+  "commonality": "universal",
+  "relatedTerms": ["Unity of Command"],
+  "aliases": [],
+  "searchPriority": "high"
+},
+  {
+    "acronym": "RIF",
+    "meaning": "Reduction in Force",
+    "description": "The process of decreasing the size of a military organization, often due to budget constraints or restructuring.",
+    "reference": {"name": "AR 600-8-19", "url": "https://armypubs.army.mil"},
+    "category": ["Personnel", "Force Management"],
+    "branches": ["army", "joint"],
+    "commonality": "common",
+    "relatedTerms": ["Drawdown"],
+    "aliases": ["Force Reduction"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "MEEL",
+    "meaning": "Mission Essential Equipment List",
+    "description": "List of equipment required for a unit to accomplish its mission-essential tasks.",
+    "reference": {"name": "AR 220-1", "url": "https://armypubs.army.mil"},
+    "category": ["Logistics", "Operations"],
+    "branches": ["army"],
+    "commonality": "common",
+    "relatedTerms": ["MTOE", "TDA"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TTBF",
+    "meaning": "Tactical Task Battalion Force",
+    "description": "A maneuver or task force formed at battalion level for tactical employment.",
+    "reference": {"name": "FM 3-90", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Tactics"],
+    "branches": ["army"],
+    "commonality": "rare",
+    "relatedTerms": ["TF", "CO TM"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "RIP TOA",
+    "meaning": "Relief in Place / Transfer of Authority",
+    "description": "A handover process where one unit replaces another in an operational area and assumes authority.",
+    "reference": {"name": "FM 3-07", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Stability"],
+    "branches": ["army", "marines"],
+    "commonality": "common",
+    "relatedTerms": ["Relief", "Handover"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IPOE",
+    "meaning": "Intelligence Preparation of the Operational Environment",
+    "description": "Systematic analysis of the enemy, terrain, weather, and civil considerations to support operations.",
+    "reference": {"name": "FM 2-01.3", "url": "https://armypubs.army.mil"},
+    "category": ["Intelligence", "Planning"],
+    "branches": ["army", "marines", "air-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IPB"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TGS",
+    "meaning": "Tactical Ground Station",
+    "description": "An Army system for processing and disseminating intelligence from national and theater sources.",
+    "reference": {"name": "FM 2-0", "url": "https://armypubs.army.mil"},
+    "category": ["Intelligence", "Systems"],
+    "branches": ["army"],
+    "commonality": "niche",
+    "relatedTerms": ["DCGS-A"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "GWS",
+    "meaning": "Global War Scenario",
+    "description": "A planning or training scenario simulating worldwide conflict conditions.",
+    "reference": {"name": "JP 5-0", "url": "https://jcs.mil"},
+    "category": ["Planning", "Exercises"],
+    "branches": ["joint"],
+    "commonality": "rare",
+    "relatedTerms": ["Campaign Plan"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "OE",
+    "meaning": "Operational Environment",
+    "description": "The composite of conditions, circumstances, and influences affecting the employment of military forces.",
+    "reference": {"name": "FM 3-0", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Planning"],
+    "branches": ["army", "marines", "air-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IPOE"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JECOP",
+    "meaning": "Joint Electronic Counter-Operations",
+    "description": "Coordinated electronic warfare measures conducted by joint forces.",
+    "reference": {"name": "JP 3-13.1", "url": "https://jcs.mil"},
+    "category": ["EW", "Joint"],
+    "branches": ["joint"],
+    "commonality": "rare",
+    "relatedTerms": ["EW", "EA"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "PAX",
+    "meaning": "Passengers",
+    "description": "Common shorthand for personnel aboard an aircraft, vehicle, or ship.",
+    "reference": {"name": "Joint Travel Regulations", "url": "https://www.defensetravel.dod.mil"},
+    "category": ["Logistics", "Personnel"],
+    "branches": ["joint"],
+    "commonality": "common",
+    "relatedTerms": ["Manifest"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "BSB",
+    "meaning": "Brigade Support Battalion",
+    "description": "Unit providing logistics, medical, and sustainment support to a Brigade Combat Team.",
+    "reference": {"name": "FM 4-90", "url": "https://armypubs.army.mil"},
+    "category": ["Logistics", "Units"],
+    "branches": ["army"],
+    "commonality": "common",
+    "relatedTerms": ["BCT", "Sustainment"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "FA",
+    "meaning": "Field Artillery",
+    "description": "Branch and capability focused on indirect fires to support maneuver forces.",
+    "reference": {"name": "FM 3-09", "url": "https://armypubs.army.mil"},
+    "category": ["Fires", "Units"],
+    "branches": ["army", "marines"],
+    "commonality": "common",
+    "relatedTerms": ["Arty", "MLRS"],
+    "aliases": ["Arty"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CAV",
+    "meaning": "Cavalry",
+    "description": "Army unit type specializing in reconnaissance and security operations.",
+    "reference": {"name": "FM 3-20", "url": "https://armypubs.army.mil"},
+    "category": ["Units", "Reconnaissance"],
+    "branches": ["army"],
+    "commonality": "common",
+    "relatedTerms": ["Scout"],
+    "aliases": ["CAV Trooper"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CONOP",
+    "meaning": "Concept of Operations",
+    "description": "Verbal or graphic statement that describes how a commander intends to conduct operations.",
+    "reference": {"name": "JP 5-0", "url": "https://jcs.mil"},
+    "category": ["Planning", "Operations"],
+    "branches": ["joint"],
+    "commonality": "common",
+    "relatedTerms": ["OPORD"],
+    "aliases": ["CONOPS"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "BOHICA",
+    "meaning": "Bend Over, Here It Comes Again",
+    "description": "Slang expression indicating repeated negative events or orders.",
+    "reference": {"name": "Military Slang", "url": "https://"},
+    "category": ["Slang", "Culture"],
+    "branches": ["army", "marines"],
+    "commonality": "common",
+    "relatedTerms": ["SNAFU", "FUBAR"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "BPT",
+    "meaning": "Be Prepared To",
+    "description": "Common tasking in operations orders instructing subordinates to prepare for a potential mission.",
+    "reference": {"name": "FM 6-0", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Planning"],
+    "branches": ["army", "marines"],
+    "commonality": "common",
+    "relatedTerms": ["OPORD"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OO",
+    "meaning": "On Order",
+    "description": "Task or mission assigned to a unit to be executed only upon receiving a specified order.",
+    "reference": {"name": "FM 6-0", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Orders"],
+    "branches": ["army", "joint"],
+    "commonality": "common",
+    "relatedTerms": ["OPORD", "FRAGO"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "POAM",
+    "meaning": "Plan of Action and Milestones",
+    "description": "A management tool identifying tasks, responsibilities, and timelines for a project or corrective action.",
+    "reference": {"name": "DoD RMF", "url": "https://csrc.nist.gov"},
+    "category": ["Planning", "Programs"],
+    "branches": ["joint"],
+    "commonality": "common",
+    "relatedTerms": ["Project Plan"],
+    "aliases": ["POA&M"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "OPSUM",
+    "meaning": "Operations Summary",
+    "description": "Summary report providing key details of ongoing or completed operations.",
+    "reference": {"name": "FM 6-99", "url": "https://armypubs.army.mil"},
+    "category": ["Operations", "Reporting"],
+    "branches": ["army", "joint"],
+    "commonality": "common",
+    "relatedTerms": ["SITREP"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "COC",
+    "meaning": "Combat Operations Center",
+    "description": "Marine Corps equivalent to the Army Tactical Operations Center (TOC).",
+    "reference": {"name": "MCWP 3-40.4", "url": "https://www.marines.mil"},
+    "category": ["Command & Control", "Units"],
+    "branches": ["marines"],
+    "commonality": "common",
+    "relatedTerms": ["TOC"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "JRSOI",
+    "meaning": "Joint Reception, Staging, Onward Movement, and Integration",
+    "description": "Process of transforming arriving personnel and equipment into a mission-ready force.",
+    "reference": {"name": "JP 3-35", "url": "https://jcs.mil"},
+    "category": ["Deployment", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["RSOI"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+  "acronym": "MICO",
+  "meaning": "Military Intelligence Company",
+  "description": "A company-level unit organic to a Brigade Combat Team that provides multidiscipline intelligence collection and analysis.",
+  "reference": {"name": "FM 2-0", "url": "https://armypubs.army.mil"},
+  "category": ["Intelligence", "Units"],
+  "branches": ["army"],
+  "commonality": "common",
+  "relatedTerms": ["BCT", "MI"],
+  "aliases": ["MI Company"],
+  "searchPriority": "high"
+},
+{
+  "acronym": "BEB",
+  "meaning": "Brigade Engineer Battalion",
+  "description": "An Army battalion that integrates combat engineer, signal, military intelligence, and chemical assets to support a Brigade Combat Team.",
+  "reference": {"name": "FM 3-34", "url": "https://armypubs.army.mil"},
+  "category": ["Engineering", "Units"],
+  "branches": ["army"],
+  "commonality": "common",
+  "relatedTerms": ["BCT", "Engineer"],
+  "aliases": ["Brigade Engineer Bn"],
+  "searchPriority": "high"
+},
+  {
+  "acronym": "ADOS",
+  "meaning": "Active Duty Operational Support",
+  "description": "Temporary active duty performed by Reserve Component members in support of active duty missions, often under Title 10 or Title 32 orders.",
+  "reference": {
+    "name": "DoDI 1235.12"
+  },
+  "category": ["Personnel", "Orders"],
+  "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+  "commonality": "universal",
+  "relatedTerms": ["CAD", "Mobilization", "Title 10", "Title 32"],
+  "aliases": ["Active Duty for Operational Support"],
+  "searchPriority": "medium"
+},
+  {
+    "acronym": "C",
+    "meaning": "Confidential",
+    "description": "Lowest level of classified information. Unauthorized disclosure could reasonably be expected to cause damage to national security.",
+    "reference": {
+      "name": "DoDM 5200.01, Vol 1"
+    },
+    "category": ["Security Clearance", "Classification"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["S", "TS", "TSSCI"],
+    "aliases": ["Confidential Clearance"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "S",
+    "meaning": "Secret",
+    "description": "Intermediate level of classified information. Unauthorized disclosure could reasonably be expected to cause serious damage to national security.",
+    "reference": {
+      "name": "DoDM 5200.01, Vol 1"
+    },
+    "category": ["Security Clearance", "Classification"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["C", "TS", "TSSCI"],
+    "aliases": ["Secret Clearance"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TS",
+    "meaning": "Top Secret",
+    "description": "Highest classification level. Unauthorized disclosure could reasonably be expected to cause exceptionally grave damage to national security.",
+    "reference": {
+      "name": "DoDM 5200.01, Vol 1"
+    },
+    "category": ["Security Clearance", "Classification"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["C", "S", "TSSCI"],
+    "aliases": ["Top Secret Clearance"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TSSCI",
+    "meaning": "Top Secret / Sensitive Compartmented Information",
+    "description": "Top Secret clearance with additional access to Sensitive Compartmented Information (SCI). Grants access to highly controlled intelligence programs.",
+    "reference": {
+      "name": "ICD 704"
+    },
+    "category": ["Security Clearance", "Intelligence"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TS", "SCI", "SAP"],
+    "aliases": ["TS/SCI", "Top Secret SCI"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CAD",
+    "meaning": "Call to Active Duty",
+    "description": "An order directing a Reserve Component service member to report for active duty service.",
+    "reference": {
+      "name": "DoDI 1215.06"
+    },
+    "category": ["Personnel", "Orders"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Mobilization", "ADOS", "Title 10"],
+    "aliases": ["Call to AD"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TA-50",
+    "meaning": "Table of Allowances 50",
+    "description": "Standard issue of individual soldier equipment such as rucksacks, helmets, canteens, and field gear.",
+    "reference": {
+      "name": "Army Supply Regulations"
+    },
+    "category": ["Equipment", "Supply"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["CIF", "OCIE"],
+    "aliases": ["TA50"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "SAP",
+    "meaning": "Special Access Program",
+    "description": "Highly classified program with restricted access and enhanced security requirements beyond standard Top Secret and SCI.",
+    "reference": {
+      "name": "DoDM 5205.07"
+    },
+    "category": ["Security Clearance", "Intelligence"],
+    "branches": ["army", "navy", "air-force", "marines", "space-force", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SCI", "TSSCI"],
+    "aliases": ["Special Access"],
+    "searchPriority": "high"
   }
 ]
 
-
-  
