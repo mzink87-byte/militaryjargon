@@ -54347,19 +54347,5 @@
     "relatedTerms": ["USAR", "IRR"],
     "aliases": ["Drilling Unit"],
     "searchPriority": "medium"
-  },
-    {
-  "acronym": "EQRB",
-  "meaning": "Enlisted Qualitative Retention Board",
-  "description": "A board that reviews the performance and potential of enlisted Soldiers in the Army National Guard or Army Reserve to determine continued service eligibility.",
-  "reference": {
-    "name": "NGR 600-200"
-  },
-  "category": ["Personnel", "Career Management"],
-  "branches": ["army"],
-  "commonality": "service-specific",
-  "relatedTerms": ["QMP", "Promotion Board"],
-  "aliases": ["Retention Board"],
-  "searchPriority": "medium"
-}
+  }
 ]
