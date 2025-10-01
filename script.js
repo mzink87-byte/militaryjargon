@@ -54,4 +54,6 @@ function runSearch(query) {
     return;
   }
 
-  results.forEach(item => resultsContainer.appendChild
+  // ✅ Fixed line
+  results.forEach(item => resultsContainer.appendChild(createCard(item)));
+}
