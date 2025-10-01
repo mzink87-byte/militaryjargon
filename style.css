@@ -229,19 +229,23 @@ header {
    Support Section
 ============================ */
 .support-section {
-  background: #f5f5f5; /* light background so button stands out */
+  background: #f5f5f5; /* light gray, no purple */
   text-align: center;
   padding: 2rem;
   margin-top: 3rem;
   border-top: 1px solid #ddd;
 }
 
-/* ============================
-   Support Button (new style)
-============================ */
+.support-section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Support Button */
 .support-button {
   display: inline-block;
-  background: #1E3A8A; /* Navy blue */
+  background: #1E3A8A; /* Navy */
   color: white;
   padding: 14px 28px;
   border-radius: 25px;
@@ -253,11 +257,26 @@ header {
 }
 
 .support-button:hover {
-  background: #16367a; /* Darker navy */
+  background: #16367a;
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   text-decoration: none;
 }
+
+/* Desktop override: make button lighter if on dark background */
+@media (min-width: 769px) {
+  .support-button {
+    background: white;
+    color: #1E3A8A;
+    border: 2px solid #1E3A8A;
+  }
+
+  .support-button:hover {
+    background: #f0f0f0;
+    color: #1E40AF;
+  }
+}
+
 /* ============================
    Flashcard Results
 ============================ */
@@ -291,12 +310,12 @@ header {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #1E3A8A; /* navy */
+  color: #1E3A8A;
 }
 
 .card .meaning {
   font-weight: 600;
-  color: #2E7D32; /* green */
+  color: #2E7D32;
   margin-bottom: 0.5rem;
 }
 
@@ -364,14 +383,14 @@ header {
   .submit-form input,
   .submit-form textarea,
   .submit-form select {
-    font-size: 16px; /* Prevents zoom on iOS */
+    font-size: 16px;
   }
   
   .card h2 {
     font-size: 1.3rem;
   }
   
-  .kofi-button {
+  .support-button {
     padding: 12px 24px;
     font-size: 0.9rem;
   }
@@ -403,6 +422,6 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #FFCC00; /* gold hover */
+  color: #FFCC00;
   text-decoration: underline;
 }
