@@ -1,4 +1,4 @@
-// ✅ Run search logic (on index.html) with individual cards (like before)
+// ✅ Run search logic (on index.html)
 function runSearch(query) {
   const q = query.toLowerCase().trim();
   const searchInMeanings = document.getElementById('searchInMeanings').checked;
@@ -47,17 +47,11 @@ function runSearch(query) {
     return { ...item, score, badges };
   })
   .filter(r => r.score > 0)
-  .sort((a, b) => {
-    if (b.score === a.score) {
-      return a.meaning.localeCompare(b.meaning); // tie-break alphabetically
-    }
-    return b.score - a.score;
-  });
+  .sort((a, b) => b.score - a.score);
 
   if (results.length === 0) {
     resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
     return;
   }
 
-  results.forEach(item => resultsContainer.appendChild(createCard(item)));
-}
+  results.forEach(item => resultsContainer.appendChild
