@@ -1,96 +1,4 @@
-console.log("🚀 script.js loaded");
-
-// ✅ Global acronyms
-let acronyms = [];
-
-// ✅ Load JSON file (only if results div exists)
-if (document.getElementById("results")) {
-  fetch("acronyms.json")
-    .then(res => res.json())
-    .then(data => acronyms = data)
-    .catch(err => {
-      console.error("Error loading JSON:", err);
-      document.getElementById("results").innerHTML =
-        `<p style="color:red;">⚠️ Failed to load acronyms database.</p>`;
-    });
-}
-
-// ✅ Support section (Ko-fi only, mid-page)
-function createSupportSection() {
-  const support = document.getElementById("support-area");
-  if (!support) {
-    console.error("❌ No #support-area found in DOM");
-    return;
-  }
-
-  support.innerHTML = `
-    <div class="kofi-container">
-      <p>☕ This database helps military folks translate the alphabet soup of acronyms</p>
-      <a href="https://ko-fi.com/YOURUSERNAME" target="_blank" class="kofi-button">
-        Buy me a coffee
-      </a>
-    </div>
-  `;
-  console.log("☕ Ko-fi added");
-}
-
-// ✅ Standby banner at bottom/footer
-function createStandbyBanner() {
-  const footer = document.querySelector("footer");
-  if (!footer) {
-    console.error("❌ No <footer> found in DOM");
-    return;
-  }
-
-  const banner = document.createElement("div");
-  banner.className = "coming-soon-banner";
-  banner.innerHTML = `
-    <div class="banner-content">
-      ⏳ Standby to Standby - More Military Branches Coming Soon
-      <div class="banner-subtext">Navy • Air Force • Marines • Coast Guard • Space Force</div>
-    </div>
-  `;
-
-  footer.appendChild(banner);
-  console.log("⏳ Standby banner added at footer");
-}
-
-// ✅ Handle acronym submission (on submit.html)
-function submitAcronym() {
-  const acronym = document.getElementById('submitAcronym').value.trim();
-  const meaning = document.getElementById('submitMeaning').value.trim();
-  const description = document.getElementById('submitDescription').value.trim();
-  const service = document.getElementById('submitService').value;
-
-  if (!acronym || !meaning || !description || !service) {
-    alert('Please fill in all fields');
-    return;
-  }
-
-  const subject = encodeURIComponent(`New Acronym Submission: ${acronym}`);
-  const body = encodeURIComponent(`
-New Acronym Submission:
-
-Acronym: ${acronym}
-Meaning: ${meaning}
-Description: ${description}
-Service Branch: ${service}
-Submitted from: ${window.location.href}
-
-Please verify this information before adding to the database.
-  `);
-
-  const mailtoLink = `mailto:jargonhubs@gmail.com?subject=${subject}&body=${body}`;
-  window.location.href = mailtoLink;
-
-  // Clear form
-  document.getElementById('submitAcronym').value = '';
-  document.getElementById('submitMeaning').value = '';
-  document.getElementById('submitDescription').value = '';
-  document.getElementById('submitService').value = '';
-}
-
-// ✅ Run search logic (on index.html)
+// ✅ Run search logic (on index.html) with grouping
 function runSearch(query) {
   const q = query.toLowerCase().trim();
   const searchInMeanings = document.getElementById('searchInMeanings').checked;
@@ -99,7 +7,9 @@ function runSearch(query) {
   resultsContainer.innerHTML = '';
   if (!q) return;
 
-  const results = acronyms.map(item => {
+  // Step 1: Build results with scores
+  const grouped = {};
+  acronyms.forEach(item => {
     let score = 0;
     let badges = [];
 
@@ -136,104 +46,44 @@ function runSearch(query) {
       }
     }
 
-    return { ...item, score, badges };
-  })
-  .filter(r => r.score > 0)
-  .sort((a, b) => b.score - a.score);
+    if (score > 0) {
+      if (!grouped[item.acronym]) grouped[item.acronym] = [];
+      grouped[item.acronym].push({ ...item, score, badges });
+    }
+  });
 
-  if (results.length === 0) {
+  // Step 2: Turn into array + sort groups
+  let groupArray = Object.entries(grouped).map(([acro, items]) => {
+    items.sort((a,b) => b.score - a.score);
+    return { acronym: acro, items, topScore: items[0].score };
+  });
+  groupArray.sort((a,b) => b.topScore - a.topScore);
+
+  // Step 3: Display grouped results
+  if (groupArray.length === 0) {
     resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
     return;
   }
 
-  results.forEach(item => resultsContainer.appendChild(createCard(item)));
+  groupArray.forEach(group => {
+    const groupDiv = document.createElement("div");
+    groupDiv.className = "card";
+
+    const title = document.createElement("h2");
+    title.textContent = group.acronym;
+    groupDiv.appendChild(title);
+
+    const list = document.createElement("ul");
+    group.items.forEach(item => {
+      const li = document.createElement("li");
+      li.innerHTML = `<strong>${item.meaning}</strong>: ${item.description}`;
+      if (item.badges && item.badges.length > 0) {
+        li.innerHTML += `<div class="badges">Matches: ${item.badges.join(" · ")}</div>`;
+      }
+      list.appendChild(li);
+    });
+    groupDiv.appendChild(list);
+
+    resultsContainer.appendChild(groupDiv);
+  });
 }
-
-// ✅ Build card
-function createCard(item) {
-  const card = document.createElement("div");
-  card.className = "card";
-
-  const title = document.createElement("h2");
-  title.textContent = item.acronym;
-  card.appendChild(title);
-
-  const meaning = document.createElement("div");
-  meaning.className = "meaning";
-  meaning.textContent = item.meaning;
-  card.appendChild(meaning);
-
-  const desc = document.createElement("div");
-  desc.className = "description";
-  desc.textContent = item.description;
-  card.appendChild(desc);
-
-  if (item.reference) {
-    const refDiv = document.createElement("div");
-    refDiv.className = "example";
-
-    if (Array.isArray(item.reference)) {
-      refDiv.innerHTML = "Reference: " + item.reference.map(r => {
-        if (typeof r === "object" && r.url) {
-          return `<a href="${r.url}" target="_blank">${r.name}</a>`;
-        } else if (typeof r === "object" && r.name) {
-          return r.name;
-        } else {
-          return r;
-        }
-      }).join(" · ");
-    } else if (typeof item.reference === "object" && item.reference.url) {
-      refDiv.innerHTML = `Reference: <a href="${item.reference.url}" target="_blank">${item.reference.name}</a>`;
-    } else {
-      refDiv.textContent = `Reference: ${item.reference}`;
-    }
-
-    card.appendChild(refDiv);
-  }
-
-  if (item.badges && item.badges.length > 0) {
-    const badgeDiv = document.createElement("div");
-    badgeDiv.className = "badges";
-    badgeDiv.textContent = "Matches: " + item.badges.join(" · ");
-    card.appendChild(badgeDiv);
-  }
-
-  return card;
-}
-
-// ✅ Stars (background effect)
-function createStars() {
-  const starsContainer = document.getElementById("stars");
-  if (!starsContainer) return;
-
-  const numStars = 40;
-  for (let i = 0; i < numStars; i++) {
-    const star = document.createElement("div");
-    star.className = "star";
-    star.textContent = "★";
-    star.style.top = Math.random() * 100 + "%";
-    star.style.left = Math.random() * 100 + "%";
-    star.style.animationDuration = (1.5 + Math.random() * 2) + "s";
-    starsContainer.appendChild(star);
-  }
-}
-
-// ✅ Init
-document.addEventListener("DOMContentLoaded", function () {
-  // If we're on the search page
-  if (document.getElementById("results")) {
-    createStars();
-    createSupportSection();
-    createStandbyBanner(); // now appended at footer
-
-    const input = document.getElementById("searchInput");
-    if (input) {
-      input.addEventListener("input", e => runSearch(e.target.value));
-    }
-  }
-
-  // If we're on the submit page
-  if (document.querySelector(".submit-form")) {
-    console.log("📝 Submit form active");
-  }
-});
