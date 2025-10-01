@@ -27166,7 +27166,8 @@
     "relatedTerms": ["USAR", "IRR"],
     "aliases": ["Drilling Unit"],
     "searchPriority": "medium"
-  },{
+  },
+  {
   "acronym": "EQRB",
   "meaning": "Enlisted Qualitative Retention Board",
   "description": "A board that reviews the performance and potential of enlisted Soldiers in the Army National Guard or Army Reserve to determine continued service eligibility.",
@@ -27179,228 +27180,758 @@
   "relatedTerms": ["QMP", "Promotion Board"],
   "aliases": ["Retention Board"],
   "searchPriority": "medium"
-},  {
-    "acronym": "AA",
-    "meaning": "Anti-Aircraft / Assembly Area",
-    "description": "Context-dependent: either anti-aircraft systems or a designated assembly area for units prior to operations.",
-    "reference": {
-      "name": "FM 3-01"
-    },
-    "category": ["Warfare", "Operations"],
-    "branches": ["army", "joint"],
-    "commonality": "universal",
-    "relatedTerms": ["ADA", "SAM"],
-    "aliases": ["Assembly Area"],
-    "searchPriority": "high"
   },
-  {
-    "acronym": "AAA",
-    "meaning": "Anti-Aircraft Artillery",
-    "description": "Often called 'Triple A'. Guns and systems designed to destroy aircraft.",
+ {
+    "acronym": "ZULU",
+    "meaning": "Zulu Time / Phonetic Alphabet Z",
+    "description": "Military phonetic alphabet designation for the letter Z. Also refers to Coordinated Universal Time (UTC), formerly Greenwich Mean Time (GMT).",
     "reference": {
-      "name": "FM 3-01"
+      "name": "FM 24-19",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
     },
-    "category": ["Warfare"],
-    "branches": ["army", "joint"],
-    "commonality": "universal",
-    "relatedTerms": ["AA", "ADA"],
-    "aliases": ["Triple A"],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "AAR",
-    "meaning": "After-Action Review",
-    "description": "Structured review following training or operations to identify lessons learned.",
-    "reference": {
-      "name": "FM 7-0"
-    },
-    "category": ["Training"],
+    "category": ["Communications", "Time"],
     "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["Hotwash", "Debrief"],
-    "aliases": ["After Action Report"],
+    "relatedTerms": ["UTC", "GMT", "Time Zone"],
+    "aliases": ["Z Time", "UTC"],
     "searchPriority": "high"
   },
   {
-    "acronym": "ABC",
-    "meaning": "Atomic, Biological, Chemical",
-    "description": "Legacy term for nuclear, biological, and chemical warfare; precursor to CBRN/CBRNE.",
+    "acronym": "YTD",
+    "meaning": "Year to Date",
+    "description": "Accounting and reporting term indicating the period from the beginning of the current calendar or fiscal year to the present date.",
     "reference": {
-      "name": "FM 3-11"
+      "name": "AR 37-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
     },
-    "category": ["Warfare"],
+    "category": ["Administration", "Finance"],
     "branches": ["joint"],
-    "commonality": "historical",
-    "relatedTerms": ["NBC", "CBRN"],
+    "commonality": "universal",
+    "relatedTerms": ["FY", "Fiscal Year"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "YR",
+    "meaning": "Year",
+    "description": "Standard abbreviation for year used in military documentation and planning.",
+    "reference": {
+      "name": "Military Writing Standards"
+    },
+    "category": ["Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": [],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "XO",
+    "meaning": "Executive Officer",
+    "description": "Second-in-command of a military unit, responsible for administration and assisting the commanding officer.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Leadership", "Staff"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CO", "Commander", "2IC"],
+    "aliases": ["Executive Officer", "Second in Command"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WX",
+    "meaning": "Weather",
+    "description": "Standard military abbreviation for weather conditions used in planning and operational reporting.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["METOC", "Meteorology"],
+    "aliases": ["Weather"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "WWII",
+    "meaning": "World War II",
+    "description": "Global conflict fought from 1939 to 1945 involving most of the world's nations.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["WWI", "World War"],
+    "aliases": ["World War Two", "Second World War"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WWI",
+    "meaning": "World War I",
+    "description": "Global conflict fought from 1914 to 1918, also known as the Great War.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["WWII", "World War"],
+    "aliases": ["World War One", "Great War"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WSO",
+    "meaning": "Weapon Systems Officer",
+    "description": "Air crew member responsible for operating weapons and defensive systems in multi-seat aircraft.",
+    "reference": {
+      "name": "Air Force Doctrine"
+    },
+    "category": ["Aviation", "Duty Position"],
+    "branches": ["air force", "navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Pilot", "NFO"],
+    "aliases": ["Weapons Officer"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "WS",
+    "meaning": "Weapon System",
+    "description": "Integrated combination of equipment, skills, and techniques capable of performing an operational role.",
+    "reference": {
+      "name": "DoD Dictionary"
+    },
+    "category": ["Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Platform", "Equipment"],
+    "aliases": ["Weapons System"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "WRM",
+    "meaning": "War Reserve Materiel",
+    "description": "Equipment and supplies maintained in reserve for wartime or contingency operations.",
+    "reference": {
+      "name": "AR 710-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Logistics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Prepositioned Stock", "War Stocks"],
+    "aliases": ["War Reserve Stock"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "WPN",
+    "meaning": "Weapon",
+    "description": "Standard abbreviation for weapon used in military documentation and planning.",
+    "reference": {
+      "name": "Military Writing Standards"
+    },
+    "category": ["Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["WPS", "Arms"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "WP",
+    "meaning": "White Phosphorus / Way Point",
+    "description": "Chemical compound used in munitions for smoke screening and incendiary effects. Also refers to a predetermined point in navigation.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Munitions", "Navigation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Smoke", "Willie Pete", "Waypoint"],
+    "aliases": ["Willie Pete", "Whiskey Papa"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WOCS",
+    "meaning": "Warrant Officer Candidate School",
+    "description": "Training program for enlisted soldiers and civilians transitioning to warrant officer status.",
+    "reference": {
+      "name": "AR 135-100",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["School", "Training"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["WO", "Warrant Officer", "OCS"],
+    "aliases": ["Warrant School"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "WO",
+    "meaning": "Warrant Officer",
+    "description": "Rank between enlisted and commissioned officer, typically technical specialist or expert.",
+    "reference": {
+      "name": "AR 600-8-29",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Rank"],
+    "branches": ["army", "navy", "marine corps", "coast guard"],
+    "commonality": "service-specific",
+    "relatedTerms": ["CWO", "WO1", "Warrant"],
+    "aliases": ["Warrant"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WMD",
+    "meaning": "Weapons of Mass Destruction",
+    "description": "Nuclear, chemical, biological, or radiological weapons capable of causing widespread casualties and destruction.",
+    "reference": {
+      "name": "JP 3-40",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["CBRN", "Doctrine"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NBC", "CBRN", "Nuclear"],
+    "aliases": ["Mass Destruction Weapons"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WILCO",
+    "meaning": "Will Comply",
+    "description": "Radio procedure phrase indicating understanding and intention to comply with instructions.",
+    "reference": {
+      "name": "FM 6-02.53",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Roger", "Affirm", "Copy"],
+    "aliases": ["Will Comply"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WIA",
+    "meaning": "Wounded in Action",
+    "description": "Casualty status indicating a service member was injured during combat operations.",
+    "reference": {
+      "name": "AR 600-8-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Casualties", "Personnel"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["KIA", "MIA", "Casualty"],
+    "aliases": ["Wounded"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "WARNO",
+    "meaning": "Warning Order",
+    "description": "Preliminary notice of an operation or action to allow subordinate units time to prepare.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OPORD", "FRAGO", "Warning Order"],
+    "aliases": ["Warning Order"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "VTC",
+    "meaning": "Video Teleconference",
+    "description": "Secure video communication system used for remote meetings and briefings.",
+    "reference": {
+      "name": "AR 25-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Video Conference", "VTC"],
+    "aliases": ["Video Conference", "Teleconference"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "VT",
+    "meaning": "Variable Time",
+    "description": "Fuze that detonates at a preset time or distance, also known as proximity fuze.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Munitions"],
+    "branches": ["joint"],
+    "commonality": "specialized",
+    "relatedTerms": ["Proximity Fuze", "Time Fuze"],
+    "aliases": ["Variable Time Fuze", "Proximity Fuze"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "VTOL",
+    "meaning": "Vertical Takeoff and Landing",
+    "description": "Aircraft capable of taking off and landing vertically without requiring a runway.",
+    "reference": {
+      "name": "JP 3-09",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["VSTOL", "Helicopter", "V-22"],
     "aliases": [],
     "searchPriority": "medium"
   },
   {
-    "acronym": "ACU",
-    "meaning": "Army Combat Uniform",
-    "description": "Standard camouflage uniform worn by U.S. Army Soldiers.",
+    "acronym": "VSTOL",
+    "meaning": "Vertical/Short Takeoff and Landing",
+    "description": "Aircraft capable of taking off and landing in very short distances or vertically.",
     "reference": {
-      "name": "AR 670-1"
+      "name": "JP 3-09",
+      "url": "https://www.jcs.mil/Doctrine/"
     },
-    "category": ["Uniforms"],
-    "branches": ["army"],
-    "commonality": "service-specific",
-    "relatedTerms": ["OCP"],
-    "aliases": [],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "AD",
-    "meaning": "Air Defense",
-    "description": "Operations and systems designed to protect forces from enemy aircraft and missiles.",
-    "reference": {
-      "name": "FM 3-01"
-    },
-    "category": ["Warfare"],
+    "category": ["Aviation"],
     "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["ADA", "SAM"],
-    "aliases": ["Air Defense Artillery"],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "AO",
-    "meaning": "Area of Operations",
-    "description": "A geographical area defined by a commander for military operations.",
-    "reference": {
-      "name": "FM 3-0"
-    },
-    "category": ["Operations"],
-    "branches": ["joint"],
-    "commonality": "universal",
-    "relatedTerms": ["AOR"],
-    "aliases": [],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "AP",
-    "meaning": "Anti-Personnel / Armor-Piercing",
-    "description": "Munition designations: AP may refer to anti-personnel or armor-piercing, depending on context.",
-    "reference": {
-      "name": "FM 3-22.65"
-    },
-    "category": ["Munitions"],
-    "branches": ["joint"],
-    "commonality": "universal",
-    "relatedTerms": ["HE", "API", "APFSDS"],
-    "aliases": [],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "APC",
-    "meaning": "Armored Personnel Carrier",
-    "description": "Armored, usually tracked vehicle designed to carry infantry into battle.",
-    "reference": {
-      "name": "FM 3-90"
-    },
-    "category": ["Vehicles"],
-    "branches": ["army", "marines"],
-    "commonality": "universal",
-    "relatedTerms": ["IFV", "BFV"],
-    "aliases": [],
-    "searchPriority": "high"
-  },
-  {
-    "acronym": "APDS",
-    "meaning": "Armor-Piercing Discarding Sabot",
-    "description": "Type of kinetic energy anti-armor munition with a sabot discarded after leaving the barrel.",
-    "reference": {
-      "name": "FM 3-22.65"
-    },
-    "category": ["Munitions"],
-    "branches": ["army"],
-    "commonality": "service-specific",
-    "relatedTerms": ["SABOT", "APFSDS"],
+    "relatedTerms": ["VTOL", "STOL", "Harrier"],
     "aliases": [],
     "searchPriority": "medium"
   },
   {
-    "acronym": "APFSDS",
-    "meaning": "Armor-Piercing Fin-Stabilized Discarding Sabot",
-    "description": "A long-rod penetrator kinetic munition stabilized by fins for anti-armor use.",
+    "acronym": "VLS",
+    "meaning": "Vertical Launch System",
+    "description": "Missile launching system that fires vertically from below deck on naval vessels.",
     "reference": {
-      "name": "FM 3-22.65"
+      "name": "Navy Systems Command"
     },
-    "category": ["Munitions"],
-    "branches": ["army"],
+    "category": ["Naval", "Weapons"],
+    "branches": ["navy"],
     "commonality": "service-specific",
-    "relatedTerms": ["APDS", "SABOT"],
+    "relatedTerms": ["Missile System", "Launch System"],
     "aliases": [],
     "searchPriority": "medium"
   },
   {
-    "acronym": "AR",
-    "meaning": "Assault Rifle",
-    "description": "Generic term for military rifles capable of selective fire; often associated with the AR-15/M16 family.",
+    "acronym": "VIP",
+    "meaning": "Very Important Person",
+    "description": "Individual requiring special security, protocol, or handling due to rank or position.",
     "reference": {
-      "name": "FM 3-22.9"
+      "name": "AR 190-56",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
     },
-    "category": ["Weapons"],
+    "category": ["Protocol", "Security"],
     "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["M16", "M4"],
-    "aliases": [],
+    "relatedTerms": ["VVIP", "Dignitary"],
+    "aliases": ["Important Person"],
     "searchPriority": "high"
   },
   {
-    "acronym": "ARNG",
-    "meaning": "Army National Guard",
-    "description": "Reserve component of the Army with dual state and federal mission.",
+    "acronym": "VI",
+    "meaning": "Visual Information",
+    "description": "Still and motion imagery, graphics, and related production services supporting operations.",
     "reference": {
-      "name": "NGR 10-1"
+      "name": "AR 25-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
     },
-    "category": ["Organizations", "Reserve"],
+    "category": ["Communications", "Public Affairs"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PA", "Public Affairs", "Media"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "VHF",
+    "meaning": "Very High Frequency",
+    "description": "Radio frequency band from 30 MHz to 300 MHz used for military communications.",
+    "reference": {
+      "name": "FM 6-02.53",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["UHF", "HF", "Radio Frequency"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "VFR",
+    "meaning": "Visual Flight Rules",
+    "description": "Aviation regulations allowing pilots to navigate by visual reference to the ground.",
+    "reference": {
+      "name": "FAA/DoD Aviation Standards"
+    },
+    "category": ["Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IFR", "Flight Rules"],
+    "aliases": ["Visual Flight"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "VC",
+    "meaning": "Vehicle Commander / Viet Cong",
+    "description": "Crew member commanding an armored vehicle. Also, communist guerrilla forces in South Vietnam.",
+    "reference": {
+      "name": "TC 3-20.31 / Historical"
+    },
+    "category": ["Armor", "History"],
     "branches": ["army"],
     "commonality": "service-specific",
-    "relatedTerms": ["USAR"],
-    "aliases": ["National Guard"],
+    "relatedTerms": ["TC", "Commander", "Vietnam"],
+    "aliases": ["Vehicle Commander"],
     "searchPriority": "high"
   },
   {
-    "acronym": "AT",
-    "meaning": "Anti-Tank",
-    "description": "Weapons and operations designed to defeat enemy armored vehicles.",
+    "acronym": "VBIED",
+    "meaning": "Vehicle-Borne Improvised Explosive Device",
+    "description": "Explosive device placed in or on a vehicle and detonated remotely or by driver.",
     "reference": {
-      "name": "FM 3-22.65"
+      "name": "ATP 3-37.2",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/ATP.aspx"
     },
-    "category": ["Warfare"],
+    "category": ["Threats", "EOD"],
     "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["ATGM", "LAW", "Javelin"],
-    "aliases": ["Anti-Armor"],
+    "relatedTerms": ["IED", "Car Bomb", "SVBIED"],
+    "aliases": ["Car Bomb", "Vehicle Bomb"],
     "searchPriority": "high"
   },
   {
-    "acronym": "ATGM",
-    "meaning": "Anti-Tank Guided Missile",
-    "description": "Precision-guided missile designed to defeat armored vehicles.",
+    "acronym": "VA",
+    "meaning": "Veterans Affairs / Department of Veterans Affairs",
+    "description": "Federal department providing services and benefits to military veterans.",
     "reference": {
-      "name": "FM 3-22.65"
+      "name": "VA.gov"
     },
-    "category": ["Weapons"],
-    "branches": ["army", "marines"],
+    "category": ["Administration", "Veterans"],
+    "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["TOW", "Javelin"],
+    "relatedTerms": ["Veterans", "Benefits", "DVA"],
+    "aliases": ["Veterans Affairs", "Department of Veterans Affairs"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UTC",
+    "meaning": "Universal Time Code / Unit Type Code",
+    "description": "Standardized time reference (Coordinated Universal Time). Also, five-character alphanumeric code identifying force capabilities.",
+    "reference": {
+      "name": "JP 3-35",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Time", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ZULU", "GMT", "Force Structure"],
+    "aliases": ["Coordinated Universal Time"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USSR",
+    "meaning": "Union of Soviet Socialist Republics",
+    "description": "Former communist state that existed from 1922 to 1991, Cold War adversary.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Soviet Union", "Russia", "Cold War"],
+    "aliases": ["Soviet Union"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USTRANSCOM",
+    "meaning": "U.S. Transportation Command",
+    "description": "Unified combatant command responsible for Department of Defense transportation.",
+    "reference": {
+      "name": "JP 4-01",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Command", "Logistics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TRANSCOM", "COCOM", "Combatant Command"],
+    "aliases": ["TRANSCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USSTRATCOM",
+    "meaning": "U.S. Strategic Command",
+    "description": "Unified combatant command responsible for strategic deterrence, nuclear operations, and space operations.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["STRATCOM", "COCOM", "Nuclear"],
+    "aliases": ["STRATCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USSOUTHCOM",
+    "meaning": "U.S. Southern Command",
+    "description": "Unified combatant command responsible for Central America, South America, and the Caribbean.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SOUTHCOM", "COCOM", "Latin America"],
+    "aliases": ["SOUTHCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USSOCOM",
+    "meaning": "U.S. Special Operations Command",
+    "description": "Unified combatant command overseeing all special operations forces across services.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command", "Special Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SOCOM", "Special Operations", "SOF"],
+    "aliases": ["SOCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USPACOM",
+    "meaning": "U.S. Pacific Command",
+    "description": "Former name of U.S. Indo-Pacific Command, responsible for Asia-Pacific region.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["INDOPACOM", "PACOM", "COCOM"],
+    "aliases": ["PACOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USNORTHCOM",
+    "meaning": "U.S. Northern Command",
+    "description": "Unified combatant command responsible for homeland defense and civil support.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NORTHCOM", "COCOM", "Homeland Defense"],
+    "aliases": ["NORTHCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USMC",
+    "meaning": "United States Marine Corps",
+    "description": "Branch of the U.S. Armed Forces responsible for expeditionary and amphibious operations.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Service Branch"],
+    "branches": ["marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Marines", "USMC", "Leatherneck"],
+    "aliases": ["Marine Corps", "Marines"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USEUCOM",
+    "meaning": "U.S. European Command",
+    "description": "Unified combatant command responsible for Europe, Russia, and parts of Middle East.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["EUCOM", "COCOM", "Europe"],
+    "aliases": ["EUCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USCG",
+    "meaning": "United States Coast Guard",
+    "description": "Maritime security, search and rescue, and law enforcement service under DHS (wartime: DoD).",
+    "reference": {
+      "name": "14 USC"
+    },
+    "category": ["Service Branch"],
+    "branches": ["coast guard"],
+    "commonality": "universal",
+    "relatedTerms": ["Coast Guard", "DHS"],
+    "aliases": ["Coast Guard"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USCENTCOM",
+    "meaning": "U.S. Central Command",
+    "description": "Unified combatant command responsible for Middle East, Central Asia, and parts of South Asia.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CENTCOM", "COCOM", "Middle East"],
+    "aliases": ["CENTCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USASOC",
+    "meaning": "U.S. Army Special Operations Command",
+    "description": "Army component command responsible for special operations forces including Special Forces, Rangers, and Civil Affairs.",
+    "reference": {
+      "name": "Army Organization"
+    },
+    "category": ["Command", "Special Operations"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["SOCOM", "Special Forces", "Rangers"],
+    "aliases": ["Army Special Operations"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USAREUR",
+    "meaning": "U.S. Army Europe",
+    "description": "Army Service Component Command for European theater operations.",
+    "reference": {
+      "name": "Army Organization"
+    },
+    "category": ["Command", "Army"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["EUCOM", "Europe", "Theater Army"],
+    "aliases": ["Army Europe"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USAR",
+    "meaning": "U.S. Army Reserve",
+    "description": "Federal reserve component of the U.S. Army providing trained units and individuals.",
+    "reference": {
+      "name": "AR 135-200",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Army", "Reserve Component"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Reserve", "ARNG", "RC"],
+    "aliases": ["Army Reserve"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USAF",
+    "meaning": "United States Air Force",
+    "description": "Branch of the U.S. Armed Forces responsible for air and space operations.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Service Branch"],
+    "branches": ["air force"],
+    "commonality": "universal",
+    "relatedTerms": ["Air Force", "USAF"],
+    "aliases": ["Air Force"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "USA",
+    "meaning": "United States Army",
+    "description": "Oldest and largest branch of the U.S. Armed Forces, responsible for land-based military operations.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Service Branch"],
+    "branches": ["army"],
+    "commonality": "universal",
+    "relatedTerms": ["Army", "Soldier"],
+    "aliases": ["Army", "U.S. Army"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UN",
+    "meaning": "United Nations",
+    "description": "International organization founded in 1945 for maintaining international peace and security.",
+    "reference": {
+      "name": "UN Charter"
+    },
+    "category": ["International"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["International", "Peacekeeping"],
+    "aliases": ["United Nations"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UK",
+    "meaning": "United Kingdom",
+    "description": "Major NATO ally consisting of England, Scotland, Wales, and Northern Ireland.",
+    "reference": {
+      "name": "International Reference"
+    },
+    "category": ["International"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Britain", "NATO", "Ally"],
+    "aliases": ["United Kingdom", "Britain"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UH",
+    "meaning": "Utility Helicopter",
+    "description": "Military helicopter designation for utility and transport missions (e.g., UH-60 Black Hawk).",
+    "reference": {
+      "name": "DoD Aircraft Designation System"
+    },
+    "category": ["Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Helicopter", "UH-60", "Black Hawk"],
     "aliases": [],
     "searchPriority": "high"
   },
   {
-    "acronym": "AWOL",
-    "meaning": "Absent Without Official Leave",
-    "description": "Unauthorized absence from duty without intent to desert.",
+    "acronym": "UGV",
+    "meaning": "Unmanned Ground Vehicle",
+    "description": "Remotely operated or autonomous ground vehicle used for reconnaissance, EOD, or combat.",
     "reference": {
-      "name": "UCMJ, Article 86"
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
     },
-    "category": ["Personnel", "Discipline"],
-    "branches": ["army", "air-force", "marines", "navy"],
+    "category": ["Equipment", "Robotics"],
+    "branches": ["joint"],
     "commonality": "universal",
-    "relatedTerms": ["UA", "Desertion"],
-    "aliases": [],
-    "searchPriority": "high"
+    "relatedTerms": ["Robot", "Unmanned", "Ground Vehicle"],
+    "aliases": ["Ground Robot"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "UDT",
+    "meaning": "Underwater Demolition Team",
+    "description": "Historical Navy special operations unit, predecessor to Navy SEALs.",
+    "reference": {
+      "name": "Naval Special Warfare History"
+    },
+    "category": ["Special Operations", "History", "Naval"],
+    "branches": ["navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["SEAL", "Navy", "Frogman"],
+    "aliases": ["Frogman"],
+    "searchPriority": "medium"
   }
 ]
+  
