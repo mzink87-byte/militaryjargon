@@ -27179,5 +27179,228 @@
   "relatedTerms": ["QMP", "Promotion Board"],
   "aliases": ["Retention Board"],
   "searchPriority": "medium"
-}
+},  {
+    "acronym": "AA",
+    "meaning": "Anti-Aircraft / Assembly Area",
+    "description": "Context-dependent: either anti-aircraft systems or a designated assembly area for units prior to operations.",
+    "reference": {
+      "name": "FM 3-01"
+    },
+    "category": ["Warfare", "Operations"],
+    "branches": ["army", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ADA", "SAM"],
+    "aliases": ["Assembly Area"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AAA",
+    "meaning": "Anti-Aircraft Artillery",
+    "description": "Often called 'Triple A'. Guns and systems designed to destroy aircraft.",
+    "reference": {
+      "name": "FM 3-01"
+    },
+    "category": ["Warfare"],
+    "branches": ["army", "joint"],
+    "commonality": "universal",
+    "relatedTerms": ["AA", "ADA"],
+    "aliases": ["Triple A"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AAR",
+    "meaning": "After-Action Review",
+    "description": "Structured review following training or operations to identify lessons learned.",
+    "reference": {
+      "name": "FM 7-0"
+    },
+    "category": ["Training"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Hotwash", "Debrief"],
+    "aliases": ["After Action Report"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ABC",
+    "meaning": "Atomic, Biological, Chemical",
+    "description": "Legacy term for nuclear, biological, and chemical warfare; precursor to CBRN/CBRNE.",
+    "reference": {
+      "name": "FM 3-11"
+    },
+    "category": ["Warfare"],
+    "branches": ["joint"],
+    "commonality": "historical",
+    "relatedTerms": ["NBC", "CBRN"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "ACU",
+    "meaning": "Army Combat Uniform",
+    "description": "Standard camouflage uniform worn by U.S. Army Soldiers.",
+    "reference": {
+      "name": "AR 670-1"
+    },
+    "category": ["Uniforms"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["OCP"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AD",
+    "meaning": "Air Defense",
+    "description": "Operations and systems designed to protect forces from enemy aircraft and missiles.",
+    "reference": {
+      "name": "FM 3-01"
+    },
+    "category": ["Warfare"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ADA", "SAM"],
+    "aliases": ["Air Defense Artillery"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AO",
+    "meaning": "Area of Operations",
+    "description": "A geographical area defined by a commander for military operations.",
+    "reference": {
+      "name": "FM 3-0"
+    },
+    "category": ["Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["AOR"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AP",
+    "meaning": "Anti-Personnel / Armor-Piercing",
+    "description": "Munition designations: AP may refer to anti-personnel or armor-piercing, depending on context.",
+    "reference": {
+      "name": "FM 3-22.65"
+    },
+    "category": ["Munitions"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["HE", "API", "APFSDS"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "APC",
+    "meaning": "Armored Personnel Carrier",
+    "description": "Armored, usually tracked vehicle designed to carry infantry into battle.",
+    "reference": {
+      "name": "FM 3-90"
+    },
+    "category": ["Vehicles"],
+    "branches": ["army", "marines"],
+    "commonality": "universal",
+    "relatedTerms": ["IFV", "BFV"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "APDS",
+    "meaning": "Armor-Piercing Discarding Sabot",
+    "description": "Type of kinetic energy anti-armor munition with a sabot discarded after leaving the barrel.",
+    "reference": {
+      "name": "FM 3-22.65"
+    },
+    "category": ["Munitions"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["SABOT", "APFSDS"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "APFSDS",
+    "meaning": "Armor-Piercing Fin-Stabilized Discarding Sabot",
+    "description": "A long-rod penetrator kinetic munition stabilized by fins for anti-armor use.",
+    "reference": {
+      "name": "FM 3-22.65"
+    },
+    "category": ["Munitions"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["APDS", "SABOT"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "AR",
+    "meaning": "Assault Rifle",
+    "description": "Generic term for military rifles capable of selective fire; often associated with the AR-15/M16 family.",
+    "reference": {
+      "name": "FM 3-22.9"
+    },
+    "category": ["Weapons"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["M16", "M4"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ARNG",
+    "meaning": "Army National Guard",
+    "description": "Reserve component of the Army with dual state and federal mission.",
+    "reference": {
+      "name": "NGR 10-1"
+    },
+    "category": ["Organizations", "Reserve"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["USAR"],
+    "aliases": ["National Guard"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AT",
+    "meaning": "Anti-Tank",
+    "description": "Weapons and operations designed to defeat enemy armored vehicles.",
+    "reference": {
+      "name": "FM 3-22.65"
+    },
+    "category": ["Warfare"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ATGM", "LAW", "Javelin"],
+    "aliases": ["Anti-Armor"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ATGM",
+    "meaning": "Anti-Tank Guided Missile",
+    "description": "Precision-guided missile designed to defeat armored vehicles.",
+    "reference": {
+      "name": "FM 3-22.65"
+    },
+    "category": ["Weapons"],
+    "branches": ["army", "marines"],
+    "commonality": "universal",
+    "relatedTerms": ["TOW", "Javelin"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AWOL",
+    "meaning": "Absent Without Official Leave",
+    "description": "Unauthorized absence from duty without intent to desert.",
+    "reference": {
+      "name": "UCMJ, Article 86"
+    },
+    "category": ["Personnel", "Discipline"],
+    "branches": ["army", "air-force", "marines", "navy"],
+    "commonality": "universal",
+    "relatedTerms": ["UA", "Desertion"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
 ]
