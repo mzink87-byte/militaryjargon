@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit an Acronym | Military Jargon</title>
+  <meta name="description" content="Help improve Military Jargon by submitting new terms or corrections to existing definitions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Military Jargon</h1>
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="browse.html">Browse</a> | 
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="submit-container">
+    <div class="submit-section">
+      <h2>Submit an Acronym or Term</h2>
+      <p>Help us build the most comprehensive military jargon database. Submit new terms or suggest corrections to existing ones.</p>
+
+      <form class="submit-form" id="submitForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        
+        <label for="acronym">Acronym or Term *</label>
+        <input type="text" id="acronym" name="acronym" required placeholder="e.g., OPORD">
+
+        <label for="meaning">Full Meaning *</label>
+        <input type="text" id="meaning" name="meaning" required placeholder="e.g., Operations Order">
+
+        <label for="description">Description *</label>
+        <textarea id="description" name="description" required rows="4" placeholder="Provide a clear, concise explanation of what this term means and how it's used..."></textarea>
+
+        <label for="reference">Reference Source (if known)</label>
+        <input type="text" id="reference" name="reference" placeholder="e.g., FM 6-0, DA PAM 611-21, common usage">
+
+        <label for="branch">Which branch/field uses this term?</label>
+        <select id="branch" name="branch">
+          <option value="">Select branch (optional)</option>
+          <option value="army">Army</option>
+          <option value="navy">Navy</option>
+          <option value="air-force">Air Force</option>
+          <option value="marines">Marines</option>
+          <option value="coast-guard">Coast Guard</option>
+          <option value="space-force">Space Force</option>
+          <option value="joint">Joint (all branches)</option>
+        </select>
+
+        <label for="category">Category</label>
+        <select id="category" name="category">
+          <option value="">Select category (optional)</option>
+          <option value="mos">MOS/Job Codes</option>
+          <option value="ranks">Ranks</option>
+          <option value="equipment">Equipment</option>
+          <option value="operations">Operations</option>
+          <option value="intelligence">Intelligence</option>
+          <option value="logistics">Logistics</option>
+          <option value="medical">Medical</option>
+          <option value="slang">Slang/Informal</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="email">Your Email (optional)</label>
+        <input type="email" id="email" name="email" placeholder="For follow-up questions (not required)">
+
+        <div class="opsec-warning">
+          <strong>⚠️ OPSEC Reminder:</strong> Do not submit classified information or operational details that could compromise security.
+        </div>
+
+        <button type="submit">Submit Term</button>
+      </form>
+
+      <div id="successMessage" style="display: none;" class="success-message">
+        ✅ Thank you! Your submission has been received and will be reviewed.
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>Military Jargon</strong> – Clear Terms. Clean Definitions.</p>
+    <p><small>Part of the <a href="https://jargonhubs.com">JargonHubs</a> network</small></p>
+  </footer>
+
+  <script>
+    // Check if URL has correction parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const correctionTerm = urlParams.get('correction');
+    if (correctionTerm) {
+      document.getElementById('acronym').value = correctionTerm;
+      document.querySelector('h2').textContent = `Suggest Correction for: ${correctionTerm}`;
+    }
+
+    // Handle form submission
+    const form = document.getElementById('submitForm');
+    form.addEventListener('submit', function(e) {
+      // Let formspree handle it, then show success message
+      setTimeout(() => {
+        document.getElementById('successMessage').style.display = 'block';
+        form.reset();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
