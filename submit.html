@@ -13,7 +13,8 @@
     <nav>
       <a href="index.html">Home</a> | 
       <a href="browse.html">Browse</a> | 
-      <a href="about.html">About</a>
+      <a href="about.html">About</a> | 
+      <a href="submit.html">Submit</a>
     </nav>
   </header>
 
@@ -22,7 +23,8 @@
       <h2>Submit an Acronym or Term</h2>
       <p>Help us build the most comprehensive military jargon database. Submit new terms or suggest corrections to existing ones.</p>
 
-      <form class="submit-form" id="submitForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <!-- ✅ Updated Formspree endpoint -->
+      <form class="submit-form" id="submitForm" action="https://formspree.io/f/xjkarkep" method="POST">
         
         <label for="acronym">Acronym or Term *</label>
         <input type="text" id="acronym" name="acronym" required placeholder="e.g., OPORD">
@@ -65,6 +67,9 @@
         <label for="email">Your Email (optional)</label>
         <input type="email" id="email" name="email" placeholder="For follow-up questions (not required)">
 
+        <!-- ✅ Hidden field to help ID source in inbox -->
+        <input type="hidden" name="form-source" value="MilitaryJargon.com">
+
         <div class="opsec-warning">
           <strong>⚠️ OPSEC Reminder:</strong> Do not submit classified information or operational details that could compromise security.
         </div>
@@ -92,10 +97,9 @@
       document.querySelector('h2').textContent = `Suggest Correction for: ${correctionTerm}`;
     }
 
-    // Handle form submission
+    // Handle form submission (show success message after Formspree submission)
     const form = document.getElementById('submitForm');
     form.addEventListener('submit', function(e) {
-      // Let formspree handle it, then show success message
       setTimeout(() => {
         document.getElementById('successMessage').style.display = 'block';
         form.reset();
