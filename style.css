@@ -396,3 +396,17 @@ footer {
 footer strong {
   color: #1E3A8A;
 }
+
+/* ============================
+   Header Nav Links Override
+============================ */
+header nav a {
+  color: white;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  color: #FFCC00; /* gold hover */
+  text-decoration: underline;
+}
