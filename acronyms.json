@@ -54333,19 +54333,5 @@
     "relatedTerms": ["IRR", "TPU"],
     "aliases": ["IMA Reservist"],
     "searchPriority": "medium"
-  },
-  {
-    "acronym": "TPU",
-    "meaning": "Troop Program Unit",
-    "description": "Army Reserve units where Soldiers train regularly and are assigned to specific units.",
-    "reference": {
-      "name": "Army Reserve Command Regulations"
-    },
-    "category": ["Personnel", "Reserve"],
-    "branches": ["army"],
-    "commonality": "service-specific",
-    "relatedTerms": ["USAR", "IRR"],
-    "aliases": ["Drilling Unit"],
-    "searchPriority": "medium"
   }
 ]
