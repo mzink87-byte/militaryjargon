@@ -30188,5 +30188,152 @@
     "relatedTerms": ["Navigation", "Satellite", "Location"],
     "aliases": [],
     "searchPriority": "high"
+  },
+  {
+    "acronym": "FOB",
+    "meaning": "Forward Operating Base",
+    "description": "Secured military position used to support tactical operations in forward areas.",
+    "reference": {
+      "name": "JP 3-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations", "Installation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["COP", "Base", "Outpost"],
+    "aliases": ["Forward Base"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "FRAGO",
+    "meaning": "Fragmentary Order",
+    "description": "Brief order modifying or clarifying previous orders without complete restatement.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OPORD", "WARNO", "Order"],
+    "aliases": ["Frag Order"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "FMC",
+    "meaning": "Fully Mission Capable",
+    "description": "Equipment status indicating all systems operational and ready for any assigned mission.",
+    "reference": {
+      "name": "AR 700-138",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Maintenance", "Readiness"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PMC", "NMC", "Readiness"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "FO",
+    "meaning": "Forward Observer",
+    "description": "Soldier positioned forward to observe and call for indirect fire support.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Field Artillery", "Tactics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Artillery", "Fire Support", "FiST"],
+    "aliases": ["Forward Observer"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "EOD",
+    "meaning": "Explosive Ordnance Disposal",
+    "description": "Personnel trained to detect, disarm, and dispose of explosive threats.",
+    "reference": {
+      "name": "JP 3-15.1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Explosives", "Special Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IED", "UXO", "Bomb Squad"],
+    "aliases": ["Bomb Squad"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ETA",
+    "meaning": "Estimated Time of Arrival",
+    "description": "Predicted time when personnel, equipment, or supplies will reach destination.",
+    "reference": {
+      "name": "Planning Standards"
+    },
+    "category": ["Planning", "Logistics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ETD", "Time", "Planning"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ETS",
+    "meaning": "Expiration Term of Service / Estimated Time of Separation",
+    "description": "Date when service member's active duty obligation ends.",
+    "reference": {
+      "name": "AR 635-200",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Personnel"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Separation", "Discharge", "End of Service"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "DMZ",
+    "meaning": "Demilitarized Zone",
+    "description": "Area where military forces and operations are prohibited, like Korean DMZ.",
+    "reference": {
+      "name": "International Law"
+    },
+    "category": ["Geography", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Korea", "Buffer Zone", "Neutral"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "DoD",
+    "meaning": "Department of Defense",
+    "description": "Executive department of U.S. government responsible for military and national security.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Government", "Organization"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Pentagon", "SECDEF", "Military"],
+    "aliases": ["Pentagon"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "DZ",
+    "meaning": "Drop Zone",
+    "description": "Designated area where airborne troops or equipment are parachuted.",
+    "reference": {
+      "name": "FM 3-21.220",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Airborne", "Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["LZ", "PZ", "Airborne"],
+    "aliases": [],
+    "searchPriority": "high"
   }
 ]
