@@ -29358,5 +29358,357 @@
     "relatedTerms": ["TAI", "Intelligence", "IPB"],
     "aliases": [],
     "searchPriority": "high"
+  },
+  {
+    "acronym": "MWR",
+    "meaning": "Morale, Welfare, and Recreation",
+    "description": "Programs and services enhancing quality of life for service members and families.",
+    "reference": {
+      "name": "AR 215-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Morale", "Services"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Recreation", "Morale", "Quality of Life"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MTOE",
+    "meaning": "Modified Table of Organization and Equipment",
+    "description": "TOE modified to fit specific operational needs of a particular unit.",
+    "reference": {
+      "name": "AR 71-32",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Organization", "Personnel"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TOE", "TDA", "Organization"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MSR",
+    "meaning": "Main Supply Route",
+    "description": "Primary road or route designated for movement of supplies and reinforcements.",
+    "reference": {
+      "name": "FM 3-90-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Logistics", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["ASR", "Route", "Logistics"],
+    "aliases": ["Supply Route"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MSG",
+    "meaning": "Master Sergeant / Marine Security Guard",
+    "description": "Senior NCO rank E-8 in Army. Also, Marines providing embassy security.",
+    "reference": {
+      "name": "AR 600-8-19 / Marine Corps"
+    },
+    "category": ["Rank", "Security"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Sergeant", "NCO", "Embassy"],
+    "aliases": ["Master Sergeant"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MSD",
+    "meaning": "Minimum Safe Distance",
+    "description": "Minimum distance required to avoid harmful effects from explosions, ordnance, or hazardous operations.",
+    "reference": {
+      "name": "DA PAM 385-64",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": ["Safety", "Explosives"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Safety", "Explosives", "Ordnance"],
+    "aliases": ["Safe Distance"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MSC",
+    "meaning": "Military Sealift Command",
+    "description": "Navy organization providing sealift and ocean transportation for DoD.",
+    "reference": {
+      "name": "Navy Organization"
+    },
+    "category": ["Naval", "Transportation"],
+    "branches": ["navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Sealift", "Transportation", "Navy"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "MRE",
+    "meaning": "Meal, Ready-to-Eat",
+    "description": "Self-contained individual field ration for military personnel.",
+    "reference": {
+      "name": "Defense Supply Center Philadelphia"
+    },
+    "category": ["Logistics", "Rations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Rations", "Food", "Class I"],
+    "aliases": ["Meals Ready to Eat"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MRAP",
+    "meaning": "Mine-Resistant Ambush Protected",
+    "description": "Vehicle designed to withstand IED attacks and ambushes with V-shaped hull.",
+    "reference": {
+      "name": "Army Equipment Program"
+    },
+    "category": ["Equipment", "Vehicles"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Vehicle", "IED Protection", "MaxxPro"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MP",
+    "meaning": "Military Police",
+    "description": "Personnel responsible for law enforcement, security, and battlefield circulation control.",
+    "reference": {
+      "name": "FM 3-39",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Military Police"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Law Enforcement", "Security", "PM"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MOPP",
+    "meaning": "Mission Oriented Protective Posture",
+    "description": "Flexible system of protection against chemical, biological, radiological, and nuclear threats.",
+    "reference": {
+      "name": "FM 3-11",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["CBRN", "Protection"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CBRN", "NBC", "Protective Equipment"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MOLLE",
+    "meaning": "Modular Lightweight Load-carrying Equipment",
+    "description": "Current load-bearing system using PALS webbing for attaching pouches and gear.",
+    "reference": {
+      "name": "Army Equipment Program"
+    },
+    "category": ["Equipment", "Infantry"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PALS", "Load Bearing", "Gear"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MOA",
+    "meaning": "Minute of Angle",
+    "description": "Unit of angular measurement equal to 1/60th of a degree, used in marksmanship.",
+    "reference": {
+      "name": "TC 3-20.40"
+    },
+    "category": ["Marksmanship"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Marksmanship", "Accuracy", "Zeroing"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MOS",
+    "meaning": "Military Occupational Specialty",
+    "description": "Job classification system identifying specific skills and training of Army and Marine Corps personnel.",
+    "reference": {
+      "name": "AR 611-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Personnel"],
+    "branches": ["army", "marine corps"],
+    "commonality": "service-specific",
+    "relatedTerms": ["AFSC", "Rating", "Job"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MLRS",
+    "meaning": "Multiple Launch Rocket System",
+    "description": "Mobile rocket artillery system firing rockets or missiles from launcher pod.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Field Artillery", "Equipment"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["HIMARS", "GMLRS", "Rocket Artillery"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MIA",
+    "meaning": "Missing in Action",
+    "description": "Casualty status indicating service member's location is unknown.",
+    "reference": {
+      "name": "AR 600-8-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Casualties", "Personnel"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["KIA", "WIA", "Casualty"],
+    "aliases": ["Missing"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MGRS",
+    "meaning": "Military Grid Reference System",
+    "description": "Geographic coordinate system used by NATO militaries for map references.",
+    "reference": {
+      "name": "FM 3-25.26",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Navigation", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Grid", "Coordinates", "Map Reading"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MEU",
+    "meaning": "Marine Expeditionary Unit",
+    "description": "Marine air-ground task force of approximately 2,200 personnel for rapid deployment.",
+    "reference": {
+      "name": "Marine Corps Organization"
+    },
+    "category": ["Marine Corps", "Organization"],
+    "branches": ["marine corps"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Marines", "MAGTF", "Expeditionary"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "METT-TC",
+    "meaning": "Mission, Enemy, Terrain, Troops, Time, Civilians",
+    "description": "Factors commanders consider when analyzing a mission and developing courses of action.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Planning", "Operations"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Planning", "COA", "Mission Analysis"],
+    "aliases": ["METT-T"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "METL",
+    "meaning": "Mission Essential Task List",
+    "description": "List of tasks a unit must perform to accomplish its wartime mission.",
+    "reference": {
+      "name": "AR 350-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Training", "Readiness"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Training", "Tasks", "Mission"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MEF",
+    "meaning": "Marine Expeditionary Force",
+    "description": "Principal Marine Corps warfighting organization, typically division-sized.",
+    "reference": {
+      "name": "Marine Corps Organization"
+    },
+    "category": ["Marine Corps", "Organization"],
+    "branches": ["marine corps"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Marines", "MAGTF", "MEU"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MEDEVAC",
+    "meaning": "Medical Evacuation",
+    "description": "Movement of casualties to medical treatment facilities using dedicated medical platforms.",
+    "reference": {
+      "name": "FM 4-02",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Medical", "Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CASEVAC", "9-Line", "Dustoff"],
+    "aliases": ["Medical Evacuation", "Dustoff"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MDMP",
+    "meaning": "Military Decision Making Process",
+    "description": "Army's analytical planning methodology for developing operations orders.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Planning", "Operations"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Planning", "COA", "Operations"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MBT",
+    "meaning": "Main Battle Tank",
+    "description": "Heavily armored combat vehicle with large-caliber main gun, like M1 Abrams.",
+    "reference": {
+      "name": "FM 3-20.21",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Armor", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Tank", "Armor", "Abrams"],
+    "aliases": ["Tank"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "MANPADS",
+    "meaning": "Man-Portable Air Defense System",
+    "description": "Shoulder-fired surface-to-air missile system like Stinger.",
+    "reference": {
+      "name": "FM 3-01.11",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Air Defense", "Weapons"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Stinger", "SAM", "Air Defense"],
+    "aliases": [],
+    "searchPriority": "high"
   }
 ]
