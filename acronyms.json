@@ -30335,5 +30335,282 @@
     "relatedTerms": ["LZ", "PZ", "Airborne"],
     "aliases": [],
     "searchPriority": "high"
-  }
-]
+  },
+  {
+    "acronym": "CAS",
+    "meaning": "Close Air Support",
+    "description": "Air action against hostile targets close to friendly forces requiring detailed coordination.",
+    "reference": {
+      "name": "JP 3-09.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Air Support", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["JTAC", "Air Support", "A-10"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CASEVAC",
+    "meaning": "Casualty Evacuation",
+    "description": "Movement of casualties using non-medical vehicles or aircraft.",
+    "reference": {
+      "name": "FM 4-02",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Medical", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["MEDEVAC", "9-Line", "Medical"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CBRN",
+    "meaning": "Chemical, Biological, Radiological, Nuclear",
+    "description": "Weapons of mass destruction and defense measures against them.",
+    "reference": {
+      "name": "FM 3-11",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["CBRN", "Protection"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NBC", "WMD", "MOPP"],
+    "aliases": ["NBC"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CO",
+    "meaning": "Commanding Officer",
+    "description": "Officer in command of a military unit or installation.",
+    "reference": {
+      "name": "Military Leadership"
+    },
+    "category": ["Leadership", "Command and Control"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Commander", "XO", "Command"],
+    "aliases": ["Commander"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CP",
+    "meaning": "Command Post",
+    "description": "Unit headquarters where commander and staff perform command and control functions.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Command and Control", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TOC", "HQ", "C2"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "CQ",
+    "meaning": "Charge of Quarters",
+    "description": "Duty assignment for maintaining security and accountability of unit during non-duty hours.",
+    "reference": {
+      "name": "Army Regulation"
+    },
+    "category": ["Duty", "Administration"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Duty", "Staff Duty", "Guard"],
+    "aliases": ["Charge of Quarters"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "C4ISR",
+    "meaning": "Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance",
+    "description": "Integrated systems supporting military command and control operations.",
+    "reference": {
+      "name": "JP 6-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Command and Control", "Technology"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["C2", "ISR", "Communications"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "C2",
+    "meaning": "Command and Control",
+    "description": "Exercise of authority and direction by commander to accomplish mission.",
+    "reference": {
+      "name": "JP 1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Command and Control"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["C4ISR", "Command", "Control"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "BDE",
+    "meaning": "Brigade",
+    "description": "Military unit typically consisting of 3,000-5,000 soldiers, commanded by colonel.",
+    "reference": {
+      "name": "Military Organization"
+    },
+    "category": ["Organization"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["BN", "Division", "Unit"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "BN",
+    "meaning": "Battalion",
+    "description": "Military unit typically consisting of 300-1,000 soldiers, commanded by lieutenant colonel.",
+    "reference": {
+      "name": "Military Organization"
+    },
+    "category": ["Organization"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["BDE", "Company", "Unit"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "BCT",
+    "meaning": "Brigade Combat Team",
+    "description": "Army combined arms formation designed for independent operations.",
+    "reference": {
+      "name": "FM 3-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Organization"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Brigade", "IBCT", "SBCT"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AO",
+    "meaning": "Area of Operations",
+    "description": "Operational area defined by joint force commander for land and naval forces.",
+    "reference": {
+      "name": "JP 3-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OA", "Battlespace", "Operations"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "AOR",
+    "meaning": "Area of Responsibility",
+    "description": "Geographic area assigned to combatant commander for military operations.",
+    "reference": {
+      "name": "JP 3-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations", "Command"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["COCOM", "Geographic", "Operations"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "APC",
+    "meaning": "Armored Personnel Carrier",
+    "description": "Armored vehicle designed to transport infantry to battlefield.",
+    "reference": {
+      "name": "Military Equipment"
+    },
+    "category": ["Armor", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["IFV", "Vehicle", "Transport"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ALCON",
+    "meaning": "All Concerned",
+    "description": "Message addressee indicator meaning the message is directed to all personnel concerned with the subject matter.",
+    "reference": {
+      "name": "Military Communications"
+    },
+    "category": ["Communications", "Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Communications", "Message", "SITREP"],
+    "aliases": ["All Concerned"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "DIRLAUTH",
+    "meaning": "Direct Liaison Authorized",
+    "description": "Authority granted to a commander to directly coordinate with another commander at the same or lower echelon, bypassing the chain of command for specific purposes.",
+    "reference": {
+      "name": "JP 1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Command and Control", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Command", "C2", "Coordination"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "DRU",
+    "meaning": "Direct Reporting Unit",
+    "description": "Army organization that reports directly to Headquarters, Department of the Army, rather than through a major command.",
+    "reference": {
+      "name": "Army Organization"
+    },
+    "category": ["Organization", "Command and Control"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Organization", "Command", "HQDA"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "DISCOM",
+    "meaning": "Division Support Command",
+    "description": "Former Army divisional logistics command structure, now reorganized under brigade support battalions.",
+    "reference": {
+      "name": "Army Historical Organization"
+    },
+    "category": ["Logistics", "Organization"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Logistics", "Division", "Support"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+  "acronym": "DSCA",
+  "meaning": "Defense Support of Civil Authorities",
+  "description": "Support provided by U.S. federal military forces, DoD civilians, and DoD contractor personnel in response to requests for assistance from civil authorities for domestic emergencies, law enforcement support, and other domestic activities.",
+  "reference": {
+    "name": "JP 3-28",
+    "url": "https://www.jcs.mil/Doctrine/"
+  },
+  "category": ["Operations", "Civil Affairs"],
+  "branches": ["joint"],
+  "commonality": "universal",
+  "relatedTerms": ["Civil Affairs", "Disaster Response", "Homeland Defense"],
+  "aliases": [],
+  "searchPriority": "high"
+}
+  ]
