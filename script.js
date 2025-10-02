@@ -213,17 +213,50 @@ function createCard(item) {
     } else if (typeof item.reference === "object" && item.reference.url) {
       refDiv.innerHTML = `Reference: <a href="${item.reference.url}" target="_blank">${item.reference.name}</a>`;
     } else if (typeof item.reference === "object" && item.reference.name) {
-      // 🔧 FIX: Handle objects WITHOUT url but WITH name
       refDiv.textContent = `Reference: ${item.reference.name}`;
     } else if (typeof item.reference === "string") {
-      // 🔧 FIX: Handle string references
       refDiv.textContent = `Reference: ${item.reference}`;
     } else {
-      // 🔧 FIX: Fallback for unknown format
       refDiv.textContent = `Reference: ${JSON.stringify(item.reference)}`;
     }
 
     card.appendChild(refDiv);
+  }
+
+  // ✅ ADD RELATED TERMS (clickable)
+  if (item.relatedTerms && item.relatedTerms.length > 0) {
+    const relatedDiv = document.createElement("div");
+    relatedDiv.className = "related-terms";
+    relatedDiv.innerHTML = "Related: ";
+    
+    item.relatedTerms.forEach((term, index) => {
+      const termLink = document.createElement("span");
+      termLink.className = "related-term-link";
+      termLink.textContent = term;
+      termLink.style.cursor = "pointer";
+      termLink.style.color = "#4a9eff";
+      termLink.style.textDecoration = "underline";
+      
+      // Click handler to search for the related term
+      termLink.addEventListener("click", () => {
+        const searchInput = document.getElementById("searchInput");
+        if (searchInput) {
+          searchInput.value = term;
+          runSearch(term);
+          // Scroll to top to see results
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+      
+      relatedDiv.appendChild(termLink);
+      
+      // Add separator between terms (but not after the last one)
+      if (index < item.relatedTerms.length - 1) {
+        relatedDiv.appendChild(document.createTextNode(" · "));
+      }
+    });
+    
+    card.appendChild(relatedDiv);
   }
 
   if (item.badges && item.badges.length > 0) {
