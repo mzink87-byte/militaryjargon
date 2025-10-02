@@ -28676,6 +28676,687 @@
     "relatedTerms": ["SEAL", "Navy", "Frogman"],
     "aliases": ["Frogman"],
     "searchPriority": "medium"
+  },
+  {
+    "acronym": "OT&E",
+    "meaning": "Operational Test and Evaluation",
+    "description": "Testing performed to evaluate system effectiveness and suitability in realistic operational conditions.",
+    "reference": {
+      "name": "DoD 5000.89"
+    },
+    "category": ["Testing", "Acquisition"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["DT&E", "Testing", "Evaluation"],
+    "aliases": ["Operational Testing"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "ORM",
+    "meaning": "Operational Risk Management",
+    "description": "Process of identifying, assessing, and controlling risks to enable mission accomplishment.",
+    "reference": {
+      "name": "FM 5-19",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Safety", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Risk Management", "Safety", "CRM"],
+    "aliases": ["Risk Management"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OR",
+    "meaning": "Operational Readiness",
+    "description": "Capability of a unit to perform assigned missions or functions.",
+    "reference": {
+      "name": "AR 220-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Readiness"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Readiness", "FMC", "C-Rating"],
+    "aliases": ["Readiness"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPTEMPO",
+    "meaning": "Operational Tempo",
+    "description": "Rate of military operations and activities sustaining readiness and mission requirements.",
+    "reference": {
+      "name": "JP 1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations", "Readiness"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PERSTEMPO", "Operations", "Tempo"],
+    "aliases": ["Op Tempo"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPFOR",
+    "meaning": "Opposing Force",
+    "description": "Force representing enemy capabilities and doctrine during training exercises.",
+    "reference": {
+      "name": "FM 7-100.1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Training"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Enemy", "Training", "Red Force"],
+    "aliases": ["Enemy Force", "Red Force"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPLAN",
+    "meaning": "Operations Plan",
+    "description": "Plan for military operations prepared in response to hypothetical situations.",
+    "reference": {
+      "name": "JP 5-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Planning", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OPORD", "Plan", "Contingency Plan"],
+    "aliases": ["Operations Plan"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPORD",
+    "meaning": "Operations Order",
+    "description": "Directive issued by commander to subordinate units for execution of an operation.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["WARNO", "FRAGO", "Order"],
+    "aliases": ["Operations Order", "Op Order"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPSEC",
+    "meaning": "Operations Security",
+    "description": "Process of identifying and protecting critical information to deny adversaries intelligence.",
+    "reference": {
+      "name": "JP 3-13.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Security", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Security", "INFOSEC", "CUI"],
+    "aliases": ["Operational Security"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OPCON",
+    "meaning": "Operational Control",
+    "description": "Authority to direct forces to accomplish specific missions, usually limited by function, time, or location.",
+    "reference": {
+      "name": "JP 1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Command and Control"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TACON", "Command Authority", "C2"],
+    "aliases": ["Op Control"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OP",
+    "meaning": "Observation Post / Operation",
+    "description": "Position from which military observations are made. Also, a military action or mission.",
+    "reference": {
+      "name": "FM 3-21.8",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Tactics", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["LP/OP", "Mission", "Outpost"],
+    "aliases": ["Observation Post"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ONI",
+    "meaning": "Office of Naval Intelligence",
+    "description": "Military intelligence agency of the United States Navy.",
+    "reference": {
+      "name": "Navy Organization"
+    },
+    "category": ["Intelligence", "Naval"],
+    "branches": ["navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Intelligence", "Navy", "DIA"],
+    "aliases": ["Naval Intelligence"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "OIF",
+    "meaning": "Operation Iraqi Freedom",
+    "description": "U.S. military operation in Iraq from 2003 to 2011.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Iraq War", "OEF", "GWOT"],
+    "aliases": ["Iraq War"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OIC",
+    "meaning": "Officer in Charge",
+    "description": "Officer designated as responsible for a specific unit, activity, or function.",
+    "reference": {
+      "name": "Military Leadership"
+    },
+    "category": ["Leadership"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NCOIC", "Commander", "In Charge"],
+    "aliases": ["Officer In Charge"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OGA",
+    "meaning": "Other Government Agency",
+    "description": "Euphemism for intelligence agencies, typically CIA, in joint operations.",
+    "reference": {
+      "name": "Military/Intelligence Usage"
+    },
+    "category": ["Intelligence"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CIA", "Intelligence", "Agency"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "OER",
+    "meaning": "Officer Evaluation Report",
+    "description": "Performance evaluation document for commissioned officers in the Army.",
+    "reference": {
+      "name": "DA PAM 623-3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": ["Personnel", "Evaluation"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["NCOER", "Evaluation", "Performance"],
+    "aliases": ["Officer Evaluation"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OEF",
+    "meaning": "Operation Enduring Freedom",
+    "description": "U.S. military operation in Afghanistan from 2001 to 2014.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Afghanistan", "OIF", "GWOT"],
+    "aliases": ["Afghanistan War"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ODA",
+    "meaning": "Operational Detachment-Alpha",
+    "description": "Special Forces A-Team, typically consisting of 12 soldiers.",
+    "reference": {
+      "name": "FM 3-05",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Special Operations"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Special Forces", "A-Team", "Green Berets"],
+    "aliases": ["A-Team", "SF Team"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ODB",
+    "meaning": "Operational Detachment-Bravo",
+    "description": "Special Forces company headquarters element providing command and control.",
+    "reference": {
+      "name": "FM 3-05",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Special Operations"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["ODA", "Special Forces", "B-Team"],
+    "aliases": ["B-Team"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "OCS",
+    "meaning": "Officer Candidate School",
+    "description": "Training program commissioning enlisted personnel and civilians as officers.",
+    "reference": {
+      "name": "AR 350-51",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["School", "Officer Development"],
+    "branches": ["army", "navy", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["ROTC", "Commissioning", "Officer"],
+    "aliases": ["Candidate School"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OBJ",
+    "meaning": "Objective",
+    "description": "Clearly defined, decisive, and attainable goal toward which operations are directed.",
+    "reference": {
+      "name": "FM 3-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Mission", "Goal", "Target"],
+    "aliases": ["Objective"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "OB",
+    "meaning": "Order of Battle",
+    "description": "Identification, strength, command structure, and disposition of enemy forces.",
+    "reference": {
+      "name": "FM 2-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Intelligence"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "Enemy", "Force Structure"],
+    "aliases": ["Order of Battle"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "OA",
+    "meaning": "Operational Area",
+    "description": "Area defined by joint force commander for conduct of military operations.",
+    "reference": {
+      "name": "JP 3-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["AO", "Area of Operations", "JOA"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NVG",
+    "meaning": "Night Vision Goggles",
+    "description": "Optical devices allowing vision in low-light conditions using image intensification.",
+    "reference": {
+      "name": "TM 11-5855-311-10"
+    },
+    "category": ["Equipment", "Night Vision"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NODS", "NVD", "Night Vision"],
+    "aliases": ["Night Vision"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NVD",
+    "meaning": "Night Vision Device",
+    "description": "Generic term for any optical device enabling vision in darkness.",
+    "reference": {
+      "name": "TM 11-5855-311-10"
+    },
+    "category": ["Equipment", "Night Vision"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NVG", "NODS", "Night Vision"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NTC",
+    "meaning": "National Training Center",
+    "description": "U.S. Army combat training center at Fort Irwin, California for force-on-force exercises.",
+    "reference": {
+      "name": "Army Training Centers"
+    },
+    "category": ["Training", "Installation"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["JRTC", "CTC", "Fort Irwin"],
+    "aliases": ["Fort Irwin"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NSN",
+    "meaning": "National Stock Number",
+    "description": "13-digit numeric code identifying standardized military supply items.",
+    "reference": {
+      "name": "DoD 4100.39-M"
+    },
+    "category": ["Supply", "Logistics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Supply", "Logistics", "Part Number"],
+    "aliases": ["Stock Number"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NSC",
+    "meaning": "National Security Council",
+    "description": "Principal forum for national security and foreign policy matters with the President.",
+    "reference": {
+      "name": "Executive Branch"
+    },
+    "category": ["Government", "National Security"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["President", "National Security", "Policy"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NSA",
+    "meaning": "National Security Agency",
+    "description": "U.S. intelligence agency responsible for signals intelligence and information assurance.",
+    "reference": {
+      "name": "Intelligence Community"
+    },
+    "category": ["Intelligence"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SIGINT", "Intelligence", "Cyber"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NRO",
+    "meaning": "National Reconnaissance Office",
+    "description": "U.S. intelligence agency managing spy satellites and overhead reconnaissance.",
+    "reference": {
+      "name": "Intelligence Community"
+    },
+    "category": ["Intelligence", "Space"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "Satellites", "Reconnaissance"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NOE",
+    "meaning": "Nap-of-the-Earth",
+    "description": "Very low-level helicopter flight following terrain contours to avoid detection.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Aviation", "Tactics"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Aviation", "Low Level", "Helicopter"],
+    "aliases": ["Nap of Earth"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NODS",
+    "meaning": "Night Observation Device System",
+    "description": "Night vision equipment used for observation and navigation in darkness.",
+    "reference": {
+      "name": "TM 11-5855-311-10"
+    },
+    "category": ["Equipment", "Night Vision"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NVG", "NVD", "Night Vision"],
+    "aliases": ["Night Vision Device"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NOD",
+    "meaning": "Night Observation Device",
+    "description": "Generic term for night vision equipment enabling observation in low-light conditions.",
+    "reference": {
+      "name": "TM 11-5855-311-10"
+    },
+    "category": ["Equipment", "Night Vision"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NODS", "NVG", "Night Vision"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NLT",
+    "meaning": "No Later Than",
+    "description": "Deadline indicator specifying latest acceptable time for action or event.",
+    "reference": {
+      "name": "Military Planning"
+    },
+    "category": ["Planning", "Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Deadline", "NMT", "Time"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NJP",
+    "meaning": "Non-Judicial Punishment",
+    "description": "Disciplinary action under Article 15 of UCMJ without court-martial.",
+    "reference": {
+      "name": "UCMJ Article 15"
+    },
+    "category": ["Legal", "Discipline"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Article 15", "UCMJ", "Discipline"],
+    "aliases": ["Article 15", "Captain's Mast", "Office Hours"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NGO",
+    "meaning": "Non-Governmental Organization",
+    "description": "Private organization providing humanitarian assistance or development aid.",
+    "reference": {
+      "name": "JP 3-08",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Civil Affairs", "International"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Civil Affairs", "Humanitarian", "Relief"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NGA",
+    "meaning": "National Geospatial-Intelligence Agency",
+    "description": "Intelligence agency providing geospatial intelligence supporting national security.",
+    "reference": {
+      "name": "Intelligence Community"
+    },
+    "category": ["Intelligence", "Geospatial"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "Maps", "GEOINT"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NEO",
+    "meaning": "Noncombatant Evacuation Operation",
+    "description": "Operation to evacuate civilians from foreign country when threatened.",
+    "reference": {
+      "name": "JP 3-68",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Evacuation", "Embassy", "Civilians"],
+    "aliases": ["Evacuation Operation"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NDS",
+    "meaning": "National Defense Strategy",
+    "description": "Document outlining defense priorities and strategic approach to national security.",
+    "reference": {
+      "name": "Office of Secretary of Defense"
+    },
+    "category": ["Strategy", "Policy"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Strategy", "National Security", "Defense"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NCS",
+    "meaning": "Net Control Station",
+    "description": "Communications station controlling net operations and traffic.",
+    "reference": {
+      "name": "FM 6-02.53",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Radio", "Communications", "Net"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NCR",
+    "meaning": "National Capital Region",
+    "description": "Geographic area including Washington D.C. and surrounding military installations.",
+    "reference": {
+      "name": "Geographic Reference"
+    },
+    "category": ["Geography", "Installation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Pentagon", "Washington", "DMV"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "NCOIC",
+    "meaning": "Noncommissioned Officer in Charge",
+    "description": "Senior NCO designated as responsible for a unit, activity, or function.",
+    "reference": {
+      "name": "Military Leadership"
+    },
+    "category": ["Leadership"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OIC", "NCO", "In Charge"],
+    "aliases": ["NCO In Charge"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NCOER",
+    "meaning": "Noncommissioned Officer Evaluation Report",
+    "description": "Performance evaluation document for NCOs in the Army.",
+    "reference": {
+      "name": "DA PAM 623-3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": ["Personnel", "Evaluation"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["OER", "Evaluation", "NCO"],
+    "aliases": ["NCO Evaluation"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NCO",
+    "meaning": "Noncommissioned Officer",
+    "description": "Enlisted service member in grades E-4 through E-9 with leadership responsibilities.",
+    "reference": {
+      "name": "AR 600-8-19",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Rank", "Leadership"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Sergeant", "Enlisted", "Leader"],
+    "aliases": ["Non-Commissioned Officer"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NCA",
+    "meaning": "National Command Authority",
+    "description": "President and Secretary of Defense or successors, who exercise command over armed forces.",
+    "reference": {
+      "name": "JP 1"
+    },
+    "category": ["Command", "Government"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["President", "SECDEF", "Command Authority"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NBC",
+    "meaning": "Nuclear, Biological, Chemical",
+    "description": "Weapons of mass destruction and protective measures against them.",
+    "reference": {
+      "name": "FM 3-11",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["CBRN"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CBRN", "WMD", "Chemical"],
+    "aliases": ["CBRN"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NATO",
+    "meaning": "North Atlantic Treaty Organization",
+    "description": "Military alliance of North American and European countries for collective defense.",
+    "reference": {
+      "name": "International Organization"
+    },
+    "category": ["International", "Alliance"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Alliance", "International", "Europe"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "NAI",
+    "meaning": "Named Area of Interest",
+    "description": "Geographic area where information needed to support specific intelligence requirements.",
+    "reference": {
+      "name": "FM 3-55",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Intelligence", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TAI", "Intelligence", "IPB"],
+    "aliases": [],
+    "searchPriority": "high"
   }
 ]
-  
