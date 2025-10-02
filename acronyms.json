@@ -45117,7 +45117,20 @@
     "relatedTerms": ["NMCM", "FMC", "Status"],
     "aliases": [],
     "searchPriority": "medium"
-  }
+  },{
+  "acronym": "PEMS",
+  "meaning": "Pay Entry Management System",
+  "description": "Legacy Army finance system used by finance and personnel clerks to input, update, and track Soldiers' pay transactions before processing by DFAS. Phased out as DJMS and IPPS-A were fielded.",
+  "reference": {
+    "name": "Army Finance and Accounting Handbook"
+  },
+  "category": ["Finance","Personnel"],
+  "branches": ["army"],
+  "commonality": "service-specific",
+  "relatedTerms": ["DJMS","DFAS","IPPS-A","LES"],
+  "aliases": ["Pay System"],
+  "searchPriority": "high"
+}
 ]
 
 
