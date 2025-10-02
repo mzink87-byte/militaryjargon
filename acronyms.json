@@ -27181,7 +27181,751 @@
   "aliases": ["Retention Board"],
   "searchPriority": "medium"
   },
- {
+  {
+    "acronym": "UCMJ",
+    "meaning": "Uniform Code of Military Justice",
+    "description": "Foundation of military law, establishing criminal offenses and court-martial procedures.",
+    "reference": {
+      "name": "10 USC Chapter 47"
+    },
+    "category": ["Legal", "Discipline"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Military Law", "Court-Martial", "Article 15"],
+    "aliases": ["Military Justice Code"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UAS",
+    "meaning": "Unmanned Aircraft System",
+    "description": "Complete system including unmanned aircraft, ground control station, and communication links.",
+    "reference": {
+      "name": "FM 3-04.155",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Aviation", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["UAV", "Drone", "RPA"],
+    "aliases": ["Drone System"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UAV",
+    "meaning": "Unmanned Aerial Vehicle",
+    "description": "Aircraft operated without a human pilot aboard, controlled remotely or autonomously.",
+    "reference": {
+      "name": "FM 3-04.155",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Aviation", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["UAS", "Drone", "RPA"],
+    "aliases": ["Drone"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "UA",
+    "meaning": "Unauthorized Absence",
+    "description": "Failure to be at appointed place of duty at prescribed time without proper authority.",
+    "reference": {
+      "name": "UCMJ Article 86"
+    },
+    "category": ["Legal", "Personnel"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["AWOL", "Desertion", "Article 86"],
+    "aliases": ["AWOL"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TTP",
+    "meaning": "Tactics, Techniques, and Procedures",
+    "description": "Specific methods for performing missions and functions derived from doctrine and experience.",
+    "reference": {
+      "name": "JP 1-02"
+    },
+    "category": ["Doctrine", "Training"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SOP", "Tactics", "Doctrine"],
+    "aliases": ["Tactics and Procedures"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TST",
+    "meaning": "Time Sensitive Target",
+    "description": "Target requiring immediate response because it poses a clear and present danger or is a fleeting opportunity.",
+    "reference": {
+      "name": "JP 3-60",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Targeting", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Targeting", "High Value Target", "HVT"],
+    "aliases": ["Time-Sensitive Target"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TSP",
+    "meaning": "Thrift Savings Plan",
+    "description": "Federal retirement savings and investment plan for service members and federal employees.",
+    "reference": {
+      "name": "DoD Financial Management"
+    },
+    "category": ["Finance", "Benefits"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Retirement", "401k", "BRS"],
+    "aliases": ["Savings Plan"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TSC",
+    "meaning": "Theater Sustainment Command",
+    "description": "Army command responsible for theater-level logistics and sustainment operations.",
+    "reference": {
+      "name": "FM 4-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Sustainment", "Command"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["ESC", "Logistics", "Sustainment"],
+    "aliases": ["Theater Sustainment"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TRP",
+    "meaning": "Target Reference Point",
+    "description": "Easily recognizable point on the ground used to facilitate engagement of targets.",
+    "reference": {
+      "name": "FM 3-21.8",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Tactics", "Fire Control"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Target", "Reference Point", "Gunnery"],
+    "aliases": ["Target Point"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TRICARE",
+    "meaning": "Military Health Care Program",
+    "description": "Health care program for active duty, retirees, and their families.",
+    "reference": {
+      "name": "32 CFR 199"
+    },
+    "category": ["Medical", "Benefits"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Health Care", "Medical", "Benefits"],
+    "aliases": ["Military Health Care"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TRAP",
+    "meaning": "Tactical Recovery of Aircraft and Personnel",
+    "description": "Operation to recover personnel or aircraft in hostile or uncertain environments.",
+    "reference": {
+      "name": "JP 3-50",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations", "Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CSAR", "Recovery", "PR"],
+    "aliases": ["Personnel Recovery"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TRANSCOM",
+    "meaning": "Transportation Command",
+    "description": "Combatant command responsible for global military transportation.",
+    "reference": {
+      "name": "DoD Organization"
+    },
+    "category": ["Command", "Transportation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["USTRANSCOM", "Transportation", "COCOM"],
+    "aliases": ["USTRANSCOM"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TRANS",
+    "meaning": "Transportation",
+    "description": "Movement of personnel, equipment, and supplies by various means.",
+    "reference": {
+      "name": "FM 4-01",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Transportation", "Logistics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Transport", "Movement", "Logistics"],
+    "aliases": ["Transport"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TRADOC",
+    "meaning": "Training and Doctrine Command",
+    "description": "Army command responsible for training, education, and doctrine development.",
+    "reference": {
+      "name": "Army Organization"
+    },
+    "category": ["Command", "Training"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Training", "Doctrine", "Army Command"],
+    "aliases": ["Training Command"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TRAC",
+    "meaning": "Training and Doctrine Analysis Center",
+    "description": "Army center providing analytical support for training and doctrine development.",
+    "reference": {
+      "name": "TRADOC"
+    },
+    "category": ["Training", "Analysis"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TRADOC", "Analysis", "Training"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TPT",
+    "meaning": "Tactics, Procedures, and Techniques",
+    "description": "Methods for accomplishing missions derived from doctrine and lessons learned.",
+    "reference": {
+      "name": "Army Doctrine"
+    },
+    "category": ["Doctrine", "Training"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TTP", "Tactics", "SOP"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TPFDD",
+    "meaning": "Time-Phased Force and Deployment Data",
+    "description": "Database listing personnel and equipment movement requirements by time sequence.",
+    "reference": {
+      "name": "JP 5-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Planning", "Deployment"],
+    "branches": ["joint"],
+    "commonality": "specialized",
+    "relatedTerms": ["Deployment", "Force Flow", "Planning"],
+    "aliases": ["Tip-Fid"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TPC",
+    "meaning": "Tactical Pilotage Chart",
+    "description": "Aeronautical chart designed for visual navigation at low altitudes.",
+    "reference": {
+      "name": "NGA Standards"
+    },
+    "category": ["Aviation", "Navigation"],
+    "branches": ["joint"],
+    "commonality": "specialized",
+    "relatedTerms": ["Map", "Chart", "Navigation"],
+    "aliases": ["Pilotage Chart"],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TP",
+    "meaning": "Training Practice / Target Practice",
+    "description": "Inert or reduced-charge munition used for training purposes.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Training", "Munitions"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Training Round", "Practice Round"],
+    "aliases": ["Training Round"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TOW",
+    "meaning": "Tube-launched, Optically tracked, Wire-guided",
+    "description": "Anti-tank guided missile system with wire guidance used by infantry and mounted platforms.",
+    "reference": {
+      "name": "TM 9-1425-450-12",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/TM.aspx"
+    },
+    "category": ["Weapons", "Anti-Tank"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["ATGM", "Missile", "Anti-Tank"],
+    "aliases": ["TOW Missile"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TOT",
+    "meaning": "Time on Target",
+    "description": "Firing technique where projectiles from multiple guns impact simultaneously on target.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Field Artillery", "Doctrine"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Artillery", "Fire Mission", "Simultaneous Impact"],
+    "aliases": ["Simultaneous Impact"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TOR",
+    "meaning": "Terms of Reference",
+    "description": "Document defining purpose, authority, objectives, and responsibilities of a project or committee.",
+    "reference": {
+      "name": "NATO Standards"
+    },
+    "category": ["Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Charter", "Mission Statement"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TOE",
+    "meaning": "Table of Organization and Equipment",
+    "description": "Document prescribing organizational structure, personnel, and equipment for military units.",
+    "reference": {
+      "name": "AR 71-32",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Organization", "Personnel"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["MTOE", "TDA", "Organization"],
+    "aliases": ["T/O&E"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TO&E",
+    "meaning": "Table of Organization and Equipment",
+    "description": "Authoritative document prescribing unit structure, assigned personnel, and equipment.",
+    "reference": {
+      "name": "AR 71-32",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Organization", "Personnel"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TOE", "MTOE", "TDA"],
+    "aliases": ["TOE"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TOC",
+    "meaning": "Tactical Operations Center",
+    "description": "Command post where commanders and staff exercise C2 of tactical operations.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Command and Control"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["CP", "Command Post", "Operations Center"],
+    "aliases": ["Operations Center"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TNT",
+    "meaning": "Trinitrotoluene",
+    "description": "Chemical explosive compound used as a standard measure for explosive power.",
+    "reference": {
+      "name": "FM 3-34.214",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Explosives", "Engineer"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Explosive", "Demolitions", "C4"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TMD",
+    "meaning": "Theater Missile Defense",
+    "description": "Defense against ballistic and cruise missiles within a theater of operations.",
+    "reference": {
+      "name": "JP 3-01",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Air Defense", "Doctrine"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Missile Defense", "IAMD", "Air Defense"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TM",
+    "meaning": "Technical Manual",
+    "description": "Publication providing technical information for operation and maintenance of equipment.",
+    "reference": {
+      "name": "DA PAM 25-40",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": ["Publications", "Maintenance"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Manual", "Tech Manual", "Publication"],
+    "aliases": ["Tech Manual"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TLP",
+    "meaning": "Troop Leading Procedures",
+    "description": "Dynamic process used by small-unit leaders to plan and prepare for operations.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Leadership", "Planning"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Planning", "Leadership", "BAMCIS"],
+    "aliases": ["Troop Leading"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TIM",
+    "meaning": "Toxic Industrial Material",
+    "description": "Industrial chemical that may be harmful or deadly to humans if released.",
+    "reference": {
+      "name": "ATP 3-11.37",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/ATP.aspx"
+    },
+    "category": ["CBRN", "Hazmat"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Hazmat", "Chemical", "TIC"],
+    "aliases": ["Toxic Material"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TIC",
+    "meaning": "Troops in Contact",
+    "description": "Status indicating friendly forces are engaged with enemy forces in combat.",
+    "reference": {
+      "name": "FM 6-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Contact", "Firefight", "Engagement"],
+    "aliases": ["In Contact"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "THAAD",
+    "meaning": "Terminal High Altitude Area Defense",
+    "description": "Missile defense system designed to intercept ballistic missiles in terminal phase.",
+    "reference": {
+      "name": "Missile Defense Agency"
+    },
+    "category": ["Air Defense", "Equipment"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Patriot", "Missile Defense", "IAMD"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TF",
+    "meaning": "Task Force",
+    "description": "Temporary grouping of units under one commander formed to accomplish a specific mission.",
+    "reference": {
+      "name": "FM 3-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Organization", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Unit", "Task Organization", "Combined Arms"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TDY",
+    "meaning": "Temporary Duty",
+    "description": "Assignment of personnel to a location other than permanent duty station for limited period.",
+    "reference": {
+      "name": "JTR (Joint Travel Regulations)"
+    },
+    "category": ["Personnel", "Travel"],
+    "branches": ["army", "air force"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TAD", "Travel", "Temporary Assignment"],
+    "aliases": ["Temporary Duty"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TDA",
+    "meaning": "Table of Distribution and Allowances",
+    "description": "Document authorizing personnel and equipment for non-TOE organizations.",
+    "reference": {
+      "name": "AR 71-32",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Organization", "Personnel"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TOE", "MTOE", "Organization"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TD",
+    "meaning": "Tank Destroyer",
+    "description": "Self-propelled anti-tank vehicle or unit specialized in destroying armored vehicles.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["Armor", "History"],
+    "branches": ["army"],
+    "commonality": "specialized",
+    "relatedTerms": ["Anti-Tank", "Armor", "WWII"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TCP",
+    "meaning": "Traffic Control Point / Transmission Control Protocol",
+    "description": "Designated location for controlling movement of personnel and vehicles. Also, internet protocol for data transmission.",
+    "reference": {
+      "name": "FM 3-90-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Communications"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Checkpoint", "Control Point", "Movement"],
+    "aliases": ["Control Point"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TC",
+    "meaning": "Tank Commander / Training Circular",
+    "description": "Crew member commanding an Abrams tank. Also, publication providing training guidance.",
+    "reference": {
+      "name": "TC 3-20.31"
+    },
+    "category": ["Armor", "Publications"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["VC", "Commander", "Training Circular"],
+    "aliases": ["Tank Commander"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TBM",
+    "meaning": "Theater Ballistic Missile",
+    "description": "Ballistic missile with range less than 3,500 km used within a theater of operations.",
+    "reference": {
+      "name": "JP 3-01",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Air Defense", "Threats"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Missile", "Ballistic Missile", "SCUD"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TBD",
+    "meaning": "To Be Determined",
+    "description": "Placeholder indicating information will be provided at a later time.",
+    "reference": {
+      "name": "Military Planning Standards"
+    },
+    "category": ["Administration", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TBA", "Pending"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TBA",
+    "meaning": "To Be Announced",
+    "description": "Placeholder indicating information will be announced when available.",
+    "reference": {
+      "name": "Military Planning Standards"
+    },
+    "category": ["Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TBD", "Pending"],
+    "aliases": [],
+    "searchPriority": "low"
+  },
+  {
+    "acronym": "TB",
+    "meaning": "Technical Bulletin",
+    "description": "Publication providing technical guidance on equipment operation, maintenance, or modification.",
+    "reference": {
+      "name": "DA PAM 25-40",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/PAM.aspx"
+    },
+    "category": ["Publications", "Maintenance"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TM", "Publication", "Bulletin"],
+    "aliases": ["Technical Bulletin"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TAO",
+    "meaning": "Tactical Action Officer",
+    "description": "Officer responsible for tactical decision-making in command center or operations center.",
+    "reference": {
+      "name": "Navy Doctrine"
+    },
+    "category": ["Naval", "Leadership"],
+    "branches": ["navy"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Watch Officer", "OOD"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TAI",
+    "meaning": "Target Area of Interest",
+    "description": "Geographic area where high-value targets are expected to be located.",
+    "reference": {
+      "name": "FM 3-55",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Intelligence", "Targeting"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["NAI", "Targeting", "Intelligence"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TAD",
+    "meaning": "Temporary Additional Duty",
+    "description": "Navy/Marine Corps term for temporary assignment away from permanent duty station.",
+    "reference": {
+      "name": "Navy Personnel Command"
+    },
+    "category": ["Naval", "Personnel"],
+    "branches": ["navy", "marine corps"],
+    "commonality": "service-specific",
+    "relatedTerms": ["TDY", "Temporary Duty"],
+    "aliases": ["Temporary Duty"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TACP",
+    "meaning": "Tactical Air Control Party",
+    "description": "Air Force team providing liaison between ground forces and tactical air support.",
+    "reference": {
+      "name": "JP 3-09.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Air Force", "Joint Operations"],
+    "branches": ["air force"],
+    "commonality": "service-specific",
+    "relatedTerms": ["JTAC", "CAS", "Air Support"],
+    "aliases": ["TAC-P"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "TACC",
+    "meaning": "Tactical Air Control Center",
+    "description": "Principal air operations installation from which tactical air operations are directed.",
+    "reference": {
+      "name": "JP 3-30",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Aviation", "Command and Control"],
+    "branches": ["air force", "marine corps"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Air Operations", "Command and Control"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TACAIR",
+    "meaning": "Tactical Air",
+    "description": "Aircraft providing close air support, air interdiction, and reconnaissance.",
+    "reference": {
+      "name": "JP 3-09.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Aviation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CAS", "Air Support", "Aviation"],
+    "aliases": ["Tactical Aviation"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TACAN",
+    "meaning": "Tactical Air Navigation",
+    "description": "Military radio navigation system providing bearing and distance to station.",
+    "reference": {
+      "name": "FAA/Military Navigation Standards"
+    },
+    "category": ["Aviation", "Navigation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Navigation", "VOR", "VORTAC"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TAC",
+    "meaning": "Tactical / Tactical Air Command",
+    "description": "Pertaining to combat operations at tactical level. Also, former USAF major command.",
+    "reference": {
+      "name": "Air Force History"
+    },
+    "category": ["Doctrine", "Air Force"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Tactical", "Operations"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "TAA",
+    "meaning": "Tactical Assembly Area",
+    "description": "Area where forces prepare or regroup for further tactical operations.",
+    "reference": {
+      "name": "FM 3-90-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Maneuver"],
+    "branches": ["army", "marine corps"],
+    "commonality": "universal",
+    "relatedTerms": ["Assembly Area", "AA", "Staging Area"],
+    "aliases": ["Assembly Area"],
+    "searchPriority": "high"
+  },
+  {
     "acronym": "ZULU",
     "meaning": "Zulu Time / Phonetic Alphabet Z",
     "description": "Military phonetic alphabet designation for the letter Z. Also refers to Coordinated Universal Time (UTC), formerly Greenwich Mean Time (GMT).",
