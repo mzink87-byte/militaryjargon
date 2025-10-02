@@ -43548,5 +43548,19 @@
       "Pay System"
     ],
     "searchPriority": "high"
-  }
+  },
+  {
+  "acronym": "MUSTANG",
+  "meaning": "Mustang",
+  "description": "Slang for a commissioned officer who was previously enlisted. Considered to have valuable perspective from both enlisted and officer ranks.",
+  "reference": { 
+    "name": "Marine Corps slang, Jarhead Clan"
+  },
+  "category": ["Slang","Nicknames","Career"],
+  "branches": ["marines","navy","army"],
+  "commonality": "universal",
+  "relatedTerms": ["Lifer","Butterbar"],
+  "aliases": ["Prior-Enlisted Officer"],
+  "searchPriority": "high"
+}
 ]
