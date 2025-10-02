@@ -15,6 +15,18 @@ if (document.getElementById("results")) {
     });
 }
 
+// ========== NORMALIZATION FUNCTION ==========
+// Normalizes text for search comparison
+// Removes spaces, dashes, handles O/0 and I/1 confusion
+function normalizeSearchText(text) {
+  return text
+    .toLowerCase()           // Case-insensitive
+    .replace(/[\s\-]+/g, '') // Remove ALL spaces AND dashes
+    .replace(/o/g, '0')      // Treat letter O as number 0
+    .replace(/i/g, '1');     // Treat letter I as number 1
+}
+// ========== END NORMALIZATION FUNCTION ==========
+
 // ✅ Support section (Ko-fi only, mid-page)
 function createSupportSection() {
   const support = document.getElementById("support-area");
@@ -90,47 +102,59 @@ Please verify this information before adding to the database.
   document.getElementById('submitService').value = '';
 }
 
-// ✅ Run search logic (on index.html)
+// ========== SEARCH FUNCTION ==========
 function runSearch(query) {
-  const q = query.toLowerCase().trim();
+  const q = query.trim();
   const searchInMeanings = document.getElementById('searchInMeanings').checked;
   const resultsContainer = document.getElementById('results');
 
   resultsContainer.innerHTML = '';
   if (!q) return;
 
+  // Normalize the user's search query
+  const normalizedQuery = normalizeSearchText(q);
+
   const results = acronyms.map(item => {
     let score = 0;
     let badges = [];
 
-    const acronym = item.acronym.toLowerCase();
+    // Normalize the acronym from database for comparison
+    const normalizedAcronym = normalizeSearchText(item.acronym);
     const meaning = item.meaning.toLowerCase();
     const desc = item.description.toLowerCase();
 
-    if (acronym === q) {
-      score += 100;
+    // EXACT MATCH (after normalization)
+    if (normalizedAcronym === normalizedQuery) {
+      score += 1000;
       badges.push("⭐ Exact Match");
     }
+    // STARTS WITH (after normalization)
+    else if (normalizedAcronym.startsWith(normalizedQuery)) {
+      score += 500;
+      badges.push("🔵 Starts With");
+    }
+    // CONTAINS (after normalization)
+    else if (normalizedAcronym.includes(normalizedQuery)) {
+      score += 200;
+      badges.push("🔍 Contains (Acronym)");
+    }
+
     if (searchInMeanings) {
-      if (meaning.split(/\W+/).includes(q)) {
+      if (meaning.split(/\W+/).includes(q.toLowerCase())) {
         score += 80;
         badges.push("🟢 Word Match (Meaning)");
       }
-      if (desc.split(/\W+/).includes(q)) {
+      if (desc.split(/\W+/).includes(q.toLowerCase())) {
         score += 80;
         badges.push("🟢 Word Match (Description)");
       }
     }
-    if (acronym.includes(q) && acronym !== q) {
-      score += 40;
-      badges.push("🔍 Partial Match (Acronym)");
-    }
     if (searchInMeanings) {
-      if (meaning.includes(q) && !meaning.split(/\W+/).includes(q)) {
+      if (meaning.includes(q.toLowerCase()) && !meaning.split(/\W+/).includes(q.toLowerCase())) {
         score += 40;
         badges.push("🔍 Partial Match (Meaning)");
       }
-      if (desc.includes(q) && !desc.split(/\W+/).includes(q)) {
+      if (desc.includes(q.toLowerCase()) && !desc.split(/\W+/).includes(q.toLowerCase())) {
         score += 40;
         badges.push("🔍 Partial Match (Description)");
       }
@@ -139,7 +163,10 @@ function runSearch(query) {
     return { ...item, score, badges };
   })
   .filter(r => r.score > 0)
-  .sort((a, b) => b.score - a.score);
+  .sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.acronym.localeCompare(b.acronym);
+  });
 
   if (results.length === 0) {
     resultsContainer.innerHTML = `<p>No results found for "${query}".</p>`;
@@ -148,6 +175,7 @@ function runSearch(query) {
 
   results.forEach(item => resultsContainer.appendChild(createCard(item)));
 }
+// ========== END SEARCH FUNCTION ==========
 
 // ✅ Build card
 function createCard(item) {
@@ -220,11 +248,10 @@ function createStars() {
 
 // ✅ Init
 document.addEventListener("DOMContentLoaded", function () {
-  // If we're on the search page
   if (document.getElementById("results")) {
     createStars();
     createSupportSection();
-    createStandbyBanner(); // now appended at footer
+    createStandbyBanner();
 
     const input = document.getElementById("searchInput");
     if (input) {
@@ -232,7 +259,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // If we're on the submit page
   if (document.querySelector(".submit-form")) {
     console.log("📝 Submit form active");
   }
