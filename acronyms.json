@@ -29710,5 +29710,483 @@
     "relatedTerms": ["Stinger", "SAM", "Air Defense"],
     "aliases": [],
     "searchPriority": "high"
+  },
+  {
+    "acronym": "LZ",
+    "meaning": "Landing Zone",
+    "description": "Area designated for landing of helicopters or other aircraft.",
+    "reference": {
+      "name": "FM 3-04",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Aviation", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PZ", "DZ", "Aviation"],
+    "aliases": ["Landing Zone"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LAW",
+    "meaning": "Light Anti-tank Weapon",
+    "description": "Shoulder-fired rocket launcher for anti-armor missions, like M72 LAW.",
+    "reference": {
+      "name": "FM 3-23.25"
+    },
+    "category": ["Weapons", "Anti-Tank"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["M72", "AT4", "Anti-Tank"],
+    "aliases": ["M72 LAW"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LAV",
+    "meaning": "Light Armored Vehicle",
+    "description": "Wheeled armored vehicle used by Marines and Army for reconnaissance and infantry support.",
+    "reference": {
+      "name": "Marine Corps Equipment"
+    },
+    "category": ["Equipment", "Vehicles"],
+    "branches": ["marine corps", "army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["Stryker", "APC", "Wheeled Vehicle"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LASER",
+    "meaning": "Light Amplification by Stimulated Emission of Radiation",
+    "description": "Device emitting concentrated light beam used for targeting, ranging, and designation.",
+    "reference": {
+      "name": "Technical Standards"
+    },
+    "category": ["Technology", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Targeting", "Rangefinder", "Designator"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LOS",
+    "meaning": "Line Of Sight",
+    "description": "Direct visual or electronic path from observer to target without obstructions.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Tactics", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Direct Fire", "Visual", "BLOS"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LOC",
+    "meaning": "Line Of Communication",
+    "description": "Route connecting operating military force with its base of operations.",
+    "reference": {
+      "name": "JP 4-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Logistics", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Supply Line", "MSR", "Logistics"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LMG",
+    "meaning": "Light Machine Gun",
+    "description": "Infantry automatic weapon like the M249 SAW providing squad-level fire support.",
+    "reference": {
+      "name": "FM 3-22.68",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Weapons", "Infantry"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["SAW", "M249", "Machine Gun"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LP",
+    "meaning": "Listening Post / Liquid Propellant",
+    "description": "Security position for detecting enemy activity by sound. Also, liquid fuel for rockets.",
+    "reference": {
+      "name": "FM 3-21.8",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Tactics", "Infantry"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OP", "LP/OP", "Security"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LRF",
+    "meaning": "Laser Rangefinder",
+    "description": "Device using laser pulses to measure distance to target accurately.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Equipment", "Targeting"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Laser", "Targeting", "Optics"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "LD",
+    "meaning": "Line of Departure / Low Drag",
+    "description": "Line designating start of offensive operation. Also, ammunition characteristic.",
+    "reference": {
+      "name": "FM 3-90-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Operations", "Munitions"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Attack", "Offensive", "Munitions"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "KP",
+    "meaning": "Kitchen Patrol / Kitchen Police",
+    "description": "Duty assignment for food service and kitchen cleanup tasks.",
+    "reference": {
+      "name": "Military Tradition"
+    },
+    "category": ["Duty", "Administration"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Duty", "Kitchen", "Detail"],
+    "aliases": ["Kitchen Duty"],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "KIA",
+    "meaning": "Killed in Action",
+    "description": "Casualty status indicating service member died during combat operations.",
+    "reference": {
+      "name": "AR 600-8-1",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/AR.aspx"
+    },
+    "category": ["Casualties", "Personnel"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["WIA", "MIA", "Casualty"],
+    "aliases": ["Killed In Action"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JRTC",
+    "meaning": "Joint Readiness Training Center",
+    "description": "U.S. Army combat training center at Fort Johnson, Louisiana for light infantry and joint operations training.",
+    "reference": {
+      "name": "Army Training Centers"
+    },
+    "category": ["Training", "Installation"],
+    "branches": ["army"],
+    "commonality": "service-specific",
+    "relatedTerms": ["NTC", "CTC", "Fort Johnson"],
+    "aliases": ["Fort Polk"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JOC",
+    "meaning": "Joint Operations Center",
+    "description": "Facility serving as focal point for planning, monitoring, and directing joint operations.",
+    "reference": {
+      "name": "JP 3-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Operations", "Command and Control"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["TOC", "Operations", "C2"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JCS",
+    "meaning": "Joint Chiefs of Staff",
+    "description": "Senior military advisory body to the President, consisting of service chiefs and Chairman.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Command", "Leadership"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CJCS", "Pentagon", "Leadership"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JDAM",
+    "meaning": "Joint Direct Attack Munition",
+    "description": "GPS-guided bomb kit converting unguided bombs into precision-guided munitions.",
+    "reference": {
+      "name": "Air Force Munitions"
+    },
+    "category": ["Munitions", "Precision Weapons"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["PGM", "GPS", "Bomb"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JAG",
+    "meaning": "Judge Advocate General",
+    "description": "Military legal officer or the legal branch of armed forces.",
+    "reference": {
+      "name": "10 USC"
+    },
+    "category": ["Legal"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Legal", "Lawyer", "UCMJ"],
+    "aliases": ["Judge Advocate"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "JTAC",
+    "meaning": "Joint Terminal Attack Controller",
+    "description": "Qualified service member directing employment of close air support aircraft.",
+    "reference": {
+      "name": "JP 3-09.3",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Air Support", "Special Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["CAS", "FAC", "TACP"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "ISR",
+    "meaning": "Intelligence, Surveillance, and Reconnaissance",
+    "description": "Integrated operations and activities providing commanders with timely and accurate information.",
+    "reference": {
+      "name": "JP 2-0",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Intelligence", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "Surveillance", "Reconnaissance"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IED",
+    "meaning": "Improvised Explosive Device",
+    "description": "Homemade bomb constructed from non-military components, commonly used by insurgents.",
+    "reference": {
+      "name": "JP 3-15.1",
+      "url": "https://www.jcs.mil/Doctrine/"
+    },
+    "category": ["Explosives", "Threats"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Bomb", "EOD", "Improvised"],
+    "aliases": ["Roadside Bomb"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IPB",
+    "meaning": "Intelligence Preparation of the Battlefield",
+    "description": "Systematic process analyzing enemy, terrain, weather, and civil considerations in an area of operations.",
+    "reference": {
+      "name": "FM 2-0",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Intelligence", "Planning"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "Planning", "Analysis"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IR",
+    "meaning": "Infrared",
+    "description": "Electromagnetic radiation with wavelengths longer than visible light, used for night vision and targeting.",
+    "reference": {
+      "name": "Technical Standards"
+    },
+    "category": ["Technology", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Night Vision", "Thermal", "Technology"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IFV",
+    "meaning": "Infantry Fighting Vehicle",
+    "description": "Armored combat vehicle designed to transport infantry and provide fire support, like Bradley.",
+    "reference": {
+      "name": "FM 3-21.71"
+    },
+    "category": ["Armor", "Equipment"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Bradley", "APC", "Mechanized"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "IDF",
+    "meaning": "Indirect Fire",
+    "description": "Fire delivered on target not visible to gunner, such as artillery or mortars.",
+    "reference": {
+      "name": "FM 3-09",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Field Artillery", "Tactics"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Artillery", "Mortar", "Fire Support"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "HUMINT",
+    "meaning": "Human Intelligence",
+    "description": "Intelligence gathered through interpersonal contact and interaction with human sources.",
+    "reference": {
+      "name": "FM 2-22.3",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Intelligence"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Intelligence", "SIGINT", "Sources"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "HMMWV",
+    "meaning": "High Mobility Multipurpose Wheeled Vehicle",
+    "description": "Light utility vehicle replacing jeep, commonly called Humvee.",
+    "reference": {
+      "name": "Army Equipment"
+    },
+    "category": ["Equipment", "Vehicles"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Humvee", "Vehicle", "Transport"],
+    "aliases": ["Humvee"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "HMG",
+    "meaning": "Heavy Machine Gun",
+    "description": "Large-caliber machine gun like the M2 .50 cal providing heavy firepower.",
+    "reference": {
+      "name": "FM 3-22.65",
+      "url": "https://armypubs.army.mil/ProductMaps/PubForm/FM.aspx"
+    },
+    "category": ["Weapons"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["M2", ".50 Cal", "Machine Gun"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "HALO",
+    "meaning": "High Altitude Low Opening",
+    "description": "Parachute infiltration technique with freefall from high altitude and late parachute deployment.",
+    "reference": {
+      "name": "Special Operations"
+    },
+    "category": ["Airborne", "Special Operations"],
+    "branches": ["joint"],
+    "commonality": "specialized",
+    "relatedTerms": ["HAHO", "Airborne", "Special Operations"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "HAHO",
+    "meaning": "High Altitude High Opening",
+    "description": "Parachute infiltration with early deployment allowing long-distance gliding to target.",
+    "reference": {
+      "name": "Special Operations"
+    },
+    "category": ["Airborne", "Special Operations"],
+    "branches": ["joint"],
+    "commonality": "specialized",
+    "relatedTerms": ["HALO", "Airborne", "Special Operations"],
+    "aliases": [],
+    "searchPriority": "medium"
+  },
+  {
+    "acronym": "HQ",
+    "meaning": "Headquarters",
+    "description": "Location where command and staff functions are performed.",
+    "reference": {
+      "name": "Military Organization"
+    },
+    "category": ["Organization", "Command and Control"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Command", "HHC", "Staff"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "HE",
+    "meaning": "High Explosive",
+    "description": "Explosive ammunition or ordnance designed for blast and fragmentation effects.",
+    "reference": {
+      "name": "Munitions Standards"
+    },
+    "category": ["Munitions", "Explosives"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Explosive", "Munitions", "Ordnance"],
+    "aliases": [],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "GWOT",
+    "meaning": "Global War on Terror",
+    "description": "U.S.-led military campaign against terrorism following September 11, 2001 attacks.",
+    "reference": {
+      "name": "Historical Reference"
+    },
+    "category": ["History", "Operations"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["OEF", "OIF", "Terrorism"],
+    "aliases": ["War on Terror"],
+    "searchPriority": "high"
+  },
+  {
+    "acronym": "GPS",
+    "meaning": "Global Positioning System",
+    "description": "Satellite-based navigation system providing location and time information worldwide.",
+    "reference": {
+      "name": "Technology Standards"
+    },
+    "category": ["Technology", "Navigation"],
+    "branches": ["joint"],
+    "commonality": "universal",
+    "relatedTerms": ["Navigation", "Satellite", "Location"],
+    "aliases": [],
+    "searchPriority": "high"
   }
 ]
