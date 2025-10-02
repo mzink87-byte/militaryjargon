@@ -212,8 +212,15 @@ function createCard(item) {
       }).join(" · ");
     } else if (typeof item.reference === "object" && item.reference.url) {
       refDiv.innerHTML = `Reference: <a href="${item.reference.url}" target="_blank">${item.reference.name}</a>`;
-    } else {
+    } else if (typeof item.reference === "object" && item.reference.name) {
+      // 🔧 FIX: Handle objects WITHOUT url but WITH name
+      refDiv.textContent = `Reference: ${item.reference.name}`;
+    } else if (typeof item.reference === "string") {
+      // 🔧 FIX: Handle string references
       refDiv.textContent = `Reference: ${item.reference}`;
+    } else {
+      // 🔧 FIX: Fallback for unknown format
+      refDiv.textContent = `Reference: ${JSON.stringify(item.reference)}`;
     }
 
     card.appendChild(refDiv);
