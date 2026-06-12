@@ -19,7 +19,7 @@ const CONFIG = {
 
   // COUNTER / ANALYTICS — fill in ONE of these, or leave both blank to skip.
   // GoatCounter: free, privacy-friendly. Put just your site code (e.g. 'militaryjargon').
-  goatCounterCode: '',
+  goatCounterCode: 'militaryjargon',
   // Cloudflare Web Analytics: free. Put the token from your CF dashboard.
   cloudflareToken: '',
 };
